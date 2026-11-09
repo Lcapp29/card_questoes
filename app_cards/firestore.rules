@@ -1,0 +1,46 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // Bloqueio padrão para qualquer caminho não declarado
+    match /{document=**} {
+      allow read, write: if false;
+    }
+
+    // Regras de Segurança Estritas para o Histórico de Estudos (user_progress)
+    match /user_progress/{progressId} {
+
+      // Validação de integridade e tipo dos dados
+      function isValidProgress(data) {
+        return data.userId is string && data.userId == request.auth.uid
+          && data.questionId is string && data.questionId.size() <= 200
+          && data.disciplina is string && data.disciplina.size() <= 100
+          && data.topico is string && data.topico.size() <= 150
+          && data.resultado in ['acerto', 'erro']
+          && (data.rating in ['Errei', 'Difícil', 'Ok', 'Fácil'] || data.rating == null)
+          && (data.timestamp is string && data.timestamp.size() <= 50);
+      }
+
+      // 1. LEITURA (get e list)
+      // O usuário precisa estar autenticado e só pode ler documentos do seu próprio UID
+      allow read: if request.auth != null && resource.data.userId == request.auth.uid;
+
+      // 2. CRIAÇÃO (create)
+      // O usuário só pode registrar questões para si mesmo (userId == auth.uid)
+      allow create: if request.auth != null
+        && request.resource.data.userId == request.auth.uid
+        && isValidProgress(request.resource.data);
+
+      // 3. ATUALIZAÇÃO (update)
+      // Não permite transferir a posse do documento nem alterar dados de terceiros
+      allow update: if request.auth != null
+        && resource.data.userId == request.auth.uid
+        && request.resource.data.userId == request.auth.uid
+        && isValidProgress(request.resource.data);
+
+      // 4. EXCLUSÃO (delete)
+      // Apenas o próprio usuário pode apagar seus registros
+      allow delete: if request.auth != null && resource.data.userId == request.auth.uid;
+    }
+  }
+}
