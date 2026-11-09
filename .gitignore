@@ -1,2 +1,41 @@
+# ==========================================
+# 1. Backend e Ambientes Sensíveis (Bloqueados)
+# ==========================================
 agente_extrator/
+venv/
+.venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+
+# ==========================================
+# 2. Segredos e Variáveis de Ambiente
+# ==========================================
+.env
+.env.*
+*.env
+!.env.example
+
+# ==========================================
+# 3. Aplicação Web de Cards (React / Vite)
+# ==========================================
 node_modules/
+app_cards/node_modules/
+dist/
+app_cards/dist/
+build/
+app_cards/build/
+app_cards/.vite/
+coverage/
+
+# ==========================================
+# 4. Logs e Sistema Operacional
+# ==========================================
+*.log
+npm-debug.log*
+yarn-debug.log*
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

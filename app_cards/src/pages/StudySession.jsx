@@ -9,7 +9,11 @@ import {
   Target,
   Sparkles,
   Play,
-  CheckCircle2
+  CheckCircle2,
+  BookOpen,
+  Tag,
+  ChevronDown,
+  ChevronUp
 } from 'lucide-react';
 import Flashcard, { formatTopicName } from '../components/Flashcard.jsx';
 import questionsData from '../data/questoes_prf.json';
@@ -44,6 +48,12 @@ export default function StudySession() {
   // Controle do Alerta/Modal de Meta Atingida (Requisito 2)
   const [showGoalModal, setShowGoalModal] = useState(false);
   const [goalModalDismissed, setGoalModalDismissed] = useState(false);
+
+  // Resumo das disciplinas e tópicos selecionados para esta sessão
+  const filterSummary = useMemo(() => {
+    return location.state?.filterSummary || null;
+  }, [location.state]);
+  const [showTopicsList, setShowTopicsList] = useState(false);
 
   const currentQuestion = questions[currentIndex];
   const totalQuestions = questions.length;
@@ -417,6 +427,51 @@ export default function StudySession() {
             <span>Total da Fila: {totalQuestions}</span>
           </div>
         </div>
+
+        {/* Informações de Disciplinas e Tópicos Ativos na Sessão */}
+        {filterSummary && (
+          <div className="bg-gray-800/80 border border-gray-700/60 rounded-xl px-3.5 py-2 text-xs space-y-1.5">
+            <div className="flex items-center justify-between flex-wrap gap-2">
+              <div className="flex items-center gap-2 min-w-0">
+                <BookOpen className="w-3.5 h-3.5 text-yellow-400 shrink-0" />
+                <span className="font-bold text-gray-300 text-[11px] uppercase tracking-wide shrink-0">
+                  Disciplinas:
+                </span>
+                <span className="text-yellow-400 font-medium truncate max-w-xs sm:max-w-md">
+                  {filterSummary.disciplinas?.length > 0 
+                    ? filterSummary.disciplinas.join(', ')
+                    : 'Todas as Disciplinas'}
+                </span>
+              </div>
+
+              {filterSummary.topicos?.length > 0 && (
+                <button
+                  type="button"
+                  onClick={() => setShowTopicsList(!showTopicsList)}
+                  className="flex items-center gap-1 text-[11px] text-gray-400 hover:text-white transition-colors cursor-pointer ml-auto"
+                >
+                  <Tag className="w-3 h-3 text-yellow-400" />
+                  <span>{filterSummary.topicos.length} tópicos</span>
+                  {showTopicsList ? <ChevronUp className="w-3 h-3" /> : <ChevronDown className="w-3 h-3" />}
+                </button>
+              )}
+            </div>
+
+            {/* Lista expansível de tópicos selecionados */}
+            {showTopicsList && filterSummary.topicos?.length > 0 && (
+              <div className="pt-2 mt-1.5 border-t border-gray-700/60 flex flex-wrap gap-1.5 max-h-36 overflow-y-auto custom-scrollbar">
+                {filterSummary.topicos.map((topicoName, idx) => (
+                  <span 
+                    key={idx}
+                    className="px-2 py-0.5 rounded bg-gray-900 border border-gray-700/80 text-[11px] text-gray-300"
+                  >
+                    {topicoName}
+                  </span>
+                ))}
+              </div>
+            )}
+          </div>
+        )}
 
         {/* Resumo rápido de acertos da sessão atual */}
         {sessionRatings.length > 0 && (
