@@ -2719,6 +2719,374 @@
       "id": "19154aa8-7f82-40f3-89cb-fc23127b03d9",
       "gabarito": "ERRADO",
       "comentario": "A Convenção Internacional sobre os Direitos das Pessoas com Deficiência foi aprovada pelo Congresso Nacional segundo o rito qualificado previsto no art. 5º, § 3º, da CF/88 (Decreto Legislativo n.º 186/2008), ostentando status de emenda constitucional (equivalência constitucional), e não supraconstitucional."
+    },
+    {
+      "disciplina": "LEGISLAÇÃO DE TRÂNSITO",
+      "topico_edital": "LEGISLAÇÃO DE TRÂNSITO - Normas Gerais de Circulação e Conduta",
+      "pergunta": "Em um cruzamento de acesso a uma rodovia federal dotado de semáforo luminoso em funcionamento regular, um policial rodoviário federal, visando escoar um fluxo emergencial de ambulâncias, fez sinal gestual de parada obrigatória aos condutores que tinham o semáforo verde favorável. Nessa situação hipotética, os condutores têm o dever legal de parar os veículos, pois as ordens do agente de trânsito prevalecem sobre as indicações do semáforo e sobre as demais normas viárias.",
+      "resposta": "CERTO. Nos termos do Art. 89, inciso I, do CTB, a ordem de prevalência legal coloca as ordens do agente de trânsito acima das indicações do semáforo, dos sinais e das regras gerais de circulação. Logo, diante do comando de parada do PRF, o motorista é obrigado a parar, ainda que o semáforo exiba luz verde.",
+      "id": "7bb3009b-ce8e-49cc-9403-4122c4776a0d",
+      "prova": "inédita"
+    },
+    {
+      "disciplina": "LEGISLAÇÃO DE TRÂNSITO",
+      "topico_edital": "LEGISLAÇÃO DE TRÂNSITO - Sinalização de Trânsito",
+      "pergunta": "Considere que um condutor tenha sido autuado por excesso de velocidade em um trecho rodoviário em que a placa regulamentadora de limite de velocidade estava totalmente encoberta por vegetação densa e desprovida de legibilidade. Nessa situação, a penalidade imposta ao motorista é plenamente válida, visto que o dever de observar os limites de velocidade decorre diretamente das normas gerais de trânsito.",
+      "resposta": "ERRADO. O Art. 90 do CTB estabelece que não serão aplicadas as sanções nele previstas por inobservância à sinalização quando esta for insuficiente ou incorreta. A sinalização ilegível ou escondida por vegetação retira a legalidade do auto de infração lavrado com base naquela indicação deficiente.",
+      "id": "5608ad00-6fd7-4719-a583-6cce5bf06832",
+      "prova": "inédita"
+    },
+    {
+      "disciplina": "LEGISLAÇÃO DE TRÂNSITO",
+      "topico_edital": "LEGISLAÇÃO DE TRÂNSITO - Sinalização de Trânsito",
+      "pergunta": "A instalação de placas de regulamentação e a pintura de vagas especiais em área interna de estacionamento pertencente a um shopping center de uso coletivo constituem obrigação privativa do órgão executivo de trânsito com circunscrição sobre o município.",
+      "resposta": "ERRADO. Segundo o Art. 80, § 3º, do CTB, a responsabilidade pela instalação da sinalização nas vias internas de condomínios e nas áreas de estacionamento de estabelecimentos privados de uso coletivo é de seu proprietário, e não do órgão de trânsito.",
+      "id": "df668a45-a864-48ec-b351-cee37973cfd8",
+      "prova": "inédita"
+    },
+    {
+      "disciplina": "LEGISLAÇÃO DE TRÂNSITO",
+      "topico_edital": "LEGISLAÇÃO DE TRÂNSITO - Sinalização de Trânsito",
+      "pergunta": "Uma concessionária de rodovias federais que precise realizar obras de pavimentação asfáltica capazes de interromper parcialmente a circulação da pista de rolamento deve obter prévia permissão do órgão rodoviário com circunscrição sobre a via, recaindo sobre a própria executora da obra o dever de sinalizar devidamente o local.",
+      "resposta": "CERTO. Exata aplicação do Art. 95, caput e § 1º, do CTB: nenhuma obra que perturbe o trânsito pode iniciar sem prévia permissão do órgão competente, e o dever de sinalizar o trecho é do responsável pela execução da obra.",
+      "id": "b4705742-9e0d-4fc1-989e-63949d192934",
+      "prova": "inédita"
+    },
+    {
+      "disciplina": "LEGISLAÇÃO DE TRÂNSITO",
+      "topico_edital": "LEGISLAÇÃO DE TRÂNSITO - Sinalização de Trânsito",
+      "pergunta": "Ressalvadas as hipóteses de emergência, a autoridade de trânsito com circunscrição sobre a via avisará a comunidade sobre qualquer interdição programada, por meio da comunicação social, com antecedência mínima de setenta e duas horas.",
+      "resposta": "ERRADO. O prazo legal previsto no Art. 95, § 2º, para aviso prévio à comunidade através dos meios de comunicação social é de 48 (quarenta e oito) horas de antecedência, e não 72 horas.",
+      "id": "11c83d62-cc52-48b0-b601-49d02230d55b",
+      "prova": "inédita"
+    },
+    {
+      "disciplina": "LEGISLAÇÃO DE TRÂNSITO",
+      "topico_edital": "LEGISLAÇÃO DE TRÂNSITO - Sistema Nacional de Trânsito (SNT)",
+      "pergunta": "O projeto de construção de uma arena de eventos às margens de uma rodovia federal, passível de se transformar em polo atrativo de trânsito, independe de anuência do órgão rodoviário competente, desde que comprove possuir área própria destinada a estacionamento.",
+      "resposta": "ERRADO. Conforme o Art. 93 do CTB, nenhum projeto de edificação que possa transformar-se em polo atrativo de trânsito pode ser aprovado sem prévia anuência do órgão ou entidade com circunscrição sobre a via, além de exigir área de estacionamento e acessos compatíveis.",
+      "id": "332a1313-1e45-495c-b561-33800c1c7f4a",
+      "prova": "inédita"
+    },
+    {
+      "disciplina": "DIREITO ADMINISTRATIVO",
+      "topico_edital": "DIREITO ADMINISTRATIVO - Agentes públicos: Regras Gerais (Lei nº 8.112/1990)",
+      "pergunta": "A nomeação para cargo efetivo em carreira policial constitui forma de provimento originário, ao passo que a reversão e a recondução caracterizam formas de provimento derivado por reingresso.",
+      "resposta": "CERTO. A nomeação é a única forma de provimento originário. Reversão (retorno do aposentado) e recondução (retorno ao cargo anterior) constituem provimentos derivados por reingresso no serviço público.",
+      "id": "a8698ca1-03c9-44d6-8a83-91315f31434d",
+      "prova": "inédita"
+    },
+    {
+      "disciplina": "DIREITO ADMINISTRATIVO",
+      "topico_edital": "DIREITO ADMINISTRATIVO - Agentes públicos: Regras Gerais (Lei nº 8.112/1990)",
+      "pergunta": "Caso um Policial Rodoviário Federal estável venha a sofrer grave acidente automobilístico e apresente limitações físicas permanentes que o impeçam de exercer a fiscalização de campo, o seu aproveitamento em cargo de atribuições administrativas compatíveis com sua limitação funcional denomina-se reintegração.",
+      "resposta": "ERRADO. O instituto correto é a READAPTAÇÃO (investidura em cargo compatível com a limitação física ou mental sofrida). A reintegração é a reinvestidura do servidor demitido cuja demissão foi anulada.",
+      "id": "01c70400-cb6a-4c95-895a-88006898d170",
+      "prova": "inédita"
+    },
+    {
+      "disciplina": "DIREITO ADMINISTRATIVO",
+      "topico_edital": "DIREITO ADMINISTRATIVO - Agentes públicos: Regras Gerais (Lei nº 8.112/1990)",
+      "pergunta": "Servidor público federal aprovado em novo concurso público que for considerado inabilitado no estágio probatório relativo a esse novo cargo fará jus à recondução ao cargo anteriormente ocupado, desde que já fosse estável no serviço público no momento do desligamento do cargo de origem.",
+      "resposta": "CERTO. Exata nos termos do art. 29, I, da Lei nº 8.112/1990. A recondução é o retorno do servidor estável ao cargo anterior decorrente de inabilitação em estágio probatório de outro cargo.",
+      "id": "cc0f47a6-de65-4ded-ac08-a0d72d9bf859",
+      "prova": "inédita"
+    },
+    {
+      "disciplina": "DIREITO ADMINISTRATIVO",
+      "topico_edital": "DIREITO ADMINISTRATIVO - Agentes públicos: Regras Gerais (Lei nº 8.112/1990)",
+      "pergunta": "A exoneração de servidor público ocupante de cargo de provimento efetivo possui natureza jurídica de penalidade disciplinar e pode ser aplicada de ofício quando o servidor for reprovado no estágio probatório.",
+      "resposta": "ERRADO. A exoneração NÃO tem caráter punitivo. Trata-se de mero desligamento sem natureza de sanção disciplinar. A penalidade de desligamento punitivo é a demissão.",
+      "id": "4df82921-c98c-4e48-bc42-e51feffa14fb",
+      "prova": "inédita"
+    },
+    {
+      "disciplina": "DIREITO ADMINISTRATIVO",
+      "topico_edital": "DIREITO ADMINISTRATIVO - Agentes públicos: Regras Gerais (Lei nº 8.112/1990)",
+      "pergunta": "Durante o estágio probatório de 36 meses, a aptidão do servidor para o desempenho do cargo efetivo será objeto de avaliação obrigatória em relação aos fatores de assiduidade, disciplina, capacidade de iniciativa, produtividade e responsabilidade.",
+      "resposta": "CERTO. Perfeito. O prazo constitucional do estágio probatório é de 3 anos (36 meses), e os 5 fatores avaliados no art. 20 são exatamente assiduidade, disciplina, capacidade de iniciativa, produtividade e responsabilidade.",
+      "id": "c4758daa-cbfb-4088-8d8d-9a9293e0538a",
+      "prova": "inédita"
+    },
+    {
+      "disciplina": "DIREITO ADMINISTRATIVO",
+      "topico_edital": "DIREITO ADMINISTRATIVO - Agentes públicos: Regras Gerais (Lei nº 8.112/1990)",
+      "pergunta": "As verbas indenizatórias pagas a título de ajuda de custo e diárias incorporam-se ao vencimento básico do servidor público federal para todos os efeitos legais após o período contínuo de 12 meses de recebimento.",
+      "resposta": "ERRADO. Conforme o art. 49, § 1º, da Lei nº 8.112/1990, as indenizações NÃO se incorporam ao vencimento ou provento para qualquer efeito, independentemente do tempo de recebimento.",
+      "id": "5436543e-3029-4814-9dd5-32eb5efef709",
+      "prova": "inédita"
+    },
+    {
+      "disciplina": "DIREITO ADMINISTRATIVO",
+      "topico_edital": "DIREITO ADMINISTRATIVO - Agentes públicos: Regras Gerais (Lei nº 8.112/1990)",
+      "pergunta": "As ações disciplinares destinadas a apurar infrações funcionais puníveis com a penalidade de suspensão prescrevem no prazo de 2 anos, iniciando-se a contagem do prazo prescricional na data em que a infração foi praticada pelo servidor.",
+      "resposta": "ERRADO. O prazo de suspensão é de 2 anos, mas a contagem começa a correr da data em que o fato se tornou CONHECIDO pela autoridade competente (art. 142, § 1º), e não da data do cometimento.",
+      "id": "a1084739-0c86-446d-85d3-381bff9371bc",
+      "prova": "inédita"
+    },
+    {
+      "disciplina": "DIREITO ADMINISTRATIVO",
+      "topico_edital": "DIREITO ADMINISTRATIVO - Agentes públicos: Regras Gerais (Lei nº 8.112/1990)",
+      "pergunta": "Em caso de procedência de pedido de revisão de processo administrativo disciplinar formulado por ex-servidor punido, a autoridade julgadora não poderá agravar a sanção anteriormente imposta.",
+      "resposta": "CERTO. Na revisão do PAD (art. 182, parágrafo único), vigora a vedação da reformatio in pejus; da revisão do processo não poderá resultar agravamento de penalidade.",
+      "id": "a110bcb0-9816-4af2-80da-71e5a597b431",
+      "prova": "inédita"
+    },
+    {
+      "disciplina": "DIREITO ADMINISTRATIVO",
+      "topico_edital": "DIREITO ADMINISTRATIVO - Agentes públicos: Regras Gerais (Lei nº 8.112/1990)",
+      "pergunta": "A sindicância administrativa constitui meio hábil e suficiente para a aplicação direta das penalidades disciplinares de advertência e de suspensão por até 30 dias.",
+      "resposta": "CERTO. A sindicância punitiva pode resultar diretamente na aplicação das penas de advertência ou suspensão por até 30 dias (art. 145, II). Se a sanção for superior a 30 dias ou de demissão, é obrigatória a instauração de PAD.",
+      "id": "8bec5432-d7f5-419a-bc35-be5a7ed55a74",
+      "prova": "inédita"
+    },
+    {
+      "disciplina": "DIREITO ADMINISTRATIVO",
+      "topico_edital": "DIREITO ADMINISTRATIVO - Agentes públicos: Regras Gerais (Lei nº 8.112/1990)",
+      "pergunta": "A promoção e a readaptação figuram no ordenamento jurídico federal como modalidades que operam, simultaneamente, o provimento de um cargo público e a vacância de outro.",
+      "resposta": "CERTO. De acordo com os arts. 8º e 33 da Lei 8.112/90, a promoção e a readaptação são as duas únicas hipóteses que provocam simultaneamente o provimento de um cargo e a vacância do cargo anterior.",
+      "id": "b00da002-7d69-465a-a7c5-938ab77a8204",
+      "prova": "inédita"
+    },
+    {
+      "disciplina": "DIREITO ADMINISTRATIVO",
+      "topico_edital": "DIREITO ADMINISTRATIVO - Agentes públicos: Carreira de PRF (Lei nº 9.654/1998)",
+      "pergunta": "A carreira de Policial Rodoviário Federal é composta por cargo único de nível superior, estruturado nas classes Terceira, Segunda, Primeira e Especial, sendo a investidura inicial realizada no padrão inicial da Terceira Classe.",
+      "resposta": "CERTO. Exatamente nos termos da Lei nº 9.654/1998 (arts. 2º-A e 3º, § 3º). O cargo é único, de nível superior, dividido nas 4 classes indicadas, com investidura obrigatoriamente realizada no Padrão I da Terceira Classe.",
+      "id": "78cb8f71-bc47-47b0-872d-5ad7dec066bd",
+      "prova": "inédita"
+    },
+    {
+      "disciplina": "DIREITO ADMINISTRATIVO",
+      "topico_edital": "DIREITO ADMINISTRATIVO - Agentes públicos: Carreira de PRF (Lei nº 9.654/1998)",
+      "pergunta": "O concurso público para ingresso no cargo de Policial Rodoviário Federal é constituído de duas fases eliminatórias e classificatórias, figura o Curso de Formação Profissional como a primeira fase do certame.",
+      "resposta": "ERRADO. A questão inverteu as fases do concurso. Conforme o art. 3º da Lei nº 9.654/1998, a 1ª Fase compreende as provas, títulos e psicotécnico; o Curso de Formação Profissional (CFP) constitui a 2ª Fase do certame.",
+      "id": "d1ed6718-75d8-4a7d-84ed-b5a9e3c839c8",
+      "prova": "inédita"
+    },
+    {
+      "disciplina": "DIREITO ADMINISTRATIVO",
+      "topico_edital": "DIREITO ADMINISTRATIVO - Agentes públicos: Carreira de PRF (Lei nº 9.654/1998)",
+      "pergunta": "O policial rodoviário federal recém-empossado ficará obrigado a permanecer na sua primeira lotação pelo período ininterrupto de 3 anos, vedada a realização de permuta ou remoção por interesse da administração antes de decorrido tal prazo.",
+      "resposta": "ERRADO. A permanência de 3 anos na primeira lotação é uma regra preferencial e não absoluta. O art. 3º, § 4º, da Lei nº 9.654/1998 prevê expressamente a possibilidade de remoção anterior por concurso de remoção, permuta ou interesse da Administração.",
+      "id": "775d6b88-eb1d-4cf4-887d-c5dfdcc8fd2e",
+      "prova": "inédita"
+    },
+    {
+      "disciplina": "DIREITO ADMINISTRATIVO",
+      "topico_edital": "DIREITO ADMINISTRATIVO - Agentes públicos: Carreira de PRF (Lei nº 9.654/1998)",
+      "pergunta": "Nos termos do Decreto nº 8.282/2014, considera-se promoção a passagem do servidor de um padrão para o padrão de vencimento imediatamente superior dentro da mesma classe.",
+      "resposta": "ERRADO. A assertiva trouxe a definição de Progressão (passagem de padrão dentro da mesma classe). A Promoção é a passagem do último padrão de uma classe para o primeiro padrão da classe superior (art. 2º do Decreto nº 8.282/2014).",
+      "id": "7ac569e3-4913-4199-b47a-16dcc5a1d5e8",
+      "prova": "inédita"
+    },
+    {
+      "disciplina": "DIREITO ADMINISTRATIVO",
+      "topico_edital": "DIREITO ADMINISTRATIVO - Agentes públicos: Carreira de PRF (Lei nº 9.654/1998)",
+      "pergunta": "Para que o Policial Rodoviário Federal seja promovido da Terceira para a Segunda Classe, exige-se o cumprimento do interstício de 12 meses no último padrão da classe, resultado satisfatório na avaliação de desempenho, curso de capacitação compatível com duração mínima de 120 horas e a efetiva homologação do seu estágio probatório.",
+      "resposta": "CERTO. De acordo com o art. 4º, II, e § 2º do Decreto nº 8.282/2014, a promoção para a Segunda Classe exige cumulativamente: 12 meses no Padrão III da Terceira Classe, avaliação de desempenho satisfatória (≥ 80%), curso de capacitação de 120 horas e a homologação do estágio probatório.",
+      "id": "b6b95701-636b-4f6f-9b8d-313b1a0906d1",
+      "prova": "inédita"
+    },
+    {
+      "disciplina": "DIREITO ADMINISTRATIVO",
+      "topico_edital": "DIREITO ADMINISTRATIVO - Agentes públicos: Carreira de PRF (Lei nº 9.654/1998)",
+      "pergunta": "A contagem do interstício necessário para a progressão e para a promoção do integrante da carreira de PRF será interrompida caso o servidor se afaste sem remuneração, devendo o cômputo do prazo ser zerado e iniciado novamente após o seu retorno à atividade.",
+      "resposta": "ERRADO. O afastamento sem remuneração gera a SUSPENSÃO do cômputo do interstício, e não a interrupção. Quando o policial retorna ao serviço, a contagem é retomada de onde parou (art. 5º, parágrafo único, do Decreto nº 8.282/2014).",
+      "id": "f5379fd3-af0b-4107-9ef5-1cdbd9ee6b2f",
+      "prova": "inédita"
+    },
+    {
+      "disciplina": "DIREITO ADMINISTRATIVO",
+      "topico_edital": "DIREITO ADMINISTRATIVO - Agentes públicos: Carreira de PRF (Lei nº 9.654/1998)",
+      "pergunta": "A indenização de fronteira, instituída pela Lei nº 12.855/2013, é devida no valor fixo de R$ 91,00 por dia de trabalho efetivo aos policiais rodoviários federais lotados em delegacias situadas em municípios de fronteira ou com dificuldade de fixação de efetivo.",
+      "resposta": "CERTO. A Lei nº 12.855/2013 estabelece a indenização de fronteira no valor de R$ 91,00 por dia de efetivo trabalho nas localidades estratégicas definidas pelo Poder Executivo com base em região de fronteira ou fixação de efetivo.",
+      "id": "c06713fd-2f29-4554-a876-f6eaf384fab6",
+      "prova": "inédita"
+    },
+    {
+      "disciplina": "DIREITO ADMINISTRATIVO",
+      "topico_edital": "DIREITO ADMINISTRATIVO - Agentes públicos: Carreira de PRF (Lei nº 9.654/1998)",
+      "pergunta": "A indenização pelo trabalho prestado durante o período de repouso remunerado, regulada pela Lei nº 13.712/2018, possui caráter voluntário, emergencial e temporário, podendo ser paga cumulativamente com diárias caso o serviço ocorra fora da sede do servidor.",
+      "resposta": "ERRADO. É vedada a cumulação da indenização por trabalho em período de repouso com diárias ou indenização de campo. Ocorrendo a hipótese de cumulação, será paga ao policial apenas a verba de maior valor (art. 3º da Lei nº 13.712/2018).",
+      "id": "4beec2e8-61bb-48fb-bb53-842f11ab64ff",
+      "prova": "inédita"
+    },
+    {
+      "disciplina": "DIREITO ADMINISTRATIVO",
+      "topico_edital": "DIREITO ADMINISTRATIVO - Agentes públicos: Carreira de PRF (Lei nº 9.654/1998)",
+      "pergunta": "Em razão da sua natureza jurídica estritamente indenizatória, os valores recebidos a título de indenização por trabalho em período de descanso (Lei nº 13.712/2018) não sofrem a incidência do imposto sobre a renda da pessoa física nem de contribuição previdenciária.",
+      "resposta": "CERTO. Por expressa previsão do art. 4º, I, da Lei nº 13.712/2018, a indenização não está sujeita à incidência de Imposto de Renda Pessoa Física (IRPF) nem de contribuição previdenciária (PSS).",
+      "id": "1246e8f7-7226-4ba7-88af-7dc9db5e94d6",
+      "prova": "inédita"
+    },
+    {
+      "disciplina": "DIREITO ADMINISTRATIVO",
+      "topico_edital": "DIREITO ADMINISTRATIVO - Agentes públicos: Carreira de PRF (Lei nº 9.654/1998)",
+      "pergunta": "Os cargos em comissão e as funções de confiança no âmbito do Departamento de Polícia Rodoviária Federal devem ser preenchidos obrigatoriamente por servidores posicionados na Classe Especial da carreira, sendo vedada a nomeação de policiais lotados nas demais classes.",
+      "resposta": "ERRADO. Conforme o art. 8º da Lei nº 9.654/1998, os cargos em comissão e funções de confiança serão preenchidos preferencialmente (e não obrigatoriamente) por servidores de comportamento exemplar posicionados nas classes finais, ressalvados os casos de interesse da Administração.",
+      "id": "f8cf34f9-9882-48a1-8152-cc0d361c301a",
+      "prova": "inédita"
+    },
+    {
+      "disciplina": "DIREITO ADMINISTRATIVO",
+      "topico_edital": "DIREITO ADMINISTRATIVO - Poderes administrativos",
+      "pergunta": "Os poderes administrativos constituem prerrogativas conferidas aos agentes públicos para a persecução do interesse coletivo, caracterizando-se como verdadeiros poderes-deveres de exercício obrigatório e irrenunciável.",
+      "resposta": "CERTO. Perfeito. Os poderes administrativos são instrumentais e possuem natureza de obrigação (poder-dever), sendo irrenunciáveis e de exercício obrigatório diante da necessidade pública.",
+      "id": "80f31d1f-6526-41b3-baf4-735da74f6f7d",
+      "prova": "inédita"
+    },
+    {
+      "disciplina": "DIREITO ADMINISTRATIVO",
+      "topico_edital": "DIREITO ADMINISTRATIVO - Poderes administrativos",
+      "pergunta": "O dever de prestar contas atinge exclusivamente os agentes públicos ocupantes de cargos efetivos ou em comissão, não se estendendo a particulares que utilizem recursos públicos mediante repasses de subvenções estatais.",
+      "resposta": "ERRADO. O dever de prestar contas abrange qualquer pessoa física ou jurídica, pública ou privada, que utilize, arrecade, guarde ou gerencie dinheiros e bens públicos (art. 70, parágrafo único, CF/88).",
+      "id": "16bfb64f-d859-4bc2-990c-1c11246de826",
+      "prova": "inédita"
+    },
+    {
+      "disciplina": "DIREITO ADMINISTRATIVO",
+      "topico_edital": "DIREITO ADMINISTRATIVO - Poderes administrativos",
+      "pergunta": "A prerrogativa de a autoridade superior avocar temporariamente atribuições originariamente conferidas a um subordinado no âmbito de uma mesma estrutura organizacional decorre diretamente do exercício do poder disciplinar.",
+      "resposta": "ERRADO. A avocação temporária de competências entre superior e subordinado decorre do Poder Hierárquico (e não do Poder Disciplinar).",
+      "id": "39ef8777-c9f8-48d1-bceb-21c33dc1396f",
+      "prova": "inédita"
+    },
+    {
+      "disciplina": "DIREITO ADMINISTRATIVO",
+      "topico_edital": "DIREITO ADMINISTRATIVO - Poderes administrativos",
+      "pergunta": "Entre o Ministério da Justiça e Segurança Pública e as autarquias federais a ele vinculadas existe relação de hierarquia e subordinação, razão pela qual o Ministro pode reformar ex officio qualquer ato praticado pelo Presidente da autarquia.",
+      "resposta": "ERRADO. NÃO existe relação de hierarquia nem subordinação entre entidades de pessoas jurídicas distintas (Administração Direta x Indireta/Autarquias). O que existe é vinculação ou tutela administrativa.",
+      "id": "0326176c-5a16-4e98-889b-2cb7f1c88036",
+      "prova": "inédita"
+    },
+    {
+      "disciplina": "DIREITO ADMINISTRATIVO",
+      "topico_edital": "DIREITO ADMINISTRATIVO - Poderes administrativos",
+      "pergunta": "Caso uma empresa contratada pela Administração Pública para o fornecimento de viaturas cometa infração contratual e receba sanção de multa administrativa, tal punição decorrerá do exercício do poder de polícia.",
+      "resposta": "ERRADO. A sanção aplicada a empresa contratada administrativamente decorre do Poder Disciplinar (em virtude da relação de sujeição especial/vínculo contratual específico), e não do poder de polícia.",
+      "id": "4d57b877-4562-4f4c-8c98-53cf6b16c109",
+      "prova": "inédita"
+    },
+    {
+      "disciplina": "DIREITO ADMINISTRATIVO",
+      "topico_edital": "DIREITO ADMINISTRATIVO - Poderes administrativos",
+      "pergunta": "O Poder de Polícia incide sobre bens, direitos e atividades de toda a coletividade, pautando-se na supremacia geral do interesse público, ao passo que o Poder Disciplinar exige o preenchimento de um vínculo jurídico específico com a Administração Pública.",
+      "resposta": "CERTO. Exato. O Poder de Polícia fundamenta-se na supremacia geral e incide sobre toda a coletividade; o Poder Disciplinar exige vínculo jurídico específico (funcional ou contratual).",
+      "id": "21c0d6dc-23ba-4a6b-a8be-3fb262e56e63",
+      "prova": "inédita"
+    },
+    {
+      "disciplina": "DIREITO ADMINISTRATIVO",
+      "topico_edital": "DIREITO ADMINISTRATIVO - Poderes administrativos",
+      "pergunta": "De acordo com o entendimento consolidado do Supremo Tribunal Federal, é constitucional a delegação das fases de consentimento, fiscalização e sanção do ciclo de polícia a empresas públicas e sociedades de economia mista prestadoras de serviços públicos exclusivos de capital social majoritariamente público.",
+      "resposta": "CERTO. Perfeito. Reflete a Tese 532/STF (RE 633.782). Apenas a ordem de polícia permanece indelegável, sendo permitida a delegação do consentimento, fiscalização e sanção a estatais de capital majoritariamente público que prestem serviço exclusivo.",
+      "id": "129c6ec6-89dc-467f-9553-25d1b253a0f9",
+      "prova": "inédita"
+    },
+    {
+      "disciplina": "DIREITO ADMINISTRATIVO",
+      "topico_edital": "DIREITO ADMINISTRATIVO - Poderes administrativos",
+      "pergunta": "Se um Policial Rodoviário Federal remover materialmente da pista de rolamento um veículo acidentado que esteja gerando risco iminente de novos atropelamentos, atuará amparado pelo atributo da autoexecutoriedade inerente ao poder de polícia, dispensada a prévia autorização judicial.",
+      "resposta": "CERTO. Correto. A execução direta de medidas materiais de urgência ou previstas em lei sem necessidade de prévia ordem judicial é a expressão exata do atributo da autoexecutoriedade.",
+      "id": "e3814edc-8870-4b0f-972d-4acd6baf1aed",
+      "prova": "inédita"
+    },
+    {
+      "disciplina": "DIREITO ADMINISTRATIVO",
+      "topico_edital": "DIREITO ADMINISTRATIVO - Poderes administrativos",
+      "pergunta": "Caracteriza-se o abuso de poder na modalidade excesso de poder quando a autoridade competente pratica ato administrativo com o objetivo estrito de atingir um desafeto político pessoal, utilizando instituto legal adequado para finalidade diversa da prevista na norma.",
+      "resposta": "ERRADO. Trata-se de Desvio de Poder (ou Desvio de Finalidade), cujo vício incide no requisito finalidade (perseguição pessoal). O excesso de poder decorre de vício na competência (atuar fora dos limites do cargo).",
+      "id": "fb4a920a-416f-4b81-8713-148afc3a43bf",
+      "prova": "inédita"
+    },
+    {
+      "disciplina": "DIREITO ADMINISTRATIVO",
+      "topico_edital": "DIREITO ADMINISTRATIVO - Poderes administrativos",
+      "pergunta": "A omissão deliberada do agente público que deixa de adotar as providências fiscalizatórias necessárias diante de uma infração grave de trânsito configura violação ao poder-dever de agir, sujeitando o agente à caracterização de abuso de poder omissivo.",
+      "resposta": "CERTO. Exato. Diante da obrigatoriedade do poder-dever de agir decorrente da indisponibilidade do interesse público, a omissão indevida do agente público configura abuso de poder na modalidade omissiva.",
+      "id": "bc6dbdb2-e015-455b-b0bd-d4fc4d2bb2ca",
+      "prova": "inédita"
+    },
+    {
+      "disciplina": "DIREITO ADMINISTRATIVO",
+      "topico_edital": "DIREITO ADMINISTRATIVO - Licitações e Contratos (Lei nº 14.133/2021)",
+      "pergunta": "A Lei nº 14.133/2021 preceitua expressamente o princípio da segregação de funções, o qual veda a simultaneidade de atribuições suscetíveis de riscos entre o mesmo agente público nos procedimentos licitatórios e contratuais.",
+      "resposta": "CERTO. Perfeito. O princípio da segregação de funções (art. 5º) impede que o mesmo agente público desempenhe funções de planejamento, execução e fiscalização cumulativamente, reduzindo a ocorrência de fraudes e conflitos de interesses.",
+      "id": "ade6c499-e973-47d8-a2a8-7d6f21246896",
+      "prova": "inédita"
+    },
+    {
+      "disciplina": "DIREITO ADMINISTRATIVO",
+      "topico_edital": "DIREITO ADMINISTRATIVO - Licitações e Contratos (Lei nº 14.133/2021)",
+      "pergunta": "Na hipótese de inviabilidade de competição decorrente da necessidade de aquisição de equipamento policial de tecnologia exclusiva sem concorrentes no mercado, a contratação direta deverá ser formalizada por dispensa de licitação.",
+      "resposta": "ERRADO. Diante da inviabilidade de competição decorrente de fornecedor exclusivo, a contratação direta é feita por INEXIGIBILIDADE DE LICITAÇÃO (art. 74, I), e não por dispensa.",
+      "id": "8ae69920-0e32-490b-8885-4f6e7d97e937",
+      "prova": "inédita"
+    },
+    {
+      "disciplina": "DIREITO ADMINISTRATIVO",
+      "topico_edital": "DIREITO ADMINISTRATIVO - Licitações e Contratos (Lei nº 14.133/2021)",
+      "pergunta": "O rol de hipóteses legais que autorizam a contratação direta por inexigibilidade de licitação, constante do artigo 74 da Lei nº 14.133/2021, possui natureza exemplificativa.",
+      "resposta": "CERTO. Correto. O rol do art. 74 (Inexigibilidade) é exemplificativo (numerus apertus). Qualquer situação fática de inviabilidade real de competição autoriza a inexigibilidade.",
+      "id": "4ba2a04e-e459-4656-aced-43aaef1f7929",
+      "prova": "inédita"
+    },
+    {
+      "disciplina": "DIREITO ADMINISTRATIVO",
+      "topico_edital": "DIREITO ADMINISTRATIVO - Licitações e Contratos (Lei nº 14.133/2021)",
+      "pergunta": "Por se tratar de serviço técnico especializado de natureza predominantemente intelectual, a contratação de empresa para prestação de serviços de publicidade e propaganda pode ser realizada por inexigibilidade de licitação, desde que comprovada a notória especialização da contratada.",
+      "resposta": "ERRADO. Erro clássico! O art. 74, III, da NLLC vedou expressamente a contratação de serviços de publicidade e divulgação por inexigibilidade de licitação, sendo obrigatória a realização de procedimento licitatório.",
+      "id": "43729af1-089a-4a40-80ca-ecd692b15f16",
+      "prova": "inédita"
+    },
+    {
+      "disciplina": "DIREITO ADMINISTRATIVO",
+      "topico_edital": "DIREITO ADMINISTRATIVO - Licitações e Contratos (Lei nº 14.133/2021)",
+      "pergunta": "Diante da ocorrência de situação de emergência decorrente de desastre natural que comprometa a segurança de trecho de rodovia federal, a Administração Pública poderá contratar diretamente as obras necessárias por dispensa de licitação, devendo o contrato ter vigência máxima de 1 ano.",
+      "resposta": "CERTO. Exato. Trata-se de dispensa de licitação emergencial (art. 75, VIII). O prazo máximo de vigência do contrato emergencial na NLLC é de 1 ano (12 meses), sendo proibida a sua prorrogação.",
+      "id": "eff14e08-bd2d-4875-a8f8-2a4d0777d3dd",
+      "prova": "inédita"
+    },
+    {
+      "disciplina": "DIREITO ADMINISTRATIVO",
+      "topico_edital": "DIREITO ADMINISTRATIVO - Licitações e Contratos (Lei nº 14.133/2021)",
+      "pergunta": "A contratação direta por dispensa de licitação admite ampliação de suas hipóteses por ato discricionário do administrador público, haja vista a natureza exemplificativa do rol contido no artigo 75 da Lei nº 14.133/2021.",
+      "resposta": "ERRADO. O rol da dispensa de licitação (art. 75) é TAXATIVO (numerus clausus). O administrador não pode criar hipóteses inéditas de dispensa fora das previsões normativas.",
+      "id": "1ad61460-654a-4f78-968b-8ade6427ee9a",
+      "prova": "inédita"
+    },
+    {
+      "disciplina": "DIREITO ADMINISTRATIVO",
+      "topico_edital": "DIREITO ADMINISTRATIVO - Licitações e Contratos (Lei nº 14.133/2021)",
+      "pergunta": "Na hipótese de rescisão contratual promovida pela Administração Pública, é facultado ao Poder Público convocar os licitantes remanescentes da licitação originária para contratar o remanescente da obra por dispensa de licitação, desde que atendida a ordem de classificação e mantidas as mesmas condições ofertadas pelo vencedor.",
+      "resposta": "CERTO. Perfeito. Trata-se de hipótese expressa de dispensa de licitação (art. 75, VII), permitindo convocar os licitantes remanescentes na ordem classificatória respeitando o preço do contrato rescindido.",
+      "id": "83de8e73-30bd-4c16-ad1e-3534f1999ba3",
+      "prova": "inédita"
+    },
+    {
+      "disciplina": "DIREITO ADMINISTRATIVO",
+      "topico_edital": "DIREITO ADMINISTRATIVO - Licitações e Contratos (Lei nº 14.133/2021)",
+      "pergunta": "A alienação de bens móveis pertencentes à Administração Pública, quando autorizada por lei sob condições específicas (como a doação entre órgãos públicos), enquadra-se legalmente como hipótese de licitação dispensável.",
+      "resposta": "ERRADO. A alienação de bens sob condições legais é hipótese de LICITAÇÃO DISPENSADA (art. 76), e não dispensável.",
+      "id": "0c50210c-3aa6-49bf-8bf4-c38a318555a6",
+      "prova": "inédita"
+    },
+    {
+      "disciplina": "DIREITO ADMINISTRATIVO",
+      "topico_edital": "DIREITO ADMINISTRATIVO - Licitações e Contratos (Lei nº 14.133/2021)",
+      "pergunta": "Em consonância com a Lei nº 14.133/2021, a eficácia das contratações diretas formalizadas por dispensa ou inexigibilidade de licitação fica condicionada à sua divulgação no Portal Nacional de Contratações Públicas (PNCP) no prazo de 10 dias úteis a contar da assinatura do contrato.",
+      "resposta": "CERTO. Exato. Conforme o art. 94, II, da Lei nº 14.133/2021, a divulgação no PNCP é condição indispensável para a eficácia do contrato, devendo ocorrer no prazo de 10 dias úteis no caso de contratação direta.",
+      "id": "19d30e8e-8ccf-41b7-9ca2-45c84ff6c2d4",
+      "prova": "inédita"
+    },
+    {
+      "disciplina": "DIREITO ADMINISTRATIVO",
+      "topico_edital": "DIREITO ADMINISTRATIVO - Licitações e Contratos (Lei nº 14.133/2021)",
+      "pergunta": "Nas contratações diretas realizadas por dispensa de licitação em razão do valor, a Lei nº 14.133/2021 admite a substituição do instrumento formal de contrato por outro instrumento hábil, a exemplo da nota de empenho de despesa ou da autorização de compra.",
+      "resposta": "CERTO. Correto. Conforme o art. 95, I, a Administração Pública poderá substituir o instrumento de contrato por nota de empenho, carta-contrato ou autorização de compra nas dispensas de licitação em razão do valor.",
+      "id": "58a51c32-bd95-4819-9d10-5c6dac33d025",
+      "prova": "inédita"
     }
   ]
 }
