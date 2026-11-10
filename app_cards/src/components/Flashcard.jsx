@@ -73,15 +73,23 @@ export default function Flashcard({
 
   // Normalização precisa do gabarito oficial (CERTO ou ERRADO)
   const isGabaritoCerto = 
-    (gabarito && gabarito.toUpperCase().includes('CERTO')) ||
+    (gabarito && gabarito.toUpperCase().trim() === 'CERTO') ||
+    (comentario && (comentario.toUpperCase().startsWith('[CERTO]') || comentario.toUpperCase().startsWith('CERTO.'))) ||
     (resposta && (resposta.toUpperCase().startsWith('CERTO') || resposta.toUpperCase().startsWith('[CERTO]') || resposta.toUpperCase().includes('GABARITO: CERTO')));
 
   const isGabaritoErrado = 
-    (gabarito && gabarito.toUpperCase().includes('ERRADO')) ||
+    (gabarito && gabarito.toUpperCase().trim() === 'ERRADO') ||
+    (comentario && (comentario.toUpperCase().startsWith('[ERRADO]') || comentario.toUpperCase().startsWith('ERRADO.'))) ||
     (resposta && (resposta.toUpperCase().startsWith('ERRADO') || resposta.toUpperCase().startsWith('[ERRADO]') || resposta.toUpperCase().includes('GABARITO: ERRADO')));
 
-  const displayGabarito = isGabaritoCerto ? 'CERTO' : (isGabaritoErrado ? 'ERRADO' : 'CERTO');
-  const displayComment = comentario || (resposta ? resposta.replace(/^(CERTO|ERRADO|\[CERTO\]|\[ERRADO\])\.?\s*(-|Justificativa:|\n)?\s*/i, '').trim() : '');
+  const displayGabarito = isGabaritoErrado ? 'ERRADO' : (isGabaritoCerto ? 'CERTO' : (gabarito || 'CERTO'));
+  
+  // Limpeza de prefixos como [CERTO], [ERRADO], "Justificativa:" tanto de comentario quanto de resposta
+  const rawComment = comentario || resposta || '';
+  const displayComment = rawComment
+    .replace(/^(\[(CERTO|ERRADO)\]|(CERTO|ERRADO))\s*([.:\-–—]|Justificativa:?|Coment[aá]rio:?)*\s*/i, '')
+    .replace(/^Justificativa:\s*/i, '')
+    .trim();
 
   const isAnswered = userChoice !== null;
   const isCorrect = isAnswered && userChoice === displayGabarito;

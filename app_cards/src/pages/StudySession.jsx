@@ -30,7 +30,9 @@ export default function StudySession() {
     if (location.state?.questions && Array.isArray(location.state.questions) && location.state.questions.length > 0) {
       return location.state.questions;
     }
-    return questionsData?.questoes || [];
+    if (Array.isArray(questionsData)) return questionsData;
+    if (questionsData?.questoes && Array.isArray(questionsData.questoes)) return questionsData.questoes;
+    return [];
   }, [location.state]);
 
   // Meta da sessão (Padrão: 30 questões, configurável pelo usuário no Dashboard)

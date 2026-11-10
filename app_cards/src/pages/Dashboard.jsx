@@ -28,9 +28,11 @@ export default function Dashboard() {
   const navigate = useNavigate();
   const { user, logout } = useAuth();
 
-  // Lista base de todas as questões
+  // Lista base de todas as questões (suporta tanto Array direto [...] quanto { questoes: [...] })
   const allQuestions = useMemo(() => {
-    return questionsData?.questoes || [];
+    if (Array.isArray(questionsData)) return questionsData;
+    if (questionsData?.questoes && Array.isArray(questionsData.questoes)) return questionsData.questoes;
+    return [];
   }, []);
 
   // Extração dinâmica de todas as disciplinas ordenadas
