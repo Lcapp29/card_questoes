@@ -14,10 +14,14 @@ import {
   Sparkles,
   BookOpen,
   User,
-  LogIn
+  LogIn,
+  ChevronDown,
+  ChevronUp,
+  Tag
 } from 'lucide-react';
 import { useAuth } from '../contexts/AuthContext.jsx';
 import { fetchUserProgress } from '../services/progressService.js';
+import { formatTopicName } from '../components/Flashcard.jsx';
 
 export default function Progress() {
   const { user } = useAuth();
@@ -129,14 +133,39 @@ export default function Progress() {
     };
   }, [progressItems]);
 
-  // Detalhamento agrupado por Disciplina
+  // Estado das disciplinas expandidas para visualizar os tópicos
+  const [expandedDisciplinas, setExpandedDisciplinas] = useState(new Set());
+
+  // Alterna a exibição dos tópicos de uma disciplina
+  const toggleExpand = (disc) => {
+    setExpandedDisciplinas((prev) => {
+      const next = new Set(prev);
+      if (next.has(disc)) {
+        next.delete(disc);
+      } else {
+        next.add(disc);
+      }
+      return next;
+    });
+  };
+
+  // Expandir ou recolher todos os tópicos de uma vez
+  const expandAll = () => {
+    setExpandedDisciplinas(new Set(disciplinaStats.map(d => d.disciplina)));
+  };
+
+  const collapseAll = () => {
+    setExpandedDisciplinas(new Set());
+  };
+
+  // Detalhamento agrupado por Disciplina e por Tópico
   const disciplinaStats = useMemo(() => {
     const map = new Map();
 
     filteredItems.forEach((item) => {
       const disc = item.disciplina || 'Outros';
       if (!map.has(disc)) {
-        map.set(disc, { total: 0, acertos: 0, erros: 0 });
+        map.set(disc, { total: 0, acertos: 0, erros: 0, topicsMap: new Map() });
       }
       const entry = map.get(disc);
       entry.total++;
@@ -146,16 +175,46 @@ export default function Progress() {
       } else {
         entry.erros++;
       }
+
+      // Normaliza o nome do tópico para exibição limpa
+      const rawTopic = item.topico || item.topico_edital || 'Tópico Geral';
+      const cleanTopic = formatTopicName(rawTopic, disc) || rawTopic;
+
+      if (!entry.topicsMap.has(cleanTopic)) {
+        entry.topicsMap.set(cleanTopic, {
+          nome: cleanTopic,
+          total: 0,
+          acertos: 0,
+          erros: 0
+        });
+      }
+
+      const topicEntry = entry.topicsMap.get(cleanTopic);
+      topicEntry.total++;
+      if (isAcerto) {
+        topicEntry.acertos++;
+      } else {
+        topicEntry.erros++;
+      }
     });
 
     const list = Array.from(map.entries()).map(([disciplina, data]) => {
       const percent = data.total > 0 ? Math.round((data.acertos / data.total) * 100) : 0;
+      
+      const topicosList = Array.from(data.topicsMap.values())
+        .map(t => ({
+          ...t,
+          percent: t.total > 0 ? Math.round((t.acertos / t.total) * 100) : 0
+        }))
+        .sort((a, b) => b.total - a.total);
+
       return {
         disciplina,
         total: data.total,
         acertos: data.acertos,
         erros: data.erros,
-        percent
+        percent,
+        topicos: topicosList
       };
     });
 
@@ -352,49 +411,165 @@ export default function Progress() {
 
             </div>
 
-            {/* 2. Detalhamento de Acertos e Erros por Disciplina */}
+            {/* 2. Detalhamento de Acertos e Erros por Disciplina e por Tópico */}
             <div className="bg-gray-800/90 border border-gray-700/80 rounded-2xl p-6 sm:p-7 shadow-xl space-y-6">
-              <div className="flex items-center justify-between flex-wrap gap-2 pb-4 border-b border-gray-700/60">
+              <div className="flex items-center justify-between flex-wrap gap-3 pb-4 border-b border-gray-700/60">
                 <div className="flex items-center gap-2 text-sm font-semibold uppercase tracking-wider text-gray-300">
                   <Shield className="w-4 h-4 text-yellow-500" />
                   <span>Rendimento por Disciplina ({disciplinaStats.length} disciplinas estudadas)</span>
                 </div>
+
+                {disciplinaStats.length > 0 && (
+                  <button
+                    type="button"
+                    onClick={expandedDisciplinas.size === disciplinaStats.length ? collapseAll : expandAll}
+                    className="inline-flex items-center gap-1.5 text-xs text-yellow-400 hover:text-yellow-300 font-semibold px-3 py-1.5 rounded-lg bg-gray-900 border border-gray-700 hover:border-yellow-500/50 transition-all cursor-pointer shadow-sm"
+                  >
+                    {expandedDisciplinas.size === disciplinaStats.length ? (
+                      <>
+                        <ChevronUp className="w-3.5 h-3.5" />
+                        <span>Recolher Todos os Tópicos</span>
+                      </>
+                    ) : (
+                      <>
+                        <ChevronDown className="w-3.5 h-3.5" />
+                        <span>Expandir Todos os Tópicos</span>
+                      </>
+                    )}
+                  </button>
+                )}
               </div>
 
-              <div className="space-y-5">
+              <div className="space-y-4">
                 {disciplinaStats.map((item) => {
-                  return (
-                    <div key={item.disciplina} className="space-y-2">
-                      <div className="flex items-center justify-between flex-wrap gap-2 text-xs">
-                        <span className="font-bold text-white text-sm">
-                          {item.disciplina}
-                        </span>
-                        <div className="flex items-center gap-3 text-gray-400">
-                          <span className="text-emerald-400 font-semibold">{item.acertos} acertos</span>
-                          <span>·</span>
-                          <span className="text-red-400 font-semibold">{item.erros} erros</span>
-                          <span>·</span>
-                          <span className="text-yellow-400 font-bold tabular-nums text-sm">
-                            {item.percent}% de acerto
-                          </span>
-                        </div>
-                      </div>
+                  const isExpanded = expandedDisciplinas.has(item.disciplina);
+                  const hasTopics = item.topicos && item.topicos.length > 0;
 
-                      {/* Barra de Progresso Visual Bicolor */}
-                      <div className="w-full h-3 bg-gray-900 rounded-full overflow-hidden flex border border-gray-700/60">
-                        {/* Segmento de Acertos */}
-                        <div
-                          style={{ width: `${item.percent}%` }}
-                          className="bg-emerald-500 h-full transition-all duration-300"
-                          title={`${item.acertos} acertos (${item.percent}%)`}
-                        />
-                        {/* Segmento de Erros */}
-                        <div
-                          style={{ width: `${100 - item.percent}%` }}
-                          className="bg-red-500/80 h-full transition-all duration-300"
-                          title={`${item.erros} erros (${100 - item.percent}%)`}
-                        />
-                      </div>
+                  return (
+                    <div 
+                      key={item.disciplina} 
+                      className={`border rounded-xl transition-all duration-200 overflow-hidden ${
+                        isExpanded 
+                          ? 'bg-gray-900/80 border-gray-600/80 shadow-md' 
+                          : 'bg-gray-900/40 hover:bg-gray-900/70 border-gray-700/60'
+                      }`}
+                    >
+                      {/* Cabeçalho Clicável da Disciplina */}
+                      <button
+                        type="button"
+                        onClick={() => toggleExpand(item.disciplina)}
+                        className="w-full text-left p-4 cursor-pointer focus:outline-none focus:ring-1 focus:ring-yellow-500/50 space-y-3"
+                      >
+                        <div className="flex items-center justify-between flex-wrap gap-2 text-xs">
+                          <div className="flex items-center gap-2.5">
+                            <div className={`p-1 rounded-md bg-gray-800 text-gray-400 transition-transform duration-200 ${
+                              isExpanded ? 'rotate-180 text-yellow-400' : ''
+                            }`}>
+                              <ChevronDown className="w-4 h-4" />
+                            </div>
+
+                            <div className="flex items-center gap-2 flex-wrap">
+                              <span className="font-bold text-white text-sm sm:text-base">
+                                {item.disciplina}
+                              </span>
+                              <span className="px-2 py-0.5 rounded-md bg-yellow-500/10 border border-yellow-500/20 text-yellow-400 text-[11px] font-semibold">
+                                {item.topicos.length} {item.topicos.length === 1 ? 'tópico' : 'tópicos'}
+                              </span>
+                              <span className="text-[11px] text-gray-500 font-normal hidden sm:inline">
+                                (clique para {isExpanded ? 'ocultar' : 'ver'} tópicos)
+                              </span>
+                            </div>
+                          </div>
+
+                          <div className="flex items-center gap-3 text-gray-400 ml-auto">
+                            <span className="text-emerald-400 font-semibold">{item.acertos} acertos</span>
+                            <span>·</span>
+                            <span className="text-red-400 font-semibold">{item.erros} erros</span>
+                            <span>·</span>
+                            <span className="text-yellow-400 font-bold tabular-nums text-sm">
+                              {item.percent}% de acerto
+                            </span>
+                          </div>
+                        </div>
+
+                        {/* Barra de Progresso Visual Bicolor da Disciplina */}
+                        <div className="w-full h-3 bg-gray-950 rounded-full overflow-hidden flex border border-gray-800">
+                          {/* Segmento de Acertos */}
+                          <div
+                            style={{ width: `${item.percent}%` }}
+                            className="bg-emerald-500 h-full transition-all duration-300"
+                            title={`${item.acertos} acertos (${item.percent}%)`}
+                          />
+                          {/* Segmento de Erros */}
+                          <div
+                            style={{ width: `${100 - item.percent}%` }}
+                            className="bg-red-500/80 h-full transition-all duration-300"
+                            title={`${item.erros} erros (${100 - item.percent}%)`}
+                          />
+                        </div>
+                      </button>
+
+                      {/* Tópicos Expandidos desta Disciplina */}
+                      {isExpanded && (
+                        <div className="px-4 pb-4 pt-1 space-y-3 border-t border-gray-800/80 bg-gray-950/40">
+                          <div className="flex items-center justify-between text-[11px] font-semibold text-gray-400 uppercase tracking-wider px-1 pt-2">
+                            <span className="flex items-center gap-1.5">
+                              <Tag className="w-3.5 h-3.5 text-yellow-400" />
+                              <span>Tópicos Estudados</span>
+                            </span>
+                            <span>Desempenho</span>
+                          </div>
+
+                          {!hasTopics ? (
+                            <div className="text-xs text-gray-500 italic p-3 text-center">
+                              Nenhum tópico detalhado disponível para esta disciplina.
+                            </div>
+                          ) : (
+                            <div className="space-y-2">
+                              {item.topicos.map((topico) => (
+                                <div
+                                  key={topico.nome}
+                                  className="bg-gray-800/70 border border-gray-700/50 hover:border-gray-600/70 rounded-xl p-3 space-y-2 transition-colors"
+                                >
+                                  <div className="flex items-center justify-between flex-wrap gap-2 text-xs">
+                                    <div className="flex items-center gap-2 max-w-[70%]">
+                                      <div className="w-1.5 h-1.5 rounded-full bg-yellow-400 shrink-0" />
+                                      <span className="font-medium text-gray-200 text-xs sm:text-sm truncate" title={topico.nome}>
+                                        {topico.nome}
+                                      </span>
+                                    </div>
+
+                                    <div className="flex items-center gap-2 text-gray-400 ml-auto">
+                                      <span className="text-emerald-400 font-medium">{topico.acertos} acertos</span>
+                                      <span>·</span>
+                                      <span className="text-red-400 font-medium">{topico.erros} erros</span>
+                                      <span>·</span>
+                                      <span className="text-yellow-400 font-bold tabular-nums">
+                                        {topico.percent}%
+                                      </span>
+                                    </div>
+                                  </div>
+
+                                  {/* Barra de Progresso Visual Bicolor do Tópico */}
+                                  <div className="w-full h-2 bg-gray-950 rounded-full overflow-hidden flex border border-gray-800/80">
+                                    <div
+                                      style={{ width: `${topico.percent}%` }}
+                                      className="bg-emerald-500 h-full transition-all duration-300"
+                                      title={`${topico.acertos} acertos (${topico.percent}%)`}
+                                    />
+                                    <div
+                                      style={{ width: `${100 - topico.percent}%` }}
+                                      className="bg-red-500/80 h-full transition-all duration-300"
+                                      title={`${topico.erros} erros (${100 - topico.percent}%)`}
+                                    />
+                                  </div>
+                                </div>
+                              ))}
+                            </div>
+                          )}
+                        </div>
+                      )}
+
                     </div>
                   );
                 })}
