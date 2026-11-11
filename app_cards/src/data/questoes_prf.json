@@ -3508,5 +3508,590 @@
     "pergunta": "O oficial das Forças Armadas condenado na justiça comum a pena privativa de liberdade superior a dois anos por sentença transitada em julgado perderá automaticamente o seu posto e patente, independentemente de novo julgamento por tribunal militar.",
     "gabarito": "ERRADO",
     "comentario": "A perda do posto e da patente do oficial condenado a pena privativa de liberdade superior a dois anos por sentença transitada em julgado NÃO é automática. Nos termos do art. 142, § 3º, VI e VII, da CF/88, o oficial será obrigatoriamente submetido a julgamento perante tribunal militar de caráter permanente (em tempo de paz) ou especial (em tempo de guerra), que decidirá se ele é indigno do oficialato. Nível de Dificuldade: Difícil."
+  },
+  {
+    "disciplina": "DIREITO CONSTITUCIONAL",
+    "topico_edital": "DIREITO CONSTITUCIONAL - Defesa do Estado e instituições democráticas (Segurança Pública)",
+    "pergunta": "A segurança pública, dever do Estado, direito e responsabilidade de todos, é exercida para a preservação da ordem pública e da incolumidade das pessoas e do patrimônio pelos órgãos expressamente previstos no artigo 144 da Constituição Federal de 1988.",
+    "gabarito": "CERTO",
+    "comentario": "A assertiva transcreve com exatidão a regra do caput do artigo 144 da Constituição Federal de 1988: 'A segurança pública, dever do Estado, direito e responsabilidade de todos, é exercida para a preservação da ordem pública e da incolumidade das pessoas e do patrimônio' por meio dos órgãos policiais previstos no texto constitucional.",
+    "id": "bd54a650-5ebb-4531-8b2f-4a625e01c019",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITO CONSTITUCIONAL",
+    "topico_edital": "DIREITO CONSTITUCIONAL - Defesa do Estado e instituições democráticas (Segurança Pública)",
+    "pergunta": "A Polícia Rodoviária Federal, órgão permanente, organizado e mantido pela União e estruturado em carreira, destina-se, na forma da lei, ao patrulhamento ostensivo e ao exercício das funções de polícia judiciária nas rodovias federais.",
+    "gabarito": "ERRADO",
+    "comentario": "Nos termos do artigo 144, § 2º, da CF/88, a Polícia Rodoviária Federal destina-se exclusivamente ao patrulhamento ostensivo das rodovias federais. A PRF não exerce funções de polícia judiciária, as quais são atribuídas com exclusividade no âmbito federal à Polícia Federal (art. 144, § 1º, IV).",
+    "id": "6cd2383f-e6c7-42df-83e1-43405ad29edb",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITO CONSTITUCIONAL",
+    "topico_edital": "DIREITO CONSTITUCIONAL - Defesa do Estado e instituições democráticas (Segurança Pública)",
+    "pergunta": "Eventual infração penal praticada em detrimento dos bens ou serviços de empresa pública federal insere-se na competência apuratória da Polícia Federal, ao passo que a apuração de crime praticado contra sociedade de economia mista federal compete à Polícia Civil do respectivo Estado.",
+    "gabarito": "CERTO",
+    "comentario": "A assertiva está perfeita. O art. 144, § 1º, I, fixa que a Polícia Federal apura infrações contra bens, serviços e interesses da União, autarquias e empresas públicas federais (ex.: Caixa Econômica Federal). Por outro lado, a jurisprudência pacífica estabelece que crimes contra sociedades de economia mista (ex.: Banco do Brasil) são investigados pela Polícia Civil do Estado.",
+    "id": "77ffee5c-2cca-4843-87ca-39eaf7468f82",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITO CONSTITUCIONAL",
+    "topico_edital": "DIREITO CONSTITUCIONAL - Defesa do Estado e instituições democráticas (Segurança Pública)",
+    "pergunta": "A Polícia Militar do Distrito Federal e a Polícia Civil do Distrito Federal, embora organizadas e mantidas pela União, subordinam-se administrativamente ao Governador do Distrito Federal.",
+    "gabarito": "CERTO",
+    "comentario": "A União tem a competência privativa para organizar e manter a polícia civil, a polícia penal, a polícia militar e o corpo de bombeiros militar do DF (art. 21, XIV). No entanto, no tocante à subordinação, o art. 144, § 6º, estabelece expressamente que tais forças subordinam-se ao Governador do Distrito Federal.",
+    "id": "8205505e-8ca8-4f60-8fe9-1d76c1de787a",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITO CONSTITUCIONAL",
+    "topico_edital": "DIREITO CONSTITUCIONAL - Defesa do Estado e instituições democráticas (Segurança Pública)",
+    "pergunta": "As Polícias Civis, dirigidas por delegados de polícia de carreira, possuem competência para exercer as funções de polícia judiciária e apurar infrações penais estaduais, incluindo a apuração de crimes militares praticados por policiais militares em serviço.",
+    "gabarito": "ERRADO",
+    "comentario": "O artigo 144, § 4º, da Constituição Federal estabelece que às polícias civis incumbem as funções de polícia judiciária e a apuração de infrações penais, EXCETO AS MILITARES. A apuração de crimes militares praticados por policiais militares é de competência da própria Polícia Militar (Justiça Militar / Polícia Judiciária Militar).",
+    "id": "eeb64063-ed1e-4e6a-b13b-fb78a29aff62",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITO CONSTITUCIONAL",
+    "topico_edital": "DIREITO CONSTITUCIONAL - Defesa do Estado e instituições democráticas (Segurança Pública)",
+    "pergunta": "A Polícia Ferroviária Federal e a Polícia Rodoviária Federal constituem órgãos de segurança pública da União incumbidos, respectivamente, do patrulhamento ostensivo das ferrovias e das rodovias federais.",
+    "gabarito": "CERTO",
+    "comentario": "A questão reproduz a exata divisão constitucional fixada nos parágrafos 2º e 3º do artigo 144 da CF/88: à Polícia Rodoviária Federal cabe o patrulhamento ostensivo das rodovias federais, enquanto à Polícia Ferroviária Federal incumbe o patrulhamento ostensivo das ferrovias federais.",
+    "id": "5f908e34-ae4e-4e5c-bc39-5b59a843d414",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITO CONSTITUCIONAL",
+    "topico_edital": "DIREITO CONSTITUCIONAL - Defesa do Estado e instituições democráticas (Segurança Pública)",
+    "pergunta": "As Polícias Penais federal, estaduais e distrital, vinculadas ao órgão administrador do sistema penal da respectiva unidade federativa, possuem como atribuição constitucional a segurança dos estabelecimentos penais e o policiamento ostensivo preventivo das vias urbanas circundantes.",
+    "gabarito": "ERRADO",
+    "comentario": "Conforme o artigo 144, § 5º-A, da CF/88 (incluído pela EC 104/2019), cabe às Polícias Penais tão somente a segurança dos estabelecimentos penais. O policiamento ostensivo e a preservação da ordem pública são atribuições constitucionais das Polícias Militares (art. 144, § 5º).",
+    "id": "56059f17-6d38-493c-909b-52c0047fc4fc",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITO CONSTITUCIONAL",
+    "topico_edital": "DIREITO CONSTITUCIONAL - Defesa do Estado e instituições democráticas (Segurança Pública)",
+    "pergunta": "Segundo a orientação jurisprudencial do Supremo Tribunal Federal, o exercício do direito de greve, sob qualquer forma ou modalidade, é vedado aos policiais civis e a todos os servidores públicos que atuem diretamente na área de segurança pública.",
+    "gabarito": "CERTO",
+    "comentario": "A assertiva reflete a tese de repercussão geral firmada pelo Supremo Tribunal Federal no Tema 541 (ARE 654.432): 'O exercício do direito de greve, sob qualquer forma ou modalidade, é vedado aos policiais civis e a todos os servidores públicos que atuem diretamente na área de segurança pública'.",
+    "id": "422ef726-3de6-41c9-b94b-9b29e6470ac7",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITO CONSTITUCIONAL",
+    "topico_edital": "DIREITO CONSTITUCIONAL - Defesa do Estado e instituições democráticas (Segurança Pública)",
+    "pergunta": "Conforme recente entendimento do Supremo Tribunal Federal na ADPF 995, as Guardas Municipais integram o Sistema Único de Segurança Pública (SUSP), sendo-lhes legítimo o exercício de ações de segurança urbana e policiamento ostensivo comunitário, respeitadas as atribuições dos demais órgãos e vedada a atividade de polícia judiciária.",
+    "gabarito": "CERTO",
+    "comentario": "Na ADPF 995 (Informativo 1105), o Plenário do STF reconheceu que as Guardas Municipais integram o Sistema Único de Segurança Pública (SUSP) e podem exercer ações de segurança urbana e policiamento ostensivo comunitário, sendo-lhes vedada apenas a atividade investigativa de polícia judiciária.",
+    "id": "cd0abaa9-fd43-44e9-9628-eaa0014e2308",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITO CONSTITUCIONAL",
+    "topico_edital": "DIREITO CONSTITUCIONAL - Defesa do Estado e instituições democráticas (Segurança Pública)",
+    "pergunta": "A Constituição Federal exige que o Município possua população mínima de cinquenta mil habitantes para que possa constituir guarda municipal destinada à proteção de seus bens, serviços e instalações.",
+    "gabarito": "ERRADO",
+    "comentario": "O artigo 144, § 8º, da CF/88 dispõe apenas que 'os Municípios poderão constituir guardas municipais destinadas à proteção de seus bens, serviços e instalações, conforme dispuser a lei'. A Constituição Federal não fixa nenhum limite populacional mínimo para a criação de Guarda Municipal.",
+    "id": "6b8e8263-e505-419f-95b5-b956d42da715",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITO CONSTITUCIONAL",
+    "topico_edital": "DIREITO CONSTITUCIONAL - Direitos sociais, nacionalidade e direitos políticos",
+    "pergunta": "Segundo o texto constitucional, a ordem social tem como base o bem-estar e a justiça sociais, e como objetivo fundamental o primado do trabalho.",
+    "gabarito": "ERRADO",
+    "comentario": "A questão inverteu os conceitos do artigo 193 da Constituição Federal. A ordem social has como base o primado do trabalho e como objetivo o bem-estar e a justiça sociais.",
+    "id": "9ade3503-7e84-45f5-b0dd-3a2b04b72677",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITO CONSTITUCIONAL",
+    "topico_edital": "DIREITO CONSTITUCIONAL - Direitos sociais, nacionalidade e direitos políticos",
+    "pergunta": "A seguridade social é organizada pelo Poder Público como um conjunto integrado de ações destinadas a assegurar os direitos à saúde, à previdência e à assistência social, sendo o caráter contributivo exigência constitucional aplicável aos três ramos do sistema.",
+    "gabarito": "ERRADO",
+    "comentario": "Apenas a Previdência Social possui caráter contributivo e filiação obrigatória (art. 201, caput). A Saúde (art. 196) e a Assistência Social (art. 203) são não contributivas, sendo prestadas independentemente de pagamento de contribuição.",
+    "id": "928b5c89-6d41-4e87-a0b6-d8a4835795ed",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITO CONSTITUCIONAL",
+    "topico_edital": "DIREITO CONSTITUCIONAL - Direitos sociais, nacionalidade e direitos políticos",
+    "pergunta": "O caráter democrático e descentralizado da administração da seguridade social efetiva-se mediante gestão quadripartite nos órgãos colegiados, com a participação dos trabalhadores, dos empregadores, dos aposentados e do Governo.",
+    "gabarito": "CERTO",
+    "comentario": "A assertiva transcreve com exatidão o artigo 194, parágrafo único, inciso VII, da CF/88: 'caráter democrático e descentralizado da administração, mediante gestão quadripartite, com participação dos trabalhadores, dos empregadores, dos aposentados e do Governo nos órgãos colegiados'.",
+    "id": "d4836852-ddd5-420a-83f8-d01f5393cd08",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITO CONSTITUCIONAL",
+    "topico_edital": "DIREITO CONSTITUCIONAL - Direitos sociais, nacionalidade e direitos políticos",
+    "pergunta": "As contribuições sociais instituídas para o financiamento da seguridade social ficam sujeitas ao princípio da anterioridade anual, motivo pelo qual somente podem ser exigidas no primeiro dia do exercício financeiro seguinte ao da publicação da lei que as houver instituído ou modificado.",
+    "gabarito": "ERRADO",
+    "comentario": "Nos termos do artigo 195, § 6º, da CF/88, as contribuições sociais só podem ser exigidas após decorridos 90 (noventa) dias da data da publicação da lei que as houver instituído ou modificado (Anterioridade Nonagesimal / Noventena), não se lhes aplicando o princípio da anterioridade anual / exercício financeiro (art. 150, III, 'b').",
+    "id": "207193f1-e1d4-4451-80f4-7e6f48ceebd1",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITO CONSTITUCIONAL",
+    "topico_edital": "DIREITO CONSTITUCIONAL - Direitos sociais, nacionalidade e direitos políticos",
+    "pergunta": "A criação, majoração ou extensão de qualquer benefício ou serviço da seguridade social depende da indicação prévia e correspondente da fonte de custeio total.",
+    "gabarito": "CERTO",
+    "comentario": "A questão reflete a literalidade do artigo 195, § 5º, da CF/88 (Princípio da Contrapartida / Fonte de Custeio Prévia): 'Nenhum benefício ou serviço da seguridade social poderá ser criado, majorado ou estendido sem a correspondente fonte de custeio total'.",
+    "id": "53e37b0c-e2a9-4d05-9cc9-09b07da27918",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITO CONSTITUCIONAL",
+    "topico_edital": "DIREITO CONSTITUCIONAL - Direitos sociais, nacionalidade e direitos políticos",
+    "pergunta": "As ações e serviços públicos de saúde integram uma rede regionalizada e hierarquizada e constituem um sistema único organizado com base na descentralização com direção única em cada esfera de governo, no atendimento integral com prioridade para as atividades preventivas e na participação da comunidade.",
+    "gabarito": "CERTO",
+    "comentario": "A assertiva está em consonância integral com as três diretrizes constitucionais do SUS previstas nos incisos I, II e III do artigo 198 da CF/88: descentralização com direção única, atendimento integral com prioridade para atividades preventivas e participação da comunidade.",
+    "id": "1767d1b2-2438-41cd-b839-a2db41cbba66",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITO CONSTITUCIONAL",
+    "topico_edital": "DIREITO CONSTITUCIONAL - Direitos sociais, nacionalidade e direitos políticos",
+    "pergunta": "É constitucionalmente legítima a destinação de recursos públicos orçamentários para a concessão de auxílios ou subvenções a instituições privadas de saúde com fins lucrativos, desde que estas atuem de forma complementar no Sistema Único de Saúde (SUS).",
+    "gabarito": "ERRADO",
+    "comentario": "Conforme dispõe expressamente o artigo 199, § 2º, da Constituição Federal, 'é vedada a destinação de recursos públicos para auxílios ou subvenções às instituições privadas com fins lucrativos'.",
+    "id": "323e3c30-86db-415d-ad2a-89e425361d75",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITO CONSTITUCIONAL",
+    "topico_edital": "DIREITO CONSTITUCIONAL - Direitos sociais, nacionalidade e direitos políticos",
+    "pergunta": "No âmbito do Regime Geral de Previdência Social (RGPS), admite-se que o benefício previdenciário que substitua o salário de contribuição do segurado seja fixado em valor nominal inferior ao salário mínimo nacionalmente unificado.",
+    "gabarito": "ERRADO",
+    "comentario": "Nos termos do artigo 201, § 2º, da CF/88, 'nenhum benefício que substitua o salário de contribuição ou o rendimento do trabalho do segurado terá valor mensal inferior ao salário mínimo'.",
+    "id": "a0b0134f-7fd9-4703-a842-5c1738495943",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITO CONSTITUCIONAL",
+    "topico_edital": "DIREITO CONSTITUCIONAL - Direitos sociais, nacionalidade e direitos políticos",
+    "pergunta": "A assistência social será prestada exclusivamente a quem tiver efetuado contribuições prévias ao sistema de seguridade social, garantindo-se o benefício mensal de um salário mínimo à pessoa com deficiência e ao idoso que comprovem não possuir meios de prover a própria manutenção.",
+    "gabarito": "ERRADO",
+    "comentario": "Nos termos do artigo 203, caput, da CF/88, a assistência social é prestada INDEPENDENTEMENTE de contribuição à seguridade social. O erro consiste em exigir contribuições prévias para a concessão da assistência social.",
+    "id": "d4323c76-ce05-4276-99ed-c7a40616b936",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITO CONSTITUCIONAL",
+    "topico_edital": "DIREITO CONSTITUCIONAL - Direitos sociais, nacionalidade e direitos políticos",
+    "pergunta": "É vedado o aporte de recursos públicos a entidades de previdência privada pela União, Estados, Distrito Federal e Municípios, salvo na qualidade de patrocinador, situação na qual a contribuição normal do ente público não poderá, em hipótese alguma, exceder a do segurado.",
+    "gabarito": "CERTO",
+    "comentario": "A questão reflete com precisão a regra do artigo 202, § 3º, da Constituição Federal, o qual veda o aporte de recursos a entidade de previdência privada por entes públicos, ressalvada a condição de patrocinador, hipótese na qual 'em hipótese alguma, sua contribuição normal poderá exceder a do segurado'.",
+    "id": "aab06e8d-189e-49a2-8b2f-e5845372c2dc",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITO CONSTITUCIONAL",
+    "topico_edital": "DIREITO CONSTITUCIONAL - Direitos e deveres fundamentais (Art. 5º)",
+    "pergunta": "O meio ambiente ecologicamente equilibrado é qualificado constitucionalmente como bem de uso comum do povo e essencial à sadia qualidade de vida, cabendo exclusivamente ao Poder Público o dever de defendê-lo e preservá-lo para as presentes e futuras gerações.",
+    "gabarito": "ERRADO",
+    "comentario": "O artigo 225, caput, da Constituição Federal atribui o dever de defender e preservar o meio ambiente ao Poder Público E À COLETIVIDADE (dever compartilhado/solidário), e não de forma exclusiva ao Poder Público.",
+    "id": "2cc6fff3-6d85-4c92-a0f6-bc8546e14f00",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITO CONSTITUCIONAL",
+    "topico_edital": "DIREITO CONSTITUCIONAL - Direitos e deveres fundamentais (Art. 5º)",
+    "pergunta": "Conforme disposição expressa do texto constitucional, a instalação de qualquer obra ou atividade econômica em território nacional exige a elaboração prévia de Estudo de Impacto Ambiental (EPIA).",
+    "gabarito": "ERRADO",
+    "comentario": "De acordo com o artigo 225, § 1º, inciso IV, da CF/88, a exigência de Estudo Prévio de Impacto Ambiental (EPIA) condiciona-se à instalação de obra ou atividade potencialmente causadora de SIGNIFICATIVA degradação do meio ambiente, e não de qualquer obra.",
+    "id": "32305285-3577-4280-b8ec-e6d946d21749",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITO CONSTITUCIONAL",
+    "topico_edital": "DIREITO CONSTITUCIONAL - Direitos e deveres fundamentais (Art. 5º)",
+    "pergunta": "As condutas e atividades consideradas lesivas ao meio ambiente sujeitam os infratores, pessoas físicas ou jurídicas, a sanções penais e administrativas, independentemente da obrigação de reparar os danos causados.",
+    "gabarito": "CERTO",
+    "comentario": "A questão transcreve a literalidade do artigo 225, § 3º, da Carta Magna, que consagra a tríplice responsabilidade ambiental (penal, administrativa e civil/reparatória) para pessoas físicas e jurídicas.",
+    "id": "683ff9fa-7127-40e0-babd-0654bcfff27e",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITO CONSTITUCIONAL",
+    "topico_edital": "DIREITO CONSTITUCIONAL - Direitos e deveres fundamentais (Art. 5º)",
+    "pergunta": "Segundo entendimento do Supremo Tribunal Federal fixado em repercussão geral, é imprescritível a pretensão de reparação civil decorrente de danos ambientais.",
+    "gabarito": "CERTO",
+    "comentario": "A assertiva reflete exatamente a tese de repercussão geral firmada pelo STF no Tema 999: 'É imprescritível a pretensão de reparação civil de dano ambiental'.",
+    "id": "a0a511e1-5286-4f38-a285-d2ed98b27dfd",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITO CONSTITUCIONAL",
+    "topico_edital": "DIREITO CONSTITUCIONAL - Direitos e deveres fundamentais (Art. 5º)",
+    "pergunta": "A Constituição Federal reconhece a união estável e a comunidade monoparental como entidades familiares protegidas pelo Estado; ademais, segundo jurisprudência consolidada do STF, a união estável entre pessoas do mesmo sexo também é reconhecida como entidade familiar com idênticos direitos conferidos às uniões heteroafetivas.",
+    "gabarito": "CERTO",
+    "comentario": "O artigo 226, §§ 3º e 4º, alinhado à jurisprudência do STF (ADI 4277, ADPF 132 e RE 646.721), assegura proteção às entidades familiares em sentido amplo, incluindo as uniões estáveis heteroafetivas, monoparentais e a união estável homoafetiva.",
+    "id": "d0ed0ea4-4b60-4e6f-aeb1-f5415d1ead23",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITO CONSTITUCIONAL",
+    "topico_edital": "DIREITO CONSTITUCIONAL - Direitos e deveres fundamentais (Art. 5º)",
+    "pergunta": "Os filhos havidos fora do casamento ou por adoção gozam dos mesmos direitos e qualificações daqueles havidos na constância do matrimônio, vedando-se quaisquer designações discriminatórias relativas à filiação.",
+    "gabarito": "CERTO",
+    "comentario": "A questão reflete a redação do artigo 227, § 6º, da Constituição Federal de 1988, que veda categoricamente qualquer forma de discriminação entre filhos biológicos, adotivos ou havidos fora do casamento.",
+    "id": "29e0c025-25e5-4dc3-bb4a-51c926380269",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITO CONSTITUCIONAL",
+    "topico_edital": "DIREITO CONSTITUCIONAL - Direitos e deveres fundamentais (Art. 5º)",
+    "pergunta": "Aos maiores de sessenta anos de idade é garantida constitucionalmente a gratuidade dos transportes coletivos urbanos.",
+    "gabarito": "ERRADO",
+    "comentario": "O artigo 230, § 2º, da Constituição Federal assegura a gratuidade dos transportes coletivos urbanos aos maiores de 65 (sessenta e cinco) anos, e não 60 anos.",
+    "id": "0131aa90-1020-4b1c-abe0-cfecb6238ec8",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITO CONSTITUCIONAL",
+    "topico_edital": "DIREITO CONSTITUCIONAL - Direitos e deveres fundamentais (Art. 5º)",
+    "pergunta": "As terras tradicionalmente ocupadas pelos povos indígenas são de propriedade privada e exclusiva das respectivas comunidades tribais, sendo vedada a intervenção da União em seu domínio patrimonial.",
+    "gabarito": "ERRADO",
+    "comentario": "Nos termos do artigo 20, inciso XI, da CF/88, as terras tradicionalmente ocupadas pelos índios são bens públicos de propriedade da União. Aos índios é assegurada a posse permanente e o usufruto exclusivo das riquezas do solo, rios e lagos (art. 231, § 2º).",
+    "id": "57d1beb6-26f5-49a8-aa42-e6eaf73c8cf7",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITO CONSTITUCIONAL",
+    "topico_edital": "DIREITO CONSTITUCIONAL - Direitos e deveres fundamentais (Art. 5º)",
+    "pergunta": "O aproveitamento de potenciais energéticos e a pesquisa e lavra de riquezas minerais em terras indígenas só podem ser efetuados mediante prévia autorização do Congresso Nacional, ouvidas as comunidades afetadas e assegurada a elas participação nos resultados da lavra.",
+    "gabarito": "CERTO",
+    "comentario": "A assertiva reproduz fielmente a regra do artigo 231, § 3º, da Constituição Federal, condicionando a pesquisa e lavra de recursos minerais/hídricos em terras indígenas à autorização prévia do Congresso Nacional.",
+    "id": "0856fd02-a22d-43c5-ad15-de9bb66d6646",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITO CONSTITUCIONAL",
+    "topico_edital": "DIREITO CONSTITUCIONAL - Direitos e deveres fundamentais (Art. 5º)",
+    "pergunta": "Os índios, suas comunidades e suas organizações são partes legítimas para ingressar diretamente em juízo na defesa de seus direitos e interesses, sendo obrigatória a intervenção do Ministério Público em todos os atos do processo.",
+    "gabarito": "CERTO",
+    "comentario": "A questão reflete com precisão o artigo 232 da Carta Magna, garantindo autonomia e capacidade processual direta aos índios, comunidades e suas organizações, devendo o Ministério Público intervir em todos os atos procedimentais.",
+    "id": "9a1cdd38-6858-49ab-a04e-08dc693b5413",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITO PENAL",
+    "topico_edital": "DIREITO PENAL - Teoria do Crime (Tipicidade, ilicitude e culpabilidade)",
+    "pergunta": "Considere que, durante uma abordagem da PRF na rodovia, um caminhoneiro seja flagrado transportando carga ilícita e comprove ter agido porque sua família mantida em cárcere privado por uma facção sofria ameaças iminentes de morte caso a viagem não fosse realizada. Nessa situação, o caminhoneiro estará amparado por causa excludente de culpabilidade consistente na coação moral irresistível.",
+    "gabarito": "CERTO",
+    "comentario": "A ameaça grave de morte contra familiares retira a liberdade de escolha do agente sem anular seus movimentos físicos mecânicos. Trata-se de Coação Moral Irresistível (Art. 22 do CP), que exclui a exigibilidade de conduta diversa e, consequentemente, afasta a culpabilidade.",
+    "id": "cbd779ad-218d-43e5-a5f9-fa54ce59f4ee",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITO PENAL",
+    "topico_edital": "DIREITO PENAL - Teoria do Crime (Tipicidade, ilicitude e culpabilidade)",
+    "pergunta": "Caso um condutor consuma dolosamente bebida alcoólica com o objetivo específico de ganhar coragem para disputar uma corrida clandestina (racha) na BR e venha a causar colisão fatal, sua imputabilidade será mantida com base na teoria da actio libera in causa, incidindo ainda uma circunstância agravante de pena.",
+    "gabarito": "CERTO",
+    "comentario": "A conduta caracteriza a embriaguez pré-ordenada (o agente embriaga-se visando a prática do ilícito). Pela teoria da actio libera in causa, ele responde pelo resultado a título doloso e sua pena será agravada nos termos do Art. 61, II, \"l\", do Código Penal.",
+    "id": "7e947c62-3b8f-40ed-8369-e3185b2257ee",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITO PENAL",
+    "topico_edital": "DIREITO PENAL - Teoria do Crime (Tipicidade, ilicitude e culpabilidade)",
+    "pergunta": "Um funcionário de uma concessionária privada de rodovias que praticar ato criminoso em cumprimento estrito a ordens não manifestamente ilegais emanadas de seu diretor presidente ficará isento de pena em razão da obediência hierárquica.",
+    "gabarito": "ERRADO",
+    "comentario": "A causa excludente da culpabilidade por obediência hierárquica (Art. 22) exige estritamente a existência de vínculo funcional no âmbito do Direito Público. Em relações de trabalho privado, o cumprimento de ordens ilegais não afasta a responsabilidade criminal do executor.",
+    "id": "f9938914-f9e6-419d-9889-03d570ac7caf",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITO PENAL",
+    "topico_edital": "DIREITO PENAL - Teoria do Crime (Tipicidade, ilicitude e culpabilidade)",
+    "pergunta": "O motorista estrangeiro recém-chegado ao Brasil que transporte pequenas porções de substância entorpecente na rodovia, por desconhecer a ilicitude do fato em razão de erro invencível sobre a norma penal brasileira, estará isento de pena por exclusão da culpabilidade.",
+    "gabarito": "CERTO",
+    "comentario": "Trata-se de Erro de Proibição Inevitável/Escusável (Art. 21, caput, do CP). Como o agente não tinha a potencial consciência da ilicitude nem podia atingi-la nas circunstâncias concretas, ocorre a isenção de pena por exclusão da culpabilidade.",
+    "id": "a1f922c7-3afb-494b-a30b-22ca3eaebb09",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITO PENAL",
+    "topico_edital": "DIREITO PENAL - Teoria do Crime (Tipicidade, ilicitude e culpabilidade)",
+    "pergunta": "O indivíduo acometido por grave esquizofrenia que, em razão de surto psicótico completo atestado por perícia, surrupiar uma viatura da PRF acreditando cumprir missão divina, responderá pelo crime de furto com pena reduzida de um a dois terços.",
+    "gabarito": "ERRADO",
+    "comentario": "Por ser inteiramente incapaz ao tempo da ação em virtude de doença mental, o agente é inimputável (Art. 26, caput, do CP). Ele é isento de pena (recebe absolvição imprópria com medida de segurança) e não pena reduzida. A redução de pena de 1/3 a 2/3 destina-se apenas aos semi-imputáveis do parágrafo único do Art. 26.",
+    "id": "f77eab10-d014-4291-b7df-6d97042d8f34",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITO PENAL",
+    "topico_edital": "DIREITO PENAL - Crimes contra a pessoa",
+    "pergunta": "Durante um patrulhamento na BR-101, a PRF atendeu a uma ocorrência de briga de trânsito na qual o motorista A desferiu um soco no rosto do motorista B com o intuito de feri-lo. Em razão do soco, B desequilibrou-se, caiu e bateu a cabeça no meio-fio, vindo a falecer no local sem que A tivesse desejado ou assumido o risco de matá-lo. Nessa situação, A responderá pelo crime de lesão corporal seguida de morte, que possui natureza preterdolosa.",
+    "gabarito": "CERTO",
+    "comentario": "Configura-se a lesão corporal seguida de morte (Art. 129, § 3º do CP). Trata-se de um delito preterdoloso: o agente agiu com dolo no antecedente (vontade de lesionar / animus laedendi) e causou o resultado morte por culpa no consequente.",
+    "id": "982afdfe-3d12-422c-82ea-c595bc12cac6",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITO PENAL",
+    "topico_edital": "DIREITO PENAL - Crimes contra a incolumidade e fé pública",
+    "pergunta": "Considere que um usuário de uma rodovia federal tenha imputado falsamente a um Inspetor da PRF a prática da contravenção penal de exploração de jogo do bicho dentro do posto policial. Nessa situação hipotética, o condutor cometeu o delito de calúnia.",
+    "gabarito": "ERRADO",
+    "comentario": "A calúnia (Art. 138 do CP) exige a imputação falsa de fato definido como CRIME. A imputação falsa de contravenção penal não caracteriza calúnia, configurando o crime de difamação (Art. 139 do CP).",
+    "id": "264b128d-9a4a-4914-8dac-5abbafaa1033",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITO PENAL",
+    "topico_edital": "DIREITO PENAL - Crimes contra a pessoa",
+    "pergunta": "Com as alterações introduzidas pela Lei n. 14.994/2024, o feminicídio deixou de ser uma circunstância qualificadora do crime de homicídio e passou a figurar como tipo penal autônomo no Art. 121-A do Código Penal, com pena de reclusão de 20 a 40 anos.",
+    "gabarito": "CERTO",
+    "comentario": "A Lei n. 14.994/2024 conferiu novo status ao feminicídio, retirando-o do rol de qualificadoras do Art. 121 e criando o tipo penal autônomo do Art. 121-A do Código Penal, com pena privativa de liberdade de reclusão, de 20 a 40 anos.",
+    "id": "a422b0c5-23dd-4dae-9d8d-74a1c3232005",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITO PENAL",
+    "topico_edital": "DIREITO PENAL - Crimes contra a pessoa",
+    "pergunta": "Um condutor que, durante uma discussão na rodovia, agrida fisicamente um passageiro e cause a este a cegueira de apenas um dos olhos responderá por lesão corporal de natureza gravíssima devido à perda de sentido.",
+    "gabarito": "ERRADO",
+    "comentario": "Segundo a jurisprudência e a doutrina consagradas, a perda de um único olho em órgão duplo acarreta apenas o enfraquecimento/redução da visão, configurando debilidade permanente de sentido, hipótese de Lesão Corporal Grave (Art. 129, § 1º, III do CP). A lesão gravíssima (Art. 129, § 2º, III) exige a perda total da visão.",
+    "id": "4b8cf540-164e-4020-a943-e947196c1da7",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITO PENAL",
+    "topico_edital": "DIREITO PENAL - Crimes contra a pessoa",
+    "pergunta": "Por se tratar de crime habitual que exige reiteração de atos de perseguição que ameacem a integridade física ou psicológica da vítima, o delito de stalking (Art. 147-A do Código Penal) não admite a modalidade tentada.",
+    "gabarito": "CERTO",
+    "comentario": "O delito de perseguição (stalking — Art. 147-A do CP) classifica-se como crime habitual, exigindo a reiteração de condutas para a sua consumação. Por imperativo doutrinário e jurisprudencial, os crimes habituais não admitem tentativa.",
+    "id": "f391fc39-a993-4687-82f7-6f551c32bb42",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITO PENAL",
+    "topico_edital": "DIREITO PENAL - Crimes contra o patrimônio",
+    "pergunta": "Considere que, em uma fiscalização na BR-116, a PRF tenha abordado um automóvel conduzido por um indivíduo que transportava o veículo ciente de que se tratava de bem furtado na semana anterior. Nessa situação hipotética, por se tratar de crime permanente na modalidade transportar ou conduzir, o condutor encontrava-se em situação de flagrante delito.",
+    "gabarito": "CERTO",
+    "comentario": "No delito de receptação (Art. 180, caput, do CP), as condutas de transportar, conduzir e ocultar possuem natureza de crime permanente. Enquanto o agente estiver na posse e circulação do veículo sabidamente ilícito na rodovia, a consumação se prolonga, fundamentando a prisão em flagrante delito.",
+    "id": "715a0d4e-348b-462e-9da9-36be976575ff",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITO PENAL",
+    "topico_edital": "DIREITO PENAL - Crimes contra a pessoa",
+    "pergunta": "Segundo a jurisprudência sumulada do Supremo Tribunal Federal, o delito de latrocínio consumado com resultado morte exige para a sua configuração a efetiva subtração e apossamento dos bens da vítima.",
+    "gabarito": "ERRADO",
+    "comentario": "Conforme estabelece a Súmula 610 do STF, \"Há crime de latrocínio, quando o homicídio se consuma, ainda que não realize o agente a subtração de bens da vítima\". A consumação da morte é suficiente para perfazer o latrocínio consumado.",
+    "id": "773ba1c9-5ad3-421f-8714-8b788541976a",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITO PENAL",
+    "topico_edital": "DIREITO PENAL - Crimes contra o patrimônio",
+    "pergunta": "Um filho que subtrai sem violência ou grave ameaça a quantia de R$ 5.000,00 da carteira de seu pai, de 52 anos de idade, estará isento de pena em razão do reconhecimento de escusa absolutória legalmente prevista no Código Penal.",
+    "gabarito": "CERTO",
+    "comentario": "Incide a Escusa Absolutória / Imunidade Absoluta do Art. 181, II, do Código Penal (crime patrimonial não violento praticado em prejuízo de ascendente). Como o furto foi praticado sem violência/grave ameaça e o pai possui menos de 60 anos, afasta-se a vedação do Art. 183 e o filho fica isento de pena.",
+    "id": "9bb0f1a1-c35d-43fa-a82c-3f42895fa265",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITO PENAL",
+    "topico_edital": "DIREITO PENAL - Crimes contra o patrimônio",
+    "pergunta": "Considere que um infrator, com a intenção de efetuar saques na conta corrente de um condutor parado em um posto de combustível na rodovia, tenha efetuado a clonagem do cartão e da senha bancária da vítima sem o seu conhecimento. Nessa situação, segundo o STJ, a conduta do infrator enquadra-se no delito de estelionato.",
+    "gabarito": "ERRADO",
+    "comentario": "O Superior Tribunal de Justiça firmou a tese de que a realização de saques indevidos em conta corrente mediante uso de cartão ou senha clonados, sem a anuência da vítima, configura FURTO MEDIANTE FRAUDE (Art. 155, § 4º, II, do CP), pois a fraude visa burlar a vigilância para subtrair os valores.",
+    "id": "acb5b904-1c3c-4cb4-888d-61dd76cf4e84",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITO PENAL",
+    "topico_edital": "DIREITO PENAL - Crimes contra o patrimônio",
+    "pergunta": "Por se tratar de crime qualificado pela morte que atinge o bem jurídico patrimônio, a competência para o julgamento do crime de latrocínio pertence ao juiz singular da vara criminal, e não ao Tribunal do Júri.",
+    "gabarito": "CERTO",
+    "comentario": "Nos termos da Súmula 603 do STF, \"A competência para o processo e julgamento de latrocínio é do juiz singular e não do Tribunal do Júri\". Como o latrocínio integra os crimes contra o patrimônio (Título II do CP), o julgamento é de atribuição da Vara Criminal Comum.",
+    "id": "4ba00a33-8273-4ecd-903e-bc04935577c5",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITO PENAL",
+    "topico_edital": "DIREITO PENAL - Crimes contra a pessoa",
+    "pergunta": "Durante uma abordagem em rodovia federal, a PRF resgatou uma jovem de 13 anos de idade que viajava em companhia de um adulto de 20 anos. Na fiscalização, o condutor alegou que mantinha relacionamento amoroso consensual com a jovem, com a anuência dos pais dela. Nessa situação hipotética, o consentimento da jovem e a existência de relacionamento amoroso afastam a tipicidade do crime de estupro de vulnerável.",
+    "gabarito": "ERRADO",
+    "comentario": "Conforme estabelece expressamente a Súmula 593 do STJ e o Art. 217-A do Código Penal, a presunção de vulnerabilidade do menor de 14 anos é absoluta. O consentimento da vítima, sua experiência anterior ou a existência de relacionamento amoroso são totalmente irrelevantes para afastar o crime.",
+    "id": "205facc0-a800-4b2c-8f5f-d3ff72e52467",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITO PENAL",
+    "topico_edital": "DIREITO PENAL - Crimes contra a pessoa",
+    "pergunta": "A conduta de um indivíduo que, sem o emprego de violência ou grave ameaça, ejacula em uma passageira no interior de um ônibus intermunicipal durante a viagem caracteriza o crime de importunação sexual.",
+    "gabarito": "CERTO",
+    "comentario": "A conduta amolda-se perfeitamente ao tipo penal da Importunação Sexual (Art. 215-A do CP), que pune a prática de ato libidinoso sem a anuência da vítima e sem a presença de violência física grave ou ameaça explícita.",
+    "id": "56ba555e-c7fd-471d-9037-56101c328f82",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITO PENAL",
+    "topico_edital": "DIREITO PENAL - Crimes contra a pessoa",
+    "pergunta": "O delito de assédio sexual pressupõe que o agente se prevaleça de sua condição de superior hierárquico ou ascendência decorrentes do exercício de emprego, cargo ou função para constranger a vítima com o objetivo de obter vantagem sexual.",
+    "gabarito": "CERTO",
+    "comentario": "Trata-se da exata redação do Art. 216-A do Código Penal. O assédio sexual é crime próprio e exige indispensavelmente a relação de hierarquia trabalhista ou funcional.",
+    "id": "e6ba65d7-3063-4d21-8e39-81770cba8f31",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITO PENAL",
+    "topico_edital": "DIREITO PENAL - Crimes contra a pessoa",
+    "pergunta": "Por se tratar de crime atinente à intimidade da pessoa humana, a ação penal nos delitos contra a dignidade sexual praticados contra vítimas maiores e capazes é pública condicionada à representação do ofendido.",
+    "gabarito": "ERRADO",
+    "comentario": "Nos termos da alteração promovida pela Lei nº 13.718/2018 no Art. 225 do Código Penal, a ação penal em todos os crimes contra a dignidade sexual é pública incondicionada.",
+    "id": "8d07e253-95c5-45d8-a9e7-5e6643027582",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "LEGISLAÇÃO ESPECIAL",
+    "topico_edital": "LEGISLAÇÃO ESPECIAL - Crimes Hediondos e Organização Criminosa",
+    "pergunta": "Segundo o Código Penal e a Lei de Crimes Hediondos, o delito de estupro de vulnerável é classificado como crime hediondo em todas as suas modalidades.",
+    "gabarito": "CERTO",
+    "comentario": "O crime de estupro de vulnerável (Art. 217-A do CP) integra o rol taxativo de crimes hediondos (Art. 1º, VI, da Lei nº 8.072/1990) em todas as suas formas (caput e parágrafos).",
+    "id": "f3a6e372-ae17-4f33-a831-f0b27018c0a6",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITO PENAL",
+    "topico_edital": "DIREITO PENAL - Crimes contra a incolumidade e fé pública",
+    "pergunta": "Durante uma fiscalização na BR-101, policiais rodoviários federais abordaram um ônibus intermunicipal e apreenderam uma grande quantidade de comprimidos de origem estrangeira sem registro na ANVISA, de reduzida nocividade à saúde. Nessa situação, conforme entendimento do STF (Tema 1161), a pena de 10 a 15 anos de reclusão prevista no Art. 273 do Código Penal é inconstitucional por violar o princípio da proporcionalidade.",
+    "gabarito": "CERTO",
+    "comentario": "No julgamento do RE 688.006 (Tema 1161 da Repercussão Geral), o STF declarou a inconstitucionalidade do preceito secundário do Art. 273, § 1º-B, I, do CP (pena de 10 a 15 anos) nos casos de importação/venda de medicamentos não registrados de baixa nocividade, haja vista a manifesta desproporcionalidade da sanção.",
+    "id": "085c5ea0-9a4e-4ff4-b316-91e5d046698e",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITO PENAL",
+    "topico_edital": "DIREITO PENAL - Crimes contra a incolumidade e fé pública",
+    "pergunta": "Considere que um indivíduo tenha provocado um incêndio em um depósito de combustível desativado e isolado, localizado em área desabitada, sem expor a risco a vida, a integridade física ou o patrimônio de qualquer pessoa. Nessa situação, o fato é atípico em relação ao crime previsto no Art. 250 do Código Penal por ausência de perigo concreto à coletividade.",
+    "gabarito": "CERTO",
+    "comentario": "O crime de incêndio (Art. 250 do CP) é de perigo concreto e exige a efetiva exposição a risco da vida, integridade ou patrimônio de um número indeterminado de pessoas. Como a conduta ocorreu em local totalmente isolado e sem gerar perigo comum, o fato é atípico.",
+    "id": "4515db85-1d5f-4efd-9a47-5d95512190f7",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITO PENAL",
+    "topico_edital": "DIREITO PENAL - Crimes contra a incolumidade e fé pública",
+    "pergunta": "O delito de infração de medida sanitária preventiva (Art. 268 do Código Penal) é classificado pela doutrina como uma norma penal em branco em sentido estrito, necessitando de complemento normativo para a definição da determinação do poder público.",
+    "gabarito": "CERTO",
+    "comentario": "O Art. 268 do CP é o exemplo clássico de norma penal em branco heterogênea. O tipo penal comina a sanção, mas depende de regulamento, portaria ou decreto do poder público para complementar o conceito de medida sanitária preventiva.",
+    "id": "c2f3bf53-bb8b-4ffa-a77f-64ed0589ac70",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITO PENAL",
+    "topico_edital": "DIREITO PENAL - Crimes contra a incolumidade e fé pública",
+    "pergunta": "Aquele que anuncia em redes sociais a cura da diabetes por meio de uma poção secreta e infalível de sua invenção, com o objetivo de obter ganhos financeiros enganando a boa-fé pública, comete o delito de curandeirismo na modalidade tentada.",
+    "gabarito": "ERRADO",
+    "comentario": "A conduta de divulgar ou anunciar cura por meio secreto ou infalível amolda-se ao crime de Charlatanismo (Art. 283 do CP). Como se consuma no momento do anúncio (perigo abstrato), o delito restou consumado, e não tentado. O curandeirismo (Art. 284) envolve o uso de ervas/gestos sem alegação de meio secreto/infalível.",
+    "id": "28836c76-0755-44e7-8f9a-fa8ee468b4cf",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITO PENAL",
+    "topico_edital": "DIREITO PENAL - Crimes contra a incolumidade e fé pública",
+    "pergunta": "Por se tratar de crime habitual, o delito de exercício ilegal da medicina (Art. 282 do Código Penal) consuma-se com a prática reiterada da profissão sem a devida autorização legal, não admitindo a modalidade tentada.",
+    "gabarito": "CERTO",
+    "comentario": "O exercício ilegal da medicina (Art. 282 do CP) é um crime habitual. Exige a prática iterativa/reiterada de atos médicos para a sua consumação. Por razões lógicas da estrutura da habitualidade, não se admite a tentativa.",
+    "id": "701f793d-5935-4224-be22-34305c4a680d",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITO PENAL",
+    "topico_edital": "DIREITO PENAL - Crimes contra a incolumidade e fé pública",
+    "pergunta": "Durante uma fiscalização de trânsito em rodovia federal, o condutor de um veículo apresentou espontaneamente aos policiais rodoviários federais uma carteira de habilitação (CNH) que ele próprio havia falsificado no dia anterior. Nessa situação hipotética, o condutor responderá em concurso formal pelos crimes de falsificação de documento público e uso de documento falso.",
+    "gabarito": "ERRADO",
+    "comentario": "Por força do princípio da consunção, quando o próprio autor da falsificação faz uso do documento falso, o delito de uso (Art. 304) é absorvido pelo crime de falsificação de documento público (Art. 297 do CP), figurando o uso como mero fato posterior impunível. O agente responde apenas por um único crime.",
+    "id": "a34eb765-4f1e-4b57-b980-684c2ddd11f4",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITO PENAL",
+    "topico_edital": "DIREITO PENAL - Crimes contra a incolumidade e fé pública",
+    "pergunta": "Considere que um indivíduo tenha efetuado a compra de mercadorias em um estabelecimento comercial utilizando uma nota de cem reais falsificada de forma grosseira, incapaz de enganar o homem médio, mas que foi aceita pelo atendente por desatenção. Nessa situação, segundo o STJ, a conduta enquadra-se no crime de moeda falsa.",
+    "gabarito": "ERRADO",
+    "comentario": "Nos termos da Súmula 73 do STJ, a utilização de papel-moeda grosseiramente falsificado descaracteriza a lesão à fé pública (afastando o crime de moeda falsa do Art. 289) e configura, em tese, o crime de Estelionato (Art. 171 do CP), de competência da Justiça Estadual.",
+    "id": "67b90c35-ac5a-4596-a249-cbb7af914b38",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITO PENAL",
+    "topico_edital": "DIREITO PENAL - Crimes contra a incolumidade e fé pública",
+    "pergunta": "Com as alterações promovidas pela Lei nº 14.562/2023 no Art. 311 do Código Penal, a conduta de conduzir ou transportar reboque ou semirreboque com sinal identificador veicular que o agente devia saber estar adulterado passou a figurar expressamente como figura equiparada do delito de adulteração de sinal identificador veicular.",
+    "gabarito": "CERTO",
+    "comentario": "A Lei nº 14.562/2023 atualizou a redação do Art. 311 do CP, incluindo expressamente reboques, semirreboques e suas combinações no rol de objetos materiais e criminalizou a conduta daquele que conduz ou transporta o veículo com sinal identificador veicular adulterado (§ 2º, III).",
+    "id": "24c8637e-3d7f-4d91-9540-d440b71e1666",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITO PENAL",
+    "topico_edital": "DIREITO PENAL - Crimes contra a incolumidade e fé pública",
+    "pergunta": "A falsificação integral de um cartão de crédito ou de débito é tipificada no Código Penal como crime de falsificação de documento particular, tendo em vista a equiparação legal expressa constante no dispositivo penal correspondente.",
+    "gabarito": "CERTO",
+    "comentario": "De acordo com o Art. 298, parágrafo único, do Código Penal, equipara-se a documento particular o cartão de crédito ou débito para os efeitos da configuração do crime de falsificação de documento particular.",
+    "id": "5c6275b7-658b-4ba7-8665-a0889afb4ef2",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITO PENAL",
+    "topico_edital": "DIREITO PENAL - Crimes contra a incolumidade e fé pública",
+    "pergunta": "O agente que insere declaração falsa de residência em documento público com o objetivo di alterar a verdade sobre fato juridicamente relevante comete o delito de falsificação de documento público, cuja comprovação depende de exame de corpo de delito pericial.",
+    "gabarito": "ERRADO",
+    "comentario": "A inserção de declaração falsa sobre fato juridicamente relevante em documento cuja forma é verdadeira constitui o crime de Falsidade Ideológica (Art. 299 do CP), e não de falsificação de documento público. Por incidir sobre o conteúdo e não sobre a estrutura externa, a falsidade ideológica não depende de exame pericial.",
+    "id": "374db6a5-8914-4e43-96fc-5159c4eb7b03",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITO PENAL",
+    "topico_edital": "DIREITO PENAL - Crimes contra a Administração Pública",
+    "pergunta": "Considere que, durante uma fiscalização de rotina em rodovia federal, um Policial Rodoviário Federal tenha exigido a quantia de R$ 1.000,00 de um condutor para não lavrar o auto de infração por excesso de velocidade. Nessa situação hipotética, o policial responderá pelo crime de concussão, ao passo que o condutor que efetuar o pagamento exigido responderá pelo delito de corrupção ativa.",
+    "gabarito": "ERRADO",
+    "comentario": "O policial cometeu o crime de Concussão (Art. 316 do CP) por ter exigido a vantagem indevida. O condutor que pagou a quantia exigida não cometeu crime algum (fato atípico), pois a lei penal não pune o ato de ceder à exigência ou solicitação do servidor. O crime de corrupção ativa (Art. 333) exige que a iniciativa parta do particular.",
+    "id": "32030050-fdeb-44ec-9dc7-7d0df465b3c8",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITO PENAL",
+    "topico_edital": "DIREITO PENAL - Crimes contra a Administração Pública",
+    "pergunta": "No crime de peculato culposo, a reparação do dano operada pelo funcionário público antes do trânsito em julgado da sentença condenatória extingue a punibilidade, enquanto a reparação posterior reduz a pena imposta pela metade.",
+    "gabarito": "CERTO",
+    "comentario": "Trata-se da regra expressa contida no Art. 312, § 3º, do Código Penal. A reparação prévia ao trânsito em julgado extingue a punibilidade, ao passo que o ressarcimento posterior à sentença irrecorrível reduz a pena pela metade.",
+    "id": "dfe8d816-d56e-4d50-8a6e-586ad2f5e709",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITO PENAL",
+    "topico_edital": "DIREITO PENAL - Crimes contra a Administração Pública",
+    "pergunta": "Segundo o entendimento consolidado no âmbito do Superior Tribunal de Justiça e do Supremo Tribunal Federal, o delito de desacato previsto no artigo 331 do Código Penal não foi recepcionado pela Constituição Federal de 1988 por violar a liberdade de expressão.",
+    "gabarito": "ERRADO",
+    "comentario": "A Terceira Seção do STJ e o STF (ADPF 496) pacificaram o entendimento de que o crime de Desacato (Art. 331 do CP) foi recepcionado pela Constituição Federal de 1988, sendo plenamente válido no ordenamento jurídico pátrio.",
+    "id": "716e1efd-beb4-424c-8dc4-2b0c97bcb402",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITO PENAL",
+    "topico_edital": "DIREITO PENAL - Crimes contra a Administração Pública",
+    "pergunta": "Um caminhoneiro que for interceptado pela PRF na rodovia transportando grande quantidade de eletrônicos importados sem o recolhimento dos tributos devidos, cujo valor iludido seja de R$ 15.000,00, poderá ter reconhecida a atipicidade material de sua conduta perante o crime de descaminho por aplicação do princípio da insignificância.",
+    "gabarito": "CERTO",
+    "comentario": "No crime de Descaminho (Art. 334 do CP), o STF e o STJ aplicam o princípio da insignificância se o montante dos tributos elididos não ultrapassar o valor de R$ 20.000,00. Como o montante foi de R$ 15.000,00, a conduta é materialmente atípica.",
+    "id": "062629cd-92c7-4560-84ee-b8e83dd6498b",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITO PENAL",
+    "topico_edital": "DIREITO PENAL - Crimes contra a Administração Pública",
+    "pergunta": "Configura o crime de favorecimento pessoal a conduta daquele que, sem qualquer intenção de obter vantagem econômica, presta auxílio a um criminoso após a consumação do furto no sentido de ocultar e tornar seguro o bem subtraído.",
+    "gabarito": "ERRADO",
+    "comentario": "O auxílio destinado a tornar seguro o proveito do crime (ocultar a res furtiva) configura o crime de Favorecimento Real (Art. 349 do CP). O Favorecimento Pessoal (Art. 348 do CP) ocorre quando o auxílio destina-se a ajudar o próprio criminoso a fugir da ação da autoridade policial.",
+    "id": "097e70c3-6655-47b6-a494-cb2b6b5638eb",
+    "prova": "inédita"
   }
 ]
