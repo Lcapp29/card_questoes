@@ -4273,5 +4273,365 @@
     "comentario": "Por avaliar cada pacote de maneira isolada (sem memória de contexto/estado), um firewall stateless necessita de regras de filtragem espelhadas e explícitas para autorizar o fluxo bidirecional (regras para o pacote de solicitação de ida e para o pacote de resposta de volta).",
     "id": "14e5f659-3f18-4383-823d-2e145cb81ee8",
     "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITO PROCESSUAL PENAL",
+    "topico_edital": "DIREITO PROCESSUAL PENAL - Prova e Cadeia de Custódia",
+    "pergunta": "A busca e apreensão possui natureza jurídica de meio de obtenção de prova cautelar, visando arrecadar elementos constitutivos de corpo de delito que corram o risco de desaparecer.",
+    "gabarito": "CERTO",
+    "comentario": "A busca e apreensão é uma prova cautelar e meio de obtenção de prova destinado a colocar à disposição da Justiça elementos probatórios sujeitos ao risco de perecimento.",
+    "id": "0e7c9670-6422-493d-9219-97da4cdfe814",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITO PROCESSUAL PENAL",
+    "topico_edital": "DIREITO PROCESSUAL PENAL - Prova e Cadeia de Custódia",
+    "pergunta": "O conceito jurídico-processual de 'casa', para fins da proteção constitucional da inviolabilidade domiciliar, abrange o quarto de hotel habitado, mas não se estende à boléia de caminhão utilizada pelo condutor como residência transitória.",
+    "gabarito": "ERRADO",
+    "comentario": "A boléia de caminhão utilizada pelo caminhoneiro como moradia transitória é abrangida pela proteção constitucional do conceito de 'casa'.",
+    "id": "d5b073f6-1740-4168-bdfc-740e5572b2e0",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITO PROCESSUAL PENAL",
+    "topico_edital": "DIREITO PROCESSUAL PENAL - Prova e Cadeia de Custódia",
+    "pergunta": "No exercício da fiscalização de trânsito em rodovias federais, a realização de busca pessoal em condutor de automóvel de passeio independe da expedição de mandado judicial, desde que demonstrada a fundada suspeita.",
+    "gabarito": "CERTO",
+    "comentario": "Art. 244 do CPP: a busca pessoal e veicular em automóveis comuns independe de mandado judicial se houver fundada suspeita.",
+    "id": "843d4c78-e066-457d-a15b-c93cbcbab1f8",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITO PROCESSUAL PENAL",
+    "topico_edital": "DIREITO PROCESSUAL PENAL - Prova e Cadeia de Custódia",
+    "pergunta": "De acordo com o Código de Processo Penal, a busca pessoal realizada por agente policial do sexo masculino em uma suspeita do sexo feminino acarretará obrigatoriamente a nulidade absoluta da prova obtida, independentemente das circunstâncias do local.",
+    "gabarito": "ERRADO",
+    "comentario": "Art. 249 do CPP: a busca em mulher será feita por outra mulher se não importar retardamento ou prejuízo da diligência. Havendo prejuízo ou retardamento, a revista efetuada por homem é válida.",
+    "id": "d754edfa-7f07-4244-b530-11107b811eb6",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITO PROCESSUAL PENAL",
+    "topico_edital": "DIREITO PROCESSUAL PENAL - Prova e Cadeia de Custódia",
+    "pergunta": "A simples notícia anônima sobre a prática de crime no interior de determinada residência é elemento idôneo e suficiente para fundamentar o deferimento judicial de mandado de busca e apreensão domiciliar.",
+    "gabarito": "ERRADO",
+    "comentario": "Jurisprudência do STF (HC 106152) e STJ (RHC 88.642): a notícia anônima isolada não autoriza a expedição de mandado de busca sem prévias investigações.",
+    "id": "f9a65cdf-e4e3-40f3-a516-f1c4f5a453b9",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITO PROCESSUAL PENAL",
+    "topico_edital": "DIREITO PROCESSUAL PENAL - Prova e Cadeia de Custódia",
+    "pergunta": "O mandado judicial de busca e apreensão domiciliar deve ser executado obrigatoriamente durante o dia, sendo vedado o seu cumprimento forçado no período noturno sem o consentimento do morador.",
+    "gabarito": "CERTO",
+    "comentario": "Art. 5º, XI, da CF/88 c/c Art. 245 do CPP: os mandados judiciais de busca domiciliar só podem ser executados durante o dia.",
+    "id": "b0642aa8-e2de-49e7-b6db-0e3931bbb2eb",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITO PROCESSUAL PENAL",
+    "topico_edital": "DIREITO PROCESSUAL PENAL - Prova e Cadeia de Custódia",
+    "pergunta": "Configura ilicitude probatória o ingresso forçado de policiais em residência, sem mandado judicial e durante a noite, caso não existam fundadas razões prévias e objetivas que sinalizem a ocorrência de crime em flagrante delito no local.",
+    "gabarito": "CERTO",
+    "comentario": "STF (Tema 280 / RE 603.616): a entrada em domicílio sem mandado exige fundadas razões (justa causa) prévias que indiquem flagrante delito no interior do imóvel.",
+    "id": "fb9fc462-8bde-493c-aab8-c9882dd1988c",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITO PROCESSUAL PENAL",
+    "topico_edital": "DIREITO PROCESSUAL PENAL - Prova e Cadeia de Custódia",
+    "pergunta": "De acordo com o Superior Tribunal de Justiça, a realização de busca e apreensão sem mandado judicial em apartamento completamente desabitado e sem sinais de moradia transitória viola a garantia constitucional da inviolabilidade do domicílio.",
+    "gabarito": "ERRADO",
+    "comentario": "STJ (HC 588445/SC): imóvel desabitado e sem sinais de moradia não é protegido como 'casa', sendo válida a busca sem mandado havendo suspeita de crime permanente.",
+    "id": "3e8b95ce-99f6-487c-8882-291b9c2c18d9",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITO PROCESSUAL PENAL",
+    "topico_edital": "DIREITO PROCESSUAL PENAL - Prova e Cadeia de Custódia",
+    "pergunta": "Durante a lavratura de auto de prisão em flagrante decorrente de busca veicular regular na rodovia, é lícito aos policiais acessarem imediatamente e sem autorização judicial o conteúdo de mensagens trocadas via aplicativo WhatsApp no celular apreendido do condutor.",
+    "gabarito": "ERRADO",
+    "comentario": "STJ (HC 372.762/MG): é ilícita a prova obtida mediante acesso direto a dados de celular (mensagens e WhatsApp) no flagrante sem prévia ordem judicial.",
+    "id": "a7f67289-1dd4-48df-9285-130e2d9bc8a5",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITO PROCESSUAL PENAL",
+    "topico_edital": "DIREITO PROCESSUAL PENAL - Prova e Cadeia de Custódia",
+    "pergunta": "Caso o morador autorize expressamente a entrada dos policiais em sua residência para a realização de busca sem mandado, cabe ao Estado o ônus de comprovar a voluntariedade e a licitude desse consentimento.",
+    "gabarito": "CERTO",
+    "comentario": "Jurisprudência do STF e STJ: recai sobre o Estado o ônus de provar a voluntariedade e a licitude do consentimento do morador para ingresso domiciliar.",
+    "id": "0059b54a-e09c-4058-9ce7-8342bf07e881",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITO PROCESSUAL PENAL",
+    "topico_edital": "DIREITO PROCESSUAL PENAL - Prisão (flagrante, preventivas e custódia)",
+    "pergunta": "Policiais Rodoviários Federais que presenciarem o cometimento de um crime em rodovia federal atuam em flagrante compulsório, sendo-lhes obrigatório efetuar a prisão do infrator sob pena de responsabilização legal.",
+    "gabarito": "CERTO",
+    "comentario": "Art. 301 do CPP. As autoridades policiais e seus agentes (PRF) atuam sob flagrante compulsório/obrigatório, devendo prender quem quer que seja encontrado em flagrante delito.",
+    "id": "7768ac21-77e3-4c18-9de9-7e88911e8d3e",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITO PROCESSUAL PENAL",
+    "topico_edital": "DIREITO PROCESSUAL PENAL - Prisão (flagrante, preventivas e custódia)",
+    "pergunta": "Considere que a PRF aborde em fiscalização de rotina um caminhão e encontre no baú mercadorias furtadas duas horas antes em um galpão. Nessa situação, se o motorista for preso com os objetos do crime, restará configurada a hipótese de flagrante impróprio ou quase-flagrante.",
+    "gabarito": "ERRADO",
+    "comentario": "A situação em que o agente é encontrado, logo depois, com objetos que façam presumir ser ele o autor do crime configura flagrante presumido (ficto ou assimilado) (CPP, art. 302, IV). O flagrante impróprio (art. 302, III) exige perseguição logo após o delito.",
+    "id": "4fd410bb-41ab-46b4-9478-10dff649a642",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITO PROCESSUAL PENAL",
+    "topico_edital": "DIREITO PROCESSUAL PENAL - Prisão (flagrante, preventivas e custódia)",
+    "pergunta": "É ilícita a prisão em flagrante decorrente de flagrante preparado, visto que a provocação promovida pela autoridade inviabiliza a consumação do delito, configurando hipótese de crime impossível.",
+    "gabarito": "CERTO",
+    "comentario": "Conforme a Súmula 145 do STF, não há crime quando a preparação do flagrante pela polícia torna impossível sua consumação (crime impossível).",
+    "id": "425f8012-c30c-40d8-833a-1867380a6f06",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITO PROCESSUAL PENAL",
+    "topico_edital": "DIREITO PROCESSUAL PENAL - Prisão (flagrante, preventivas e custódia)",
+    "pergunta": "O motorista que transita em rodovia federal transportando substância entorpecente atua em crime permanente, razão pela qual se encontra em permanente estado de flagrante delito enquanto durar o transporte.",
+    "gabarito": "CERTO",
+    "comentario": "Art. 303 do CPP. No delito de tráfico de drogas na modalidade 'transportar' (crime permanente), entende-se o agente em flagrante delito enquanto não cessar a permanência.",
+    "id": "c994ffaa-fc04-4593-9370-efcc78452475",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITO PROCESSUAL PENAL",
+    "topico_edital": "DIREITO PROCESSUAL PENAL - Prisão (flagrante, preventivas e custódia)",
+    "pergunta": "Na lavratura do Auto de Prisão em Flagrante perante a autoridade policial, o interrogatório do conduzido deve obrigatoriamente anteceder a oitiva do condutor e das testemunhas.",
+    "gabarito": "ERRADO",
+    "comentario": "Art. 304 do CPP. A ordem legal de oitiva no APF é: 1º Condutor; 2º Testemunhas; 3º Interrogatório do acusado.",
+    "id": "fbb37fc2-0ce8-4884-8e59-d035792ccb21",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITO PROCESSUAL PENAL",
+    "topico_edital": "DIREITO PROCESSUAL PENAL - Prisão (flagrante, preventivas e custódia)",
+    "pergunta": "A ausência de testemunhas presenciais da infração penal impede a lavratura do Auto de Prisão em Flagrante pela autoridade policial competente.",
+    "gabarito": "ERRADO",
+    "comentario": "Art. 304, § 2º, do CPP. A falta de testemunhas da infração não impede o APF; assinarão o auto, com o condutor, pelo menos duas testemunhas que tenham presenciado a apresentação do preso à autoridade.",
+    "id": "cf99f060-34bb-4f91-a3c0-2f009de63ca0",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITO PROCESSUAL PENAL",
+    "topico_edital": "DIREITO PROCESSUAL PENAL - Prisão (flagrante, preventivas e custódia)",
+    "pergunta": "A prisão de qualquer pessoa e o local onde se encontre devem ser comunicados imediatamente ao juiz competente, ao Ministério Público e à família do preso ou à pessoa por ele indicada.",
+    "gabarito": "CERTO",
+    "comentario": "Art. 306, caput, do CPP. A comunicação ao Juiz, MP e família do preso deve ser feita imediatamente.",
+    "id": "ab5ed97a-e1ef-4ac2-99dd-0b17b51a890f",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITO PROCESSUAL PENAL",
+    "topico_edital": "DIREITO PROCESSUAL PENAL - Prisão (flagrante, preventivas e custódia)",
+    "pergunta": "Na audiência de custódia, constatada a ilegalidade da prisão em flagrante por descumprimento das formalidades legais, cabe ao magistrado revogar a prisão cautelar e conceder liberdade provisória mediante fiança.",
+    "gabarito": "ERRADO",
+    "comentario": "Diante de uma prisão ilegal, a medida correta a ser adotada pelo juiz é o RELAXAMENTO da prisão (CPP, art. 310, I). A revogação aplica-se a prisões preventivas/temporárias legais que perderam a necessidade.",
+    "id": "7875e94f-ced5-4d68-8762-de54fadad82d",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITO PROCESSUAL PENAL",
+    "topico_edital": "DIREITO PROCESSUAL PENAL - Prisão (flagrante, preventivas e custódia)",
+    "pergunta": "O cumprimento de mandado de prisão preventiva em via pública por Policiais Rodoviários Federais no período noturno é nulo por violar a garantia constitucional da inviolabilidade domiciliar.",
+    "gabarito": "ERRADO",
+    "comentario": "A limitação temporal para cumprimento de mandado aplica-se apenas ao ingresso em domicílio (CF, art. 5º, XI). Em via pública ou rodovia, o mandado pode ser cumprido a qualquer hora.",
+    "id": "ee6ba9d4-3467-461b-8876-702536e0c8cf",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITO PROCESSUAL PENAL",
+    "topico_edital": "DIREITO PROCESSUAL PENAL - Prisão (flagrante, preventivas e custódia)",
+    "pergunta": "De acordo com o entendimento consolidado do Supremo Tribunal Federal, o réu portador de diploma de curso superior mantém o direito de ser recolhido a cela especial enquanto perdurar sua prisão cautelar.",
+    "gabarito": "ERRADO",
+    "comentario": "O Plenário do STF (ADPF 672) declarou inconstitucional o art. 295, VII, do CPP. O diploma de curso superior não garante mais o direito a cela/prisão especial.",
+    "id": "c81e7b33-064e-44a5-84dd-7574949da2c1",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITO PROCESSUAL PENAL",
+    "topico_edital": "DIREITO PROCESSUAL PENAL - Prova e Cadeia de Custódia",
+    "pergunta": "O motorista abordado em rodovia federal que apresentar Carteira Nacional de Habilitação válida não poderá ser submetido à identificação criminal, mesmo que nos sistemas policiais conste o uso de outros nomes ou qualificações distintas.",
+    "gabarito": "ERRADO",
+    "comentario": "Art. 3º, inciso V, da Lei nº 12.037/2009. Embora apresentado documento de identificação civil, poderá ocorrer a identificação criminal se constar dos registros policiais o uso de outros nomes ou diferentes qualificações.",
+    "id": "db03af9b-9917-40a1-8688-e129194e9c9f",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITO PROCESSUAL PENAL",
+    "topico_edital": "DIREITO PROCESSUAL PENAL - Prova e Cadeia de Custódia",
+    "pergunta": "Os documentos de identificação militares são equiparados aos documentos de identificação civis para as finalidades da Lei nº 12.037/2009.",
+    "gabarito": "CERTO",
+    "comentario": "Art. 2º, parágrafo único, da Lei nº 12.037/2009. Para as finalidades da lei de identificação criminal, equiparam-se aos documentos civis os documentos de identificação militares.",
+    "id": "b9acc9ae-69e3-4a5e-9f69-b7ec02430e76",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITO PROCESSUAL PENAL",
+    "topico_edital": "DIREITO PROCESSUAL PENAL - Prova e Cadeia de Custódia",
+    "pergunta": "Caso o documento de identificação civil apresentado pelo indiciado apresente rasuras ou indícios de falsificação, a autoridade policial poderá proceder à sua identificação criminal.",
+    "gabarito": "CERTO",
+    "comentario": "Art. 3º, inciso I, da Lei nº 12.037/2009. A presença de rasura ou indício de falsificação no documento civil autoriza a realização da identificação criminal.",
+    "id": "4157dbcc-77aa-4a7c-8166-1a02c81fb7f9",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITO PROCESSUAL PENAL",
+    "topico_edital": "DIREITO PROCESSUAL PENAL - Prova e Cadeia de Custódia",
+    "pergunta": "Com as alterações promovidas pela Lei nº 15.295/2025, o recebimento da denúncia pelo juiz em crime praticado com grave violência à pessoa autoriza a identificação criminal com coleta de material biológico para perfil genético.",
+    "gabarito": "CERTO",
+    "comentario": "Art. 3º, VII, 'a' c/c Art. 5º, § 1º, da Lei nº 12.037/2009 (incluídos pela Lei nº 15.295/2025). O recebimento da denúncia em crime praticado com grave violência à pessoa enseja a identificação criminal com coleta de material biológico para a obtenção de perfil genético.",
+    "id": "e1b22023-059a-4cee-b3dd-1c4846251761",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITO PROCESSUAL PENAL",
+    "topico_edital": "DIREITO PROCESSUAL PENAL - Prova e Cadeia de Custódia",
+    "pergunta": "As informações genéticas armazenadas nos bancos de dados de perfis genéticos poderão revelar a cor dos olhos e o tipo sanguíneo do investigado para auxiliar o confronto na investigação.",
+    "gabarito": "ERRADO",
+    "comentario": "Art. 5º-A, § 1º, da Lei nº 12.037/2009. É expressamente vedado que as informações genéticas revelem traços somáticos (físicos) ou comportamentais das pessoas, ressalvada exclusivamente a determinação de gênero.",
+    "id": "c47b172e-16be-49fe-bb3d-2259cff91d02",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITO PROCESSUAL PENAL",
+    "topico_edital": "DIREITO PROCESSUAL PENAL - Prova e Cadeia de Custódia",
+    "pergunta": "Na hipótese de absolvição do acusado, o perfil genético coletado durante a persecução penal será mantido no banco de dados pelo prazo prescricional do crime praticado.",
+    "gabarito": "ERRADO",
+    "comentario": "Art. 7º-A, inciso I, da Lei nº 12.037/2009. No caso de absolvição do acusado, a exclusão dos perfis genéticos do banco de dados ocorrerá obrigatoriamente, não ficando retida até a prescrição.",
+    "id": "e573b9c9-547a-415c-8716-093bbeded7b7",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITO PROCESSUAL PENAL",
+    "topico_edital": "DIREITO PROCESSUAL PENAL - Prova e Cadeia de Custódia",
+    "pergunta": "O condenado por sentença definitiva que tiver seu perfil genético inserido no banco de dados poderá requerer a exclusão das informações biológicas após decorridos vinte anos do cumprimento da pena.",
+    "gabarito": "CERTO",
+    "comentario": "Art. 7º-A, inciso II, da Lei nº 12.037/2009. No caso de condenação, a exclusão dos dados genéticos ocorrerá mediante requerimento do interessado, após decorridos 20 anos do cumprimento da pena.",
+    "id": "fe684e1f-c4fc-45f5-bce6-fce89d04138d",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITO PROCESSUAL PENAL",
+    "topico_edital": "DIREITO PROCESSUAL PENAL - Prova e Cadeia de Custódia",
+    "pergunta": "A realização de identificação criminal confere à autoridade policial a prerrogativa de divulgar a fotografia do preso nos meios de comunicação para prestar esclarecimentos à sociedade.",
+    "gabarito": "ERRADO",
+    "comentario": "Art. 4º da Lei nº 12.037/2009. A lei determina que a autoridade encarregada tomará todas as providências para evitar o constrangimento do identificado.",
+    "id": "6fc4368f-6248-48ff-b59c-12999d0118e1",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITO PROCESSUAL PENAL",
+    "topico_edital": "DIREITO PROCESSUAL PENAL - Prova e Cadeia de Custódia",
+    "pergunta": "O Banco Nacional Multibiométrico e de Impressões Digitais armazena dados de registros biométricos, impressões digitais, e, quando possível, dados de íris, face e voz para subsidiar investigações criminais.",
+    "gabarito": "CERTO",
+    "comentario": "Art. 7º-C, § 2º, da Lei nº 12.037/2009. O Banco Nacional Multibiométrico e de Impressões Digitais tem como objetivo armazenar registros biométricos, digitais, íris, face e voz.",
+    "id": "a837135a-1ace-4231-9d48-d9c41622673d",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITO PROCESSUAL PENAL",
+    "topico_edital": "DIREITO PROCESSUAL PENAL - Prova e Cadeia de Custódia",
+    "pergunta": "Em consonância com a Lei nº 12.037/2009, caso o inquérito policial seja arquivado sem oferecimento de denúncia, o indiciado poderá requerer a retirada de sua identificação fotográfica dos autos, devendo apresentar prova de sua identificação civil.",
+    "gabarito": "CERTO",
+    "comentario": "Art. 7º da Lei nº 12.037/2009. Arquivado o inquérito sem denúncia, o indiciado tem a faculdade de requerer a retirada de sua identificação fotográfica dos autos, desde que comprove sua identificação civil.",
+    "id": "92e3cc47-9b96-46ee-82af-e2cd6a3defb1",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITO PROCESSUAL PENAL",
+    "topico_edital": "DIREITO PROCESSUAL PENAL - Prova e Cadeia de Custódia",
+    "pergunta": "Ao tomar conhecimento de um crime de homicídio em rodovia federal, cabe aos Policiais Rodoviários Federais isolar o local para que não se altere o estado das coisas até a chegada da perícia criminal.",
+    "gabarito": "CERTO",
+    "comentario": "Art. 6º, I, do CPP: a autoridade policial e seus agentes devem dirigir-se ao local e providenciar para que não se alterem o estado e a conservação das coisas até a chegada dos peritos.",
+    "id": "1765ef67-2374-499a-9903-9edfe6c3070d",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITO PROCESSUAL PENAL",
+    "topico_edital": "DIREITO PROCESSUAL PENAL - Prova e Cadeia de Custódia",
+    "pergunta": "Os objetos e instrumentos do crime encontrados no local de um acidente rodoviário com vítimas fatais devem ser apreendidos imediatamente pela equipe policial antes da realização dos exames periciais.",
+    "gabarito": "ERRADO",
+    "comentario": "Art. 6º, II, do CPP: a apreensão dos objetos que tiverem relação com o fato só deve ocorrer após liberados pelos peritos criminais.",
+    "id": "58c77f8e-b16e-4832-a7eb-21f96425111b",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITO PROCESSUAL PENAL",
+    "topico_edital": "DIREITO PROCESSUAL PENAL - Prova e Cadeia de Custódia",
+    "pergunta": "Caso o indiciado se recuse a assinar o termo de seu depoimento no inquérito policial, o documento deverá ser assinado por duas testemunhas que tenham ouvido a leitura do termo na presença do réu.",
+    "gabarito": "CERTO",
+    "comentario": "Art. 6º, V, do CPP: se o indiciado não souber, não puder ou não quiser assinar, o termo será assinado por 2 testemunhas que tenham ouvido a leitura.",
+    "id": "ed1fb2da-5cb2-4f3d-9dc1-b079e7dab3c2",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITO PROCESSUAL PENAL",
+    "topico_edital": "DIREITO PROCESSUAL PENAL - Prova e Cadeia de Custódia",
+    "pergunta": "A autoridade policial pode determinar a reprodução simulada dos fatos para apurar as circunstâncias do delito, sendo obrigatória a participação do investigado.",
+    "gabarito": "ERRADO",
+    "comentario": "Art. 7º do CPP c/c princípio do nemo tenetur se detegere. A participação do investigado na reprodução simulada é facultativa.",
+    "id": "c4448a52-f7dd-4192-9a98-c41de7f9f5f0",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITO PROCESSUAL PENAL",
+    "topico_edital": "DIREITO PROCESSUAL PENAL - Prova e Cadeia de Custódia",
+    "pergunta": "É vedada a realização de reprodução simulada dos fatos se a diligência contrariar a moralidade ou a ordem pública.",
+    "gabarito": "CERTO",
+    "comentario": "Art. 7º do CPP: a reprodução simulada poderá ser feita 'desde que esta não contrarie a moralidade ou a ordem pública'.",
+    "id": "c6ec782b-16c3-47fc-b16d-1bdf46f663c0",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITO PROCESSUAL PENAL",
+    "topico_edital": "DIREITO PROCESSUAL PENAL - Prova e Cadeia de Custódia",
+    "pergunta": "Na qualificação do indiciado preso, a autoridade policial tem o dever legal de colher informações acerca da existência de filhos, suas idades e se possuem deficiência.",
+    "gabarito": "CERTO",
+    "comentario": "Art. 6º, X, do CPP (incluído pela Lei nº 13.257/2016): colher informações sobre a existência de filhos, idades, deficiência e responsável.",
+    "id": "a835e162-8765-448b-a43e-9c46d8f30b8f",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITO PROCESSUAL PENAL",
+    "topico_edital": "DIREITO PROCESSUAL PENAL - Prova e Cadeia de Custódia",
+    "pergunta": "O Ministério Público possui a prerrogativa legal de requisitar à autoridade policial a realização do indiciamento formal do suspeito durante o curso das investigações.",
+    "gabarito": "ERRADO",
+    "comentario": "Lei nº 12.830/2013, art. 2º, § 6º. O indiciamento é ato de análise técnico-jurídica privativo do Delegado de Polícia, sendo incabível requisição pelo MP ou Juiz.",
+    "id": "42a54e1e-49f9-4a94-b0be-15030f696e85",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITO PROCESSUAL PENAL",
+    "topico_edital": "DIREITO PROCESSUAL PENAL - Prova e Cadeia de Custódia",
+    "pergunta": "As diligências de investigação requeridas pelo Ministério Público ou pelo Juiz devem ser obrigatoriamente cumpridas pela autoridade policial.",
+    "gabarito": "CERTO",
+    "comentario": "Art. 13, II, do CPP: incumbe à autoridade policial realizar as diligências requisitadas pelo Juiz ou pelo MP.",
+    "id": "7ca259b8-a789-4856-b872-49ae0328f622",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITO PROCESSUAL PENAL",
+    "topico_edital": "DIREITO PROCESSUAL PENAL - Prova e Cadeia de Custódia",
+    "pergunta": "Em consonância com a Súmula Vinculante nº 14 do STF, é direito do advogado ter acesso aos elementos de prova já documentados nos autos do inquérito policial.",
+    "gabarito": "CERTO",
+    "comentario": "Súmula Vinculante nº 14 do STF: o defensor tem direito ao acesso amplo aos elementos de prova que já estejam documentados nos autos.",
+    "id": "f0eebd0c-361b-47ea-843b-d6e04d35c894",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITO PROCESSUAL PENAL",
+    "topico_edital": "DIREITO PROCESSUAL PENAL - Prova e Cadeia de Custódia",
+    "pergunta": "O sigilo do inquérito policial impede que o advogado do indiciado tenha acesso aos mandados de busca e apreensão que ainda estejam pendentes de cumprimento em diligência velada.",
+    "gabarito": "CERTO",
+    "comentario": "Súmula Vinculante nº 14 do STF. O sigilo permanece válido e legítimo em relação às diligências em andamento (como mandados de busca pendentes de cumprimento) para garantir sua eficácia.",
+    "id": "f74bed81-448a-4465-aff8-e237eef8e7b3",
+    "prova": "inédita"
   }
 ]
