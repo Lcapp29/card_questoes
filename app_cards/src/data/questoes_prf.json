@@ -4093,5 +4093,185 @@
     "comentario": "O auxílio destinado a tornar seguro o proveito do crime (ocultar a res furtiva) configura o crime de Favorecimento Real (Art. 349 do CP). O Favorecimento Pessoal (Art. 348 do CP) ocorre quando o auxílio destina-se a ajudar o próprio criminoso a fugir da ação da autoridade policial.",
     "id": "097e70c3-6655-47b6-a494-cb2b6b5638eb",
     "prova": "inédita"
+  },
+  {
+    "disciplina": "INFORMÁTICA",
+    "topico_edital": "INFORMÁTICA - Transformação digital (IoT, Big Data, Inteligência Artificial)",
+    "pergunta": "No âmbito da Internet das Coisas (IoT), o protocolo CoAP (Constrained Application Protocol) utiliza a arquitetura Publish/Subscribe sobre o protocolo TCP para garantir a entrega orientada a conexão e o controle de fluxo em dispositivos com severas restrições de memória.",
+    "gabarito": "ERRADO",
+    "comentario": "O item trocou os protocolos. Quem utiliza a arquitetura Publish/Subscribe sobre o TCP é o MQTT. O CoAP utiliza o modelo Request/Response (RESTful) e roda prioritariamente sobre o protocolo UDP (porta 5683) para minimizar o overhead de conexão e cabeçalhos.",
+    "id": "1b5e267d-1dde-4bc5-afa6-4a01ce909b6c",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "INFORMÁTICA",
+    "topico_edital": "INFORMÁTICA - Transformação digital (IoT, Big Data, Inteligência Artificial)",
+    "pergunta": "Diferentemente dos sistemas convencionais de Data Warehouse, que adotam o paradigma Schema-on-Read durante a etapa de transformação do processo ETL, os Data Lakes aplicam o conceito de Schema-on-Write, exigindo a definição prévia da estrutura de dados antes do armazenamento de arquivos não estruturados.",
+    "gabarito": "ERRADO",
+    "comentario": "Os conceitos foram invertidos. O Data Warehouse utiliza Schema-on-Write (o esquema relacional deve estar previamente estruturado antes da carga de dados via ETL). O Data Lake utiliza Schema-on-Read (dados brutos são gravados como estão, e a estrutura/esquema é interpretada e aplicada somente no momento da leitura/consulta via ELT).",
+    "id": "8411fa2d-7bd0-4065-8e46-0089234a12ab",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "INFORMÁTICA",
+    "topico_edital": "INFORMÁTICA - Transformação digital (IoT, Big Data, Inteligência Artificial)",
+    "pergunta": "Em um algoritmo de processamento distribuído MapReduce executado sobre a infraestrutura HDFS do ecossistema Apache Hadoop, os nós do tipo DataNode são responsáveis pela manutenção do catálogo de metadados do sistema de arquivos, enquanto os NameNodes armazenam os blocos de dados replicados.",
+    "gabarito": "ERRADO",
+    "comentario": "As atribuições dos nós do HDFS foram invertidas. O NameNode é o nó mestre que armazena estritamente os metadados (diretórios, permissões e mapeamento de blocos). Os DataNodes são os nós escravos que efetivamente armazenam e servem os blocos físicos de dados.",
+    "id": "72eee2eb-49bc-4d6a-bcea-c0445bbc8841",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "INFORMÁTICA",
+    "topico_edital": "INFORMÁTICA - Transformação digital (IoT, Big Data, Inteligência Artificial)",
+    "pergunta": "Considere que um modelo de aprendizado de máquina supervisionado para detecção de placas veiculares clonadas apresentou excelente desempenho na base de treinamento, mas registrou alta taxa de erro ao avaliar imagens inéditas capturadas por câmeras de rodovias. Nessa situação, o modelo encontra-se em estado de overfitting.",
+    "gabarito": "CERTO",
+    "comentario": "O Overfitting (sobreajuste) ocorre quando o modelo aprende com excesso de detalhes os ruídos e a amostragem específica da base de treino (alto desempenho interno), perdendo a capacidade de generalização ao ser exposto a dados novos no ambiente de produção/teste.",
+    "id": "8923f00c-e1d5-45dd-a454-4235a5973b32",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "INFORMÁTICA",
+    "topico_edital": "INFORMÁTICA - Transformação digital (IoT, Big Data, Inteligência Artificial)",
+    "pergunta": "Nas Redes Neurais Convolucionais (CNNs), a camada de pooling tem como função primária aplicar filtros para extrair mapas de características do sinal de entrada, enquanto a camada convolucional é responsável exclusivamente por reduzir a dimensionalidade espacial dos dados.",
+    "gabarito": "ERRADO",
+    "comentario": "O item inverteu completamente os papéis das camadas. A camada convolucional é a responsável por aplicar filtros (kernels) e extrair os mapas de características (feature maps). A camada de pooling (subamostragem) é a responsável por reduzir a dimensionalidade espacial mantendo as características mais relevantes.",
+    "id": "70112dd5-d201-44da-980e-3d5cc393b586",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "INFORMÁTICA",
+    "topico_edital": "INFORMÁTICA - Transformação digital (IoT, Big Data, Inteligência Artificial)",
+    "pergunta": "A técnica de Geração Aumentada por Recuperação (RAG - Retrieval-Augmented Generation) reduz a ocorrência de alucinações em modelos de linguagem (LLMs) ao recuperar informações factuais de uma base de dados externa e incorporá-las ao contexto do prompt antes da geração da resposta pelo modelo.",
+    "gabarito": "CERTO",
+    "comentario": "O RAG ancora a geração do LLM em documentos de referência recuperados dinamicamente via busca vetorial, permitindo fornecer respostas baseadas em dados atualizados ou privados sem precisar alterar os pesos do modelo via Fine-Tuning.",
+    "id": "617c880d-2c38-4eb9-8b95-1d0f01aecc2c",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "INFORMÁTICA",
+    "topico_edital": "INFORMÁTICA - Transformação digital (IoT, Big Data, Inteligência Artificial)",
+    "pergunta": "No processamento de linguagem natural, o processo de lemmatization reduz as palavras ao seu radical por meio da simples eliminação de sufixos e prefixos com base em regras heurísticas, resultando por vezes em formas gramaticais inválidas no idioma original.",
+    "gabarito": "ERRADO",
+    "comentario": "O item descreve a definição de Stemming. A Lemmatization utiliza análise morfológica e vocabulário estruturado para mapear a palavra à sua forma canônica (lema) válida no dicionário.",
+    "id": "d61260a9-9b7b-47ab-a7f6-3c307ff92cd4",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "INFORMÁTICA",
+    "topico_edital": "INFORMÁTICA - Transformação digital (IoT, Big Data, Inteligência Artificial)",
+    "pergunta": "O algoritmo de Backpropagation em redes neurais artificiais utiliza a regra da cadeia do cálculo diferencial para determinar o gradiente da função de perda em relação a cada um dos pesos da rede, orientando a atualização desses pesos durante o treinamento.",
+    "gabarito": "CERTO",
+    "comentario": "Esta é a exata definição formal do Backpropagation. Ele propaga o erro da camada de saída para as camadas anteriores (de trás para frente) aplicando a regra da cadeia para calcular as derivadas parciais necessárias para o otimizador (como o SGD ou Adam).",
+    "id": "c2b9facc-408e-48e3-bcd3-c813afa0710d",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "INFORMÁTICA",
+    "topico_edital": "INFORMÁTICA - Segurança da informação (malwares, antivírus, firewall, VPN)",
+    "pergunta": "Diferentemente dos vírus de computador, que demandam a execução do programa hospedeiro ao qual estão acoplados para iniciar sua replicação, os worms são programas autônomos capazes de se propagar automaticamente pelas redes de computadores explorando vulnerabilidades em serviços e sistemas.",
+    "gabarito": "CERTO",
+    "comentario": "Esta é a diferença clássica cobrada pela CEBRASPE: o vírus é um código parasita (precisa de hospedeiro e execução do usuário), enquanto o worm é autônomo (standalone) e explora serviços de rede vulneráveis para propagação ativa sem interação humana.",
+    "id": "5c0f856f-8f8c-430f-86ca-8dcf684387e5",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "INFORMÁTICA",
+    "topico_edital": "INFORMÁTICA - Segurança da informação (malwares, antivírus, firewall, VPN)",
+    "pergunta": "O ataque do tipo pharming caracteriza-se por induzir a vítima ao erro mediante o envio de e-mails fraudulentos contendo hiperlinks para páginas falsas, sendo indispensável que o usuário clique no link recebido para que a fraude ocorra.",
+    "gabarito": "ERRADO",
+    "comentario": "O item descreve o Phishing. O Pharming altera a resolução de nomes (seja envenenando o cache DNS ou alterando o arquivo hosts local). No Pharming, mesmo que o usuário digite a URL correta diretamente na barra de endereços do navegador, ele é redirecionado silenciosamente para o IP do site falso.",
+    "id": "022e5664-3b70-4a41-949c-bab84f17d203",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "INFORMÁTICA",
+    "topico_edital": "INFORMÁTICA - Segurança da informação (malwares, antivírus, firewall, VPN)",
+    "pergunta": "Os rootkits são softwares maliciosos projetados precipuamente com a finalidade de criptografar a estrutura de arquivos do sistema operacional, exigindo o pagamento de um resgate para que a chave de decodificação seja fornecida ao administrador.",
+    "gabarito": "ERRADO",
+    "comentario": "O item apresenta a definição de Ransomware. A função primária de um Rootkit é a invisibilidade e persistência: ocultar a presença de malwares, portas abertas, chaves de registro e processos ativos, alterando fluxos no User-Mode ou Kernel-Mode (Ring 0).",
+    "id": "3bd69d19-7491-4d14-ad46-d2914fb7ad82",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "INFORMÁTICA",
+    "topico_edital": "INFORMÁTICA - Segurança da informação (malwares, antivírus, firewall, VPN)",
+    "pergunta": "Um malfeitor que utilize um ataque de ransomware com dupla extorsão não apenas bloqueia o acesso aos dados da vítima por meio de criptografia simétrica e assimétrica, como também ameaça divulgar publicamente dados confidenciais pré-exfiltrados caso o valor do resgate não seja pago.",
+    "gabarito": "CERTO",
+    "comentario": "O conceito de Double Extortion (Dupla Extorsão) envolve duas fases: a indisponibilidade local via criptografia dos volumes e a quebra de confidencialidade através da exfiltração de dados sensíveis para publicação em sites de vazamento (leak sites) na Dark Web.",
+    "id": "03034c44-4742-4949-845d-604172dd31c7",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "INFORMÁTICA",
+    "topico_edital": "INFORMÁTICA - Internet e Ferramentas de navegação",
+    "pergunta": "A caracterização de uma nuvem privada restringe-se à sua localização física no data center próprio da organização, de modo que a contratação de infraestrutura dedicada em data centers de terceiros desconfigura o modelo privado de implantação.",
+    "gabarito": "ERRADO",
+    "comentario": "O modelo de implantação Nuvem Privada é definido pelo uso exclusivo por uma única organização, e não pela sua localização geográfica/física. Uma nuvem privada pode estar localizada on-premises (no data center do próprio órgão) ou ser hospedada e gerenciada fisicamente por um provedor terceiro (Off-premises / Hosted Private Cloud).",
+    "id": "a782e005-ce8d-4477-a447-2bbb329c679e",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "INFORMÁTICA",
+    "topico_edital": "INFORMÁTICA - Internet e Ferramentas de navegação",
+    "pergunta": "Em um modelo de plataforma como serviço (PaaS), a responsabilidade pela instalação de patches de segurança e atualizações do sistema operacional subjacente recai sobre o provedor do serviço de nuvem, cabendo ao cliente a gestão do código-fonte das aplicações e dos dados.",
+    "gabarito": "CERTO",
+    "comentario": "No modelo PaaS, a camada de infraestrutura física, virtualização, sistema operacional e ambientes de execução (runtime) é abstraída e gerenciada integralmente pelo provedor. O cliente retém o controle e a responsabilidade exclusivamente sobre o desenvolvimento/implantação da aplicação e a governança dos dados.",
+    "id": "ae3d644e-c255-48dc-8369-1f4ab53daa62",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "INFORMÁTICA",
+    "topico_edital": "INFORMÁTICA - Internet e Ferramentas de navegação",
+    "pergunta": "Sistemas de armazenamento em objeto (Object Storage) organizam os arquivos em uma estrutura hierárquica tradicional de diretórios e pastas, exigindo a formatação prévia do volume por um sistema de arquivos do sistema operacional cliente, como NTFS ou ext4.",
+    "gabarito": "ERRADO",
+    "comentario": "O armazenamento em objeto atua sobre um espaço de endereçamento plano (flat namespace), manipulando os dados diretamente por meio de chamadas de API (HTTP REST) contendo chave/ID único e metadados. Quem necessita de formatação prévia com sistemas de arquivos (NTFS/ext4) e organização em blocos brutos é o Block Storage.",
+    "id": "8980dde7-b2b3-47c9-bd51-392bd2f69035",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "INFORMÁTICA",
+    "topico_edital": "INFORMÁTICA - Internet e Ferramentas de navegação",
+    "pergunta": "Para garantir o requisito de autoatendimento sob demanda (on-demand self-service) em uma solução de cloud computing, é indispensável que o provisionamento de novos recursos computacionais seja submetido à aprovação manual e intervenção técnica prévia da equipe de suporte do provedor.",
+    "gabarito": "ERRADO",
+    "comentario": "A essência do On-Demand Self-Service (segundo a definição oficial NIST SP 800-145) é justamente a capacidade do usuário provisionar recursos computacionais de forma unilateral e automatizada, sem requerer qualquer interação humana com os funcionários do provedor de nuvem.",
+    "id": "e9f38115-e5e9-40d2-b431-7dca2266a60a",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "INFORMÁTICA",
+    "topico_edital": "INFORMÁTICA - Segurança da informação (malwares, antivírus, firewall, VPN)",
+    "pergunta": "Em um firewall do tipo estado de conexão (Stateful Inspection), quando um pacote de retorno pertencente a uma sessão TCP previamente estabelecida e registrada na tabela de estados atinge a interface externa da rede, o firewall libera a sua passagem sem a necessidade de reavaliar todo o conjunto de regras de controle de acesso (ACL).",
+    "gabarito": "CERTO",
+    "comentario": "Esta é a principal vantagem operacional e de desempenho de um firewall Stateful. Uma vez que a conexão de saída foi autorizada e registrada na tabela de estados (State Table com status ESTABLISHED), os pacotes legítimos de resposta/retorno são validados diretamente contra essa tabela e liberados, contornando o reprocessamento sequencial da lista de regras da ACL.",
+    "id": "ec2a3cd5-5d2c-4727-ac11-bbe1e30f43b4",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "INFORMÁTICA",
+    "topico_edital": "INFORMÁTICA - Segurança da informação (malwares, antivírus, firewall, VPN)",
+    "pergunta": "Ataques do tipo fileless malware caracterizam-se por executar rotinas maliciosas diretamente na memória RAM do computador, utilizando utilitários legítimos do próprio sistema operacional, situação na qual os softwares antivírus tradicionais baseados exclusivamente em assinaturas de disco apresentam reduzida eficácia.",
+    "gabarito": "CERTO",
+    "comentario": "Como os ataques fileless (ou Living off the Land) não gravam arquivos binários maliciosos em disco, não há geração de hash ou arquivo físico para comparação contra bases estáticas de assinaturas de antivírus (EPP). Sua identificação requer a presença de soluções de EDR atentas ao monitoramento comportamental e telemetria de processos em tempo real na RAM.",
+    "id": "2704ee09-8fcb-4c31-bee1-7715cafa51e9",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "INFORMÁTICA",
+    "topico_edital": "INFORMÁTICA - Segurança da informação (malwares, antivírus, firewall, VPN)",
+    "pergunta": "O protocolo de tunelamento L2TP (Layer 2 Tunneling Protocol) provê, por si só, um ambiente de comunicação altamente seguro em redes públicas, haja vista possuir algoritmos nativos de criptografia assimétrica de 256 bits para assegurar a confidencialidade do tráfego das VPNs.",
+    "gabarito": "ERRADO",
+    "comentario": "Pegadinha clássica da CEBRASPE. O protocolo L2TP é estritamente um protocolo de encapsulamento/tunelamento de camada 2, não possuindo qualquer mecanismo nativo de criptografia ou confidencialidade. Para prover segurança e criptografia, o L2TP é obrigatoriamente associado ao protocolo IPsec.",
+    "id": "fb64d183-d4b0-49b7-8609-ad90e5e651b5",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "INFORMÁTICA",
+    "topico_edital": "INFORMÁTICA - Segurança da informação (malwares, antivírus, firewall, VPN)",
+    "pergunta": "Uma das limitações técnicas de um firewall de filtro de pacotes stateless (sem estado) é a incapacidade de manter o registro do estado das conexões de rede, o que exige a criação explícita de regras de tráfego tanto para o sentido de entrada quanto para o sentido de saída dos pacotes.",
+    "gabarito": "CERTO",
+    "comentario": "Por avaliar cada pacote de maneira isolada (sem memória de contexto/estado), um firewall stateless necessita de regras de filtragem espelhadas e explícitas para autorizar o fluxo bidirecional (regras para o pacote de solicitação de ida e para o pacote de resposta de volta).",
+    "id": "14e5f659-3f18-4383-823d-2e145cb81ee8",
+    "prova": "inédita"
   }
 ]
