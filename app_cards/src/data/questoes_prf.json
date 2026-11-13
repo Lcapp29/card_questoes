@@ -4903,5 +4903,221 @@
     "comentario": "Em consonância com o princípio da segurança jurídica, tanto a Súmula nº 249 do TCU quanto a jurisprudência do STJ (REsp 1.244.182) dispensam a devolução ao erário de valores recebidos de boa-fé pelo servidor público em decorrência de erro escusável ou interpretação equivocada de lei pela própria Administração.",
     "id": "8b3d21c5-6ef1-4324-a037-6c36515aa1fc",
     "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITOS HUMANOS",
+    "topico_edital": "DIREITOS HUMANOS - DH na Constituição Federal e Declaração Universal",
+    "pergunta": "Por ter sido adotada pela Assembleia Geral das Nações Unidas para positivar direitos mínimos universais, a Declaração Universal dos Direitos Humanos possui natureza jurídica de tratado internacional (hard law), impondo obrigações jurídicas diretas equivalentes às das emendas constitucionais no ordenamento brasileiro.",
+    "gabarito": "ERRADO",
+    "comentario": "A DUDH não é tecnicamente um tratado internacional (não passou pelos ritos formais dos tratados) e tem natureza de recomendação / soft law, sem força jurídica vinculativa direta de tratado. Além disso, no Brasil, apenas tratados e convenções internacionais sobre direitos humanos aprovados pelo rito qualificado do art. 5º, § 3º, da CF/88 equivalem a emendas constitucionais.",
+    "id": "62d2314f-78a6-4a05-b9ec-2e3212645b4c",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITOS HUMANOS",
+    "topico_edital": "DIREITOS HUMANOS - DH na Constituição Federal e Declaração Universal",
+    "pergunta": "Proclamada em Paris em 10 de dezembro de 1948 pela Resolução nº 217 A (III) da Assembleia Geral da ONU, no contexto posterior à Segunda Guerra Mundial, a Declaração Universal dos Direitos Humanos tem como principal fundamento a dignidade da pessoa humana e serviu de inspiração para tratados internacionais posteriores.",
+    "gabarito": "CERTO",
+    "comentario": "A DUDH foi adotada após o término da Segunda Guerra Mundial, proclamada em Paris em 10 de dezembro de 1948 pela Resolução nº 217 A (III) da Assembleia Geral da ONU, tendo como principal fundamento a dignidade da pessoa humana e inspirando diversos tratados internacionais posteriores.",
+    "id": "7d4e2d31-5875-403a-a6be-54b1bec42a12",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITOS HUMANOS",
+    "topico_edital": "DIREITOS HUMANOS - DH na Constituição Federal e Declaração Universal",
+    "pergunta": "De acordo com o entendimento doutrinário majoritário sobre a Declaração Universal dos Direitos Humanos, apenas a vedação à escravidão possui caráter absoluto, admitindo-se excepcionalmente tratamentos degradantes em face de investigados por crimes graves contra a segurança pública.",
+    "gabarito": "ERRADO",
+    "comentario": "A doutrina majoritária entende que tanto a proibição da tortura quanto a da escravidão são direitos absolutos previstos na DUDH. Além disso, o art. 5º proíbe de forma absoluta a tortura e as penas ou tratamentos cruéis, desumanos ou degradantes, sem qualquer exceção.",
+    "id": "f39a0c72-5003-4020-8b5f-6611dddae949",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITOS HUMANOS",
+    "topico_edital": "DIREITOS HUMANOS - DH na Constituição Federal e Declaração Universal",
+    "pergunta": "A Declaração Universal dos Direitos Humanos contempla, além de direitos e garantias individuais de natureza civil e política, direitos sociais do ser humano, entre os quais o direito ao trabalho, à igual remuneração por igual trabalho e à organização e ingresso em sindicatos.",
+    "gabarito": "CERTO",
+    "comentario": "A DUDH consagra direitos e garantias individuais (arts. 3º a 21) e direitos econômicos, sociais e culturais (arts. 22 a 27), prevendo expressamente no art. 23 o direito ao trabalho, à igual remuneração por igual trabalho e à organização e ingresso em sindicatos.",
+    "id": "1237735e-841e-4426-9eab-95d3dff0ac1d",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITOS HUMANOS",
+    "topico_edital": "DIREITOS HUMANOS - DH na Constituição Federal e Declaração Universal",
+    "pergunta": "Em razão de consagrar o direito à vida e à liberdade em seu art. 3º, a Declaração Universal dos Direitos Humanos proíbe expressamente a aplicação da pena de morte e da prisão perpétua pelos Estados-membros da ONU.",
+    "gabarito": "ERRADO",
+    "comentario": "Embora reconheça o direito à vida e à liberdade no art. 3º, a DUDH não proíbe expressamente a aplicação da pena de morte nem da prisão perpétua, pois não trata diretamente desses temas.",
+    "id": "5f734e7b-4254-4866-9285-2d35e9be953e",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITOS HUMANOS",
+    "topico_edital": "DIREITOS HUMANOS - DH na Constituição Federal e Declaração Universal",
+    "pergunta": "Consoante a Declaração Universal dos Direitos Humanos, a proteção contra prisão, detenção ou exílio arbitrários estende-se a qualquer pessoa, não sendo admitida distinção fundada no estatuto político, jurídico ou internacional do país ou território de sua naturalidade.",
+    "gabarito": "CERTO",
+    "comentario": "Combinação literal dos arts. 9º e 2º, inciso II, da DUDH: ninguém pode ser arbitrariamente preso, detido ou exilado (garantia aplicável a qualquer pessoa), e nenhuma distinção será feita com base no estatuto político, jurídico ou internacional do país ou território de naturalidade do indivíduo.",
+    "id": "b73568d9-84ea-42f7-913f-af107ba3f1d9",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITOS HUMANOS",
+    "topico_edital": "DIREITOS HUMANOS - DH na Constituição Federal e Declaração Universal",
+    "pergunta": "Toda pessoa tem direito a recurso efetivo perante as jurisdições nacionais competentes contra atos que violem direitos fundamentais reconhecidos pela Constituição ou pela lei, bem como direito, em plena igualdade, a uma audiência justa e pública por tribunal independente e imparcial.",
+    "gabarito": "CERTO",
+    "comentario": "Reproduz exatamente os arts. 8º e 10 da DUDH, que asseguram o recurso efetivo às jurisdições nacionais competentes contra violações a direitos fundamentais reconhecidos pela Constituição ou pela lei, bem como audiência justa e pública por tribunal independente e imparcial.",
+    "id": "2753394f-868d-4c01-9597-cf1e07b4a4ea",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITOS HUMANOS",
+    "topico_edital": "DIREITOS HUMANOS - DH na Constituição Federal e Declaração Universal",
+    "pergunta": "Embora a Declaração Universal dos Direitos Humanos vede a condenação por ação ou omissão que não constituía delito no momento de sua prática perante o direito nacional ou internacional, admite-se a imposição de pena mais grave prevista em lei superveniente editada antes do julgamento público.",
+    "gabarito": "ERRADO",
+    "comentario": "Pelo art. 11, inciso II, da DUDH, além da anterioridade da tipificação perante o direito nacional ou internacional, tampouco será imposta pena mais forte do que aquela que, no momento da prática, era aplicável ao ato delituoso.",
+    "id": "ecfb1b68-e6f5-4a11-ac04-c25a84ecc6eb",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITOS HUMANOS",
+    "topico_edital": "DIREITOS HUMANOS - DH na Constituição Federal e Declaração Universal",
+    "pergunta": "Nos termos da Declaração Universal dos Direitos Humanos, o direito à liberdade de locomoção e residência dentro das fronteiras de cada Estado abrange também o direito de deixar qualquer país, inclusive o próprio, e a ele regressar.",
+    "gabarito": "CERTO",
+    "comentario": "Literalidade do art. 13, incisos I e II, da DUDH, que asseguram a liberdade de locomoção e residência dentro das fronteiras de cada Estado e o direito de deixar qualquer país, inclusive o próprio, e a este regressar.",
+    "id": "2c0f2e78-0164-4854-96cb-88f14da2c110",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITOS HUMANOS",
+    "topico_edital": "DIREITOS HUMANOS - DH na Constituição Federal e Declaração Universal",
+    "pergunta": "Em abordagem policial rodoviária, caso um estrangeiro comprove estar sofrendo perseguição em seu país de origem legitimamente motivada por crime de direito comum, ele poderá invocar o direito de procurar e gozar asilo previsto no art. 14 da Declaração Universal dos Direitos Humanos.",
+    "gabarito": "ERRADO",
+    "comentario": "Conforme a exceção expressa do art. 14, inciso II, da DUDH, o direito de procurar e gozar asilo em outros países não pode ser invocado em caso de perseguição legitimamente motivada por crimes de direito comum ou por atos contrários aos propósitos e princípios das Nações Unidas.",
+    "id": "63338a51-3fd2-4498-b49e-e2d9bcc69d19",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITOS HUMANOS",
+    "topico_edital": "DIREITOS HUMANOS - DH na Constituição Federal e Declaração Universal",
+    "pergunta": "Embora ninguém possa ser arbitrariamente privado de sua nacionalidade nem do direito de mudá-la, a Declaração Universal dos Direitos Humanos determina que a instrução será gratuita somente nos graus elementares e fundamentais, sendo obrigatória apenas a instrução elementar.",
+    "gabarito": "ERRADO",
+    "comentario": "Pegadinha clássica do CEBRASPE! Embora o art. 15, II, de fato vede a privação arbitrária da nacionalidade e do direito de mudá-la, o art. 26, inciso I, dispõe que a instrução será gratuita 'pelo menos' nos graus elementares e fundamentais — e não 'somente' nesses graus.",
+    "id": "003c6390-1720-4fcc-88a0-66ba494a1a7f",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITOS HUMANOS",
+    "topico_edital": "DIREITOS HUMANOS - DH na Constituição Federal e Declaração Universal",
+    "pergunta": "Ao reconhecer que toda pessoa tem deveres para com a comunidade, a Declaração Universal dos Direitos Humanos permite que o exercício dos direitos e liberdades sofra limitações determinadas por lei, exclusivamente para assegurar o respeito aos direitos de outrem e satisfazer às justas exigências da moral, da ordem pública e do bem-estar de uma sociedade democrática, vedando qualquer ato destinado à destruição dos direitos nela estabelecidos.",
+    "gabarito": "CERTO",
+    "comentario": "Sintetiza corretamente os arts. 29 (incisos I e II) e 30 da DUDH, que preveem os deveres para com a comunidade, as hipóteses taxativas de limitação legal aos direitos e liberdades em uma sociedade democrática e a proibição de interpretar qualquer disposição da Declaração como direito de praticar ato destinado à destruição dos direitos nela estabelecidos.",
+    "id": "23360df8-50ed-4567-9808-779c46ee6ffb",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITOS HUMANOS",
+    "topico_edital": "DIREITOS HUMANOS - Convenção Americana (Pacto de San José)",
+    "pergunta": "Por versar sobre direitos civis e políticos fundamentais à dignidade da pessoa humana, a Convenção Americana sobre Direitos Humanos, promulgada no Brasil pelo Decreto nº 678/1992, ingressou no ordenamento jurídico pátrio com status normativo equivalente ao de emenda constitucional.",
+    "gabarito": "ERRADO",
+    "comentario": "A CADH foi incorporada ao Brasil em 1992 (Decreto nº 678/1992), antes da EC nº 45/2004 e sem aprovação pelo rito qualificado do art. 5º, § 3º, da CF/88. Por isso, segundo jurisprudência pacificada do STF, possui status supralegal (abaixo da CF/88 e acima das leis ordinárias), e não de emenda constitucional.",
+    "id": "278a50c4-35a8-4fee-9b24-9351beaebfda",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITOS HUMANOS",
+    "topico_edital": "DIREITOS HUMANOS - Convenção Americana (Pacto de San José)",
+    "pergunta": "A obrigação assumida pelos Estados-Partes na Convenção Americana sobre Direitos Humanos de respeitar e garantir os direitos nela reconhecidos abrange qualquer pessoa sujeita à sua jurisdição, independentemente da nacionalidade da vítima, não se estendendo, contudo, a proteção convencional às pessoas jurídicas.",
+    "gabarito": "CERTO",
+    "comentario": "Nos termos do art. 1.1 da CADH, o compromisso estatal dirige-se a 'toda pessoa que esteja sujeita à sua jurisdição', o que torna irrelevante a nacionalidade da vítima (nacional ou estrangeiro), não alcançando pessoas jurídicas.",
+    "id": "19aa6311-b4be-49dc-baaa-a98a0ef1b55d",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITOS HUMANOS",
+    "topico_edital": "DIREITOS HUMANOS - Convenção Americana (Pacto de San José)",
+    "pergunta": "A Convenção Americana sobre Direitos Humanos protege o direito à vida, em geral, desde o momento da concepção, e proíbe a imposição da pena de morte à pessoa que, no momento da perpetração do delito, seja menor de dezoito anos ou maior de setenta anos, bem como à mulher em estado de gravidez.",
+    "gabarito": "CERTO",
+    "comentario": "Reproduz com exatidão os arts. 4.1 (proteção da vida pela lei, em geral, desde o momento da concepção) e 4.5 (vedação da pena de morte aos menores de 18 anos e maiores de 70 anos no momento da perpetração do delito, além de mulheres grávidas).",
+    "id": "2d79454c-2c07-4880-86e0-a1940c634435",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITOS HUMANOS",
+    "topico_edital": "DIREITOS HUMANOS - Convenção Americana (Pacto de San José)",
+    "pergunta": "Nos Estados-Partes que já houverem abolido a pena de morte, a Convenção Americana sobre Direitos Humanos permite o seu restabelecimento excepcional apenas para os delitos comuns conexos com delitos políticos de extrema gravidade.",
+    "gabarito": "ERRADO",
+    "comentario": "O item contraria dois dispositivos expressos: o art. 4.3 estabelece que não se pode restabelecer a pena de morte nos Estados que a hajam abolido, e o art. 4.4 determina que em nenhum caso a pena de morte será aplicada por delitos políticos nem por delitos comuns conexos com delitos políticos.",
+    "id": "a26e2910-4b67-46fd-bc9d-37afb7185f27",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITOS HUMANOS",
+    "topico_edital": "DIREITOS HUMANOS - Convenção Americana (Pacto de San José)",
+    "pergunta": "De acordo com a Convenção Americana sobre Direitos Humanos, as penas privativas da liberdade têm como finalidades essenciais a retribuição penal, a compensação do dano social e a reforma e readaptação social dos condenados.",
+    "gabarito": "ERRADO",
+    "comentario": "Conforme o art. 5.6 da CADH (e item específico já cobrado pelo próprio CEBRASPE), as penas privativas da liberdade têm por finalidade essencial exclusivamente a reforma e a readaptação social dos condenados — não incluindo 'retribuição' ou 'compensação'.",
+    "id": "7e21ac6d-a5cf-482d-be87-aedbfd4ba037",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITOS HUMANOS",
+    "topico_edital": "DIREITOS HUMANOS - Convenção Americana (Pacto de San José)",
+    "pergunta": "Consoante o disposto no art. 5º da Convenção Americana sobre Direitos Humanos, os processados devem permanecer separados dos condenados, salvo em circunstâncias excepcionais, devendo os menores, quando puderem ser processados, ser separados dos adultos e conduzidos a tribunal especializado com a maior rapidez possível.",
+    "gabarito": "CERTO",
+    "comentario": "Literalidade dos arts. 5.4 (separação entre processados e condenados, salvo circunstâncias excepcionais) e 5.5 (separação entre menores processados e adultos, com condução rápida a tribunal especializado).",
+    "id": "304b909d-1c55-4089-a1cd-26f6c622a5d6",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITOS HUMANOS",
+    "topico_edital": "DIREITOS HUMANOS - Convenção Americana (Pacto de San José)",
+    "pergunta": "Constitui trabalho forçado expressamente proibido pela Convenção Americana sobre Direitos Humanos a exigência de serviços de pessoa reclusa em cumprimento de sentença expedida pela autoridade judiciária competente, ainda que tais atividades sejam executadas sob vigilância e controle exclusivos das autoridades públicas.",
+    "gabarito": "ERRADO",
+    "comentario": "Nos termos do art. 6.3, 'a', não constituem trabalhos forçados ou obrigatórios os trabalhos ou serviços normalmente exigidos de pessoa reclusa em cumprimento de sentença ou resolução formal de autoridade judiciária competente, desde que executados sob vigilância e controle das autoridades públicas e sem colocá-los à disposição de particulares ou entidades privadas.",
+    "id": "c6778061-f80d-49de-93a7-c655a48a2dab",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITOS HUMANOS",
+    "topico_edital": "DIREITOS HUMANOS - Convenção Americana (Pacto de San José)",
+    "pergunta": "Durante abordagem ou cumprimento de mandado, toda pessoa detida ou retida tem direito de ser conduzida, sem demora, à presença de um juiz ou autoridade autorizada por lei a exercer funções judiciais, sendo admitida a prisão civil por dívida apenas por ordem de autoridade judiciária competente em caso de inadimplemento de obrigação alimentar.",
+    "gabarito": "CERTO",
+    "comentario": "Combinação correta dos arts. 7.5 (condução, sem demora, à presença de juiz ou autoridade com funções judiciais) e 7.7 (proibição de prisão por dívida, ressalvados os mandados judiciais por inadimplemento de obrigação alimentar).",
+    "id": "20ea1eff-a243-4ae2-b31b-06c01f0b32c6",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITOS HUMANOS",
+    "topico_edital": "DIREITOS HUMANOS - Convenção Americana (Pacto de San José)",
+    "pergunta": "No âmbito das garantias judiciais da Convenção Americana sobre Direitos Humanos, assegura-se ao acusado o direito de não ser obrigado a depor contra si mesmo nem a declarar-se culpado, bem como o direito de recorrer da sentença para juiz ou tribunal superior, admitindo-se, contudo, que o acusado absolvido por sentença transitada em julgado seja submetido a novo processo pelos mesmos fatos caso surjam provas novas.",
+    "gabarito": "ERRADO",
+    "comentario": "Embora a primeira parte reflita o art. 8.2, alíneas 'g' e 'h' (não autoincriminação e duplo grau de jurisdição), a parte final viola o art. 8.4, segundo o qual o acusado absolvido por sentença passada em julgado não poderá ser submetido a novo processo pelos mesmos fatos, sem ressalva para novas provas.",
+    "id": "375934e8-ca6d-4541-a685-a8dad8ed0aae",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITOS HUMANOS",
+    "topico_edital": "DIREITOS HUMANOS - Convenção Americana (Pacto de San José)",
+    "pergunta": "Embora a Convenção Americana sobre Direitos Humanos autorize a suspensão temporária de determinadas obrigações em caso de guerra, perigo público ou emergência que ameace a independência ou segurança do Estado-Parte, jamais poderão ser suspensos os direitos à integridade pessoal, à proibição da escravidão e da servidão e os direitos políticos, nem as garantias indispensáveis para a proteção de tais direitos.",
+    "gabarito": "CERTO",
+    "comentario": "Aplicação literal do art. 27.1 e 27.2 da CADH, que elenca entre os direitos insuscetíveis de suspensão a integridade pessoal (art. 5), a proibição da escravidão e servidão (art. 6) e os direitos políticos (art. 23), além das garantias indispensáveis à proteção desses direitos.",
+    "id": "c204a518-c180-4217-8c60-3416c8831355",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITOS HUMANOS",
+    "topico_edital": "DIREITOS HUMANOS - Convenção Americana (Pacto de San José)",
+    "pergunta": "Qualquer pessoa, grupo de pessoas ou entidade não governamental legalmente reconhecida em um ou mais Estados-Membros da OEA possui legitimidade para submeter diretamente um caso contencioso à decisão da Corte Interamericana de Direitos Humanos quando um Estado-Parte violar direitos previstos na Convenção.",
+    "gabarito": "ERRADO",
+    "comentario": "Pegadinha clássica entre Comissão e Corte: qualquer pessoa, grupo de pessoas ou ONG reconhecida pode apresentar petições à Comissão Interamericana (art. 44); porém, somente os Estados-Partes e a Comissão têm direito de submeter caso à decisão da Corte Interamericana.",
+    "id": "6d30d81f-7f63-4d47-adab-be4ebfac3122",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITOS HUMANOS",
+    "topico_edital": "DIREITOS HUMANOS - Convenção Americana (Pacto de San José)",
+    "pergunta": "Tanto a Comissão Interamericana quanto a Corte Interamericana de Direitos Humanos são compostas por sete integrantes, sendo exigido, para a admissão de petição pela Comissão, o prévio esgotamento dos recursos da jurisdição interna, e comprometendo-se os Estados-Partes a cumprir a decisão da Corte em todo caso em que forem partes.",
+    "gabarito": "CERTO",
+    "comentario": "A Comissão possui 7 membros (art. 34) e a Corte possui 7 juízes (art. 52); o art. 46.1 exige o esgotamento prévio dos recursos internos para admissibilidade na Comissão (princípio da subsidiariedade); e pelo art. 68.1 os Estados-Partes comprometem-se a cumprir a decisão da Corte em todo caso em que forem partes.",
+    "id": "8611dce0-5c2f-4237-b133-7ae5d5fe3f7e",
+    "prova": "inédita"
   }
 ]
