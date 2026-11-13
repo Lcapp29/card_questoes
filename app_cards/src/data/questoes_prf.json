@@ -4633,5 +4633,275 @@
     "comentario": "Súmula Vinculante nº 14 do STF. O sigilo permanece válido e legítimo em relação às diligências em andamento (como mandados de busca pendentes de cumprimento) para garantir sua eficácia.",
     "id": "f74bed81-448a-4465-aff8-e237eef8e7b3",
     "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITO ADMINISTRATIVO",
+    "topico_edital": "DIREITO ADMINISTRATIVO - Organização administrativa",
+    "pergunta": "A supervisão exercida pela administração direta sobre as entidades integrantes da administração indireta, fundada na tutela administrativa, caracteriza modalidade de controle externo, haja vista a inexistência de relação de hierarquia e subordinação entre elas.",
+    "gabarito": "ERRADO",
+    "comentario": "O critério definidor entre controle interno e externo é se o órgão controlador integra ou não o mesmo Poder, e não a presença de hierarquia. A supervisão da administração direta sobre as entidades da administração indireta (tutela administrativa ou supervisão ministerial) é modalidade de controle interno, ainda que sem subordinação hierárquica.",
+    "id": "e3329ebd-e0f8-4e3a-8e31-bf7008eafe4d",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITO ADMINISTRATIVO",
+    "topico_edital": "DIREITO ADMINISTRATIVO - Ato administrativo",
+    "pergunta": "O controle concomitante é exercido durante a execução do ato ou procedimento administrativo, permitindo o acompanhamento simultâneo e a adoção de correções antes de sua finalização, a exemplo das auditorias realizadas em órgãos públicos.",
+    "gabarito": "CERTO",
+    "comentario": "O controle concomitante (ou sucessivo) ocorre durante a execução do ato administrativo, acompanhando sua realização e permitindo correções de rumo antes da finalização, tendo as auditorias como principal exemplo.",
+    "id": "f2f53a83-2425-4d26-b493-d428328de3bd",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITO ADMINISTRATIVO",
+    "topico_edital": "DIREITO ADMINISTRATIVO - Ato administrativo",
+    "pergunta": "De acordo com a Lei nº 9.784/1999, decai em cinco anos, contados da data da prática do ato, o direito da Administração de anular atos administrativos dos quais decorram efeitos favoráveis aos destinatários, ressalvada a hipótese de comprovada má-fé.",
+    "gabarito": "CERTO",
+    "comentario": "Reproduz exatamente o art. 54 da Lei nº 9.784/1999: o direito de a Administração anular atos favoráveis aos destinatários decai em 5 anos contados da data em que foram praticados, salvo comprovada má-fé.",
+    "id": "6d92f2a7-6cc0-447a-80bc-3214d095e5ce",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITO ADMINISTRATIVO",
+    "topico_edital": "DIREITO ADMINISTRATIVO - Ato administrativo",
+    "pergunta": "O pedido de reconsideração constitui espécie de recurso hierárquico impróprio, devendo ser endereçado a órgão diverso daquele que proferiu a decisão impugnada e dependendo, portanto, de expressa previsão legal.",
+    "gabarito": "ERRADO",
+    "comentario": "O pedido de reconsideração não é espécie de recurso e não é dirigido a órgão diverso; trata-se de ato escrito dirigido à mesma autoridade que praticou o ato impugnado para que proceda ao reexame da matéria. Já o recurso hierárquico impróprio é dirigido a órgão/autoridade sem relação hierárquica e depende de lei.",
+    "id": "6960f7d8-5d72-4b36-b37c-4db36801e525",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITO CONSTITUCIONAL",
+    "topico_edital": "DIREITO CONSTITUCIONAL - Direitos e deveres fundamentais (Art. 5º)",
+    "pergunta": "No ordenamento jurídico brasileiro, vigora o princípio da unicidade de jurisdição, segundo o qual somente as decisões emanadas pelo Poder Judiciário possuem aptidão para fazer coisa julgada, não se exigindo o esgotamento da via administrativa para que o interessado recorra ao Judiciário.",
+    "gabarito": "CERTO",
+    "comentario": "No Brasil vigora o princípio da unicidade de jurisdição (inafastabilidade), pelo qual apenas o Poder Judiciário decide com força de coisa julgada, podendo o particular provocar o Judiciário a qualquer fase, mesmo sem esgotar ou concluir o processo administrativo.",
+    "id": "910f7adb-989a-4fde-8cf4-291c62e24f48",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITO ADMINISTRATIVO",
+    "topico_edital": "DIREITO ADMINISTRATIVO - Controle e Responsabilidade civil do Estado",
+    "pergunta": "Embora os atos administrativos discricionários sejam passíveis de controle judicial quanto aos seus aspectos de legalidade, é vedado ao Poder Judiciário adentrar o mérito administrativo para revogar ato considerado inconveniente ou inoportuno.",
+    "gabarito": "CERTO",
+    "comentario": "Tanto os atos vinculados quanto os discricionários sujeitam-se ao controle judicial sob a ótica da legalidade; contudo, o Poder Judiciário não pode analisar o mérito administrativo (conveniência e oportunidade) nem revogar atos dos demais Poderes.",
+    "id": "8727995d-658e-4ab9-beef-cfc0673fde18",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITO CONSTITUCIONAL",
+    "topico_edital": "DIREITO CONSTITUCIONAL - Direitos e deveres fundamentais (Art. 5º)",
+    "pergunta": "Qualquer pessoa jurídica regularmente constituída há mais de um ano detém legitimidade ativa para propor ação popular visando à anulação de ato lesivo à moralidade administrativa ou ao patrimônio público.",
+    "gabarito": "ERRADO",
+    "comentario": "A legitimidade para propor Ação Popular pertence exclusivamente ao cidadão (brasileiros e portugueses equiparados em condições de votar), sendo expressamente afastada para pessoas jurídicas conforme a Súmula nº 365 do STF. A exigência de constituição há pelo menos 1 ano refere-se às associações na Ação Civil Pública.",
+    "id": "3d3559e1-7670-4b52-a176-11db30dfc38a",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITO CONSTITUCIONAL",
+    "topico_edital": "DIREITO CONSTITUCIONAL - Defesa do Estado e instituições democráticas (Segurança Pública)",
+    "pergunta": "No exercício de suas atribuições constitucionais de investigação, a Comissão Parlamentar de Inquérito pode determinar, por decisão própria e fundamentada, a quebra dos sigilos bancário e fiscal de investigados, sendo-lhe vedado, contudo, decretar a interceptação de comunicações telefônicas.",
+    "gabarito": "CERTO",
+    "comentario": "As CPIs podem determinar diretamente a quebra do sigilo bancário, fiscal e de dados telefônicos pretéritos (MS 23.452/RJ), mas não podem determinar interceptação telefônica (dados inéditos), que é medida sujeita à reserva de jurisdição (ordem judicial — art. 5º, XII, CF).",
+    "id": "90eb65dc-5f66-426c-88cb-56b52d398e8b",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITO ADMINISTRATIVO",
+    "topico_edital": "DIREITO ADMINISTRATIVO - Controle e Responsabilidade civil do Estado",
+    "pergunta": "Constatada ilegalidade na execução de contrato administrativo firmado pelo Poder Executivo Federal, o Tribunal de Contas da União possui competência constitucional para sustar diretamente o contrato impugnado, caso o órgão responsável não atenda ao prazo assinado para regularização.",
+    "gabarito": "ERRADO",
+    "comentario": "Conforme o art. 71, X e § 1º, da CF/88, o TCU tem competência para sustar diretamente apenas atos administrativos impugnados; no caso de contratos administrativos, o ato de sustação deve ser adotado diretamente pelo Congresso Nacional.",
+    "id": "f87a2280-e287-4988-977f-c97ade0c4f40",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITO ADMINISTRATIVO",
+    "topico_edital": "DIREITO ADMINISTRATIVO - Controle e Responsabilidade civil do Estado",
+    "pergunta": "Segundo entendimento fixado pelo Supremo Tribunal Federal, os Tribunais de Contas estão sujeitos ao prazo decadencial de cinco anos, contado a partir da chegada do processo à respectiva Corte de Contas, para julgar a legalidade do ato de concessão inicial de aposentadoria, reforma ou pensão.",
+    "gabarito": "CERTO",
+    "comentario": "Reflete exatamente a tese do Tema 445 do STF: em atenção à segurança jurídica e à confiança legítima, os Tribunais de Contas têm prazo decadencial de 5 anos, a contar da chegada do processo à Corte de Contas, para julgar a legalidade do ato inicial de aposentadoria, reforma ou pensão.",
+    "id": "e54bd09f-323a-4b4d-88e0-1ecdfbfec035",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITO ADMINISTRATIVO",
+    "topico_edital": "DIREITO ADMINISTRATIVO - Controle e Responsabilidade civil do Estado",
+    "pergunta": "Durante patrulhamento de rotina, se uma viatura oficial conduzida por agente público colidir com veículo particular em razão de distração do condutor, a responsabilização civil do ente federativo será objetiva, dispensando a vítima de demonstrar dolo ou culpa do servidor na ação indenizatória.",
+    "gabarito": "CERTO",
+    "comentario": "Conforme o art. 37, § 6º, da CF/88 e a Teoria do Risco Administrativo, a responsabilidade do ente público por conduta comissiva de agente público nessa qualidade é objetiva, bastando comprovar conduta, dano e nexo causal, sem necessidade de provar dolo ou culpa.",
+    "id": "5d84a5e7-5432-46d1-9a3e-25bf18582802",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITO ADMINISTRATIVO",
+    "topico_edital": "DIREITO ADMINISTRATIVO - Controle e Responsabilidade civil do Estado",
+    "pergunta": "De acordo com a jurisprudência consolidada do Supremo Tribunal Federal, o particular lesado por conduta culposa de agente policial no exercício da função pode optar por ajuizar a ação de indenização diretamente contra o servidor, contra o ente público ou contra ambos em litisconsórcio passivo.",
+    "gabarito": "ERRADO",
+    "comentario": "Pelo entendimento do STF (RE 327.904 e RE 344.133 — Teoria da Dupla Garantia), a ação indenizatória deve ser proposta exclusivamente contra a pessoa jurídica, sendo o agente público parte ilegítima para figurar no polo passivo, vedado o litisconsórcio passivo ou a denunciação à lide.",
+    "id": "90929476-bf12-478e-9a66-8eefd0a7aa5f",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITO ADMINISTRATIVO",
+    "topico_edital": "DIREITO ADMINISTRATIVO - Controle e Responsabilidade civil do Estado",
+    "pergunta": "Caso um policial rodoviário, em seu dia de folga e fora do desempenho de suas atribuições funcionais, utilize a arma pertencente à corporação para atingir desafeto pessoal, restará configurada a responsabilidade civil objetiva do Estado pelo mero emprego de armamento oficial.",
+    "gabarito": "ERRADO",
+    "comentario": "Conforme decidiu o STF no RE 363.423/SP, não há responsabilidade objetiva do Estado quando o agente público pratica crime fora do desempenho de seu cargo, função ou emprego, motivado por razões pessoais — ainda que utilize arma da corporação em período de folga.",
+    "id": "bfdae459-5517-4086-ac5e-7559a8124c23",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITO ADMINISTRATIVO",
+    "topico_edital": "DIREITO ADMINISTRATIVO - Controle e Responsabilidade civil do Estado",
+    "pergunta": "No âmbito da teoria do risco administrativo, a comprovação de culpa concorrente da vítima pelo acidente envolvendo viatura estatal constitui causa excludente total, afastando integralmente o dever de indenizar do Poder Público.",
+    "gabarito": "ERRADO",
+    "comentario": "A culpa concorrente da vítima não é excludente total, mas sim causa atenuante (excludente parcial), que apenas reduz proporcionalmente a indenização devida pelo Estado. Apenas a culpa exclusiva afasta totalmente o dever de indenizar.",
+    "id": "00e7aa64-2955-44a4-8094-2ddf1db71f91",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITO ADMINISTRATIVO",
+    "topico_edital": "DIREITO ADMINISTRATIVO - Controle e Responsabilidade civil do Estado",
+    "pergunta": "A responsabilidade civil das empresas públicas e das sociedades de economia mista que exploram atividade econômica em regime de concorrência no mercado segue a teoria do risco administrativo prevista no artigo 37, § 6º, da Constituição Federal.",
+    "gabarito": "ERRADO",
+    "comentario": "Apenas as pessoas jurídicas de direito público e as pessoas jurídicas de direito privado prestadoras de serviços públicos submetem-se ao art. 37, § 6º, da CF/88. As empresas públicas e sociedades de economia mista exploradoras de atividade econômica não respondem pela teoria do risco administrativo perante terceiros.",
+    "id": "13b6af91-3aae-41d9-8aba-100a7a29bc19",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITO ADMINISTRATIVO",
+    "topico_edital": "DIREITO ADMINISTRATIVO - Controle e Responsabilidade civil do Estado",
+    "pergunta": "Na hipótese de morte por suicídio de preso recolhido em estabelecimento prisional mantido pelo Estado, a responsabilidade civil estatal é objetiva em razão do dever específico de custódia e garantia da integridade física dos detentos.",
+    "gabarito": "CERTO",
+    "comentario": "Reflete o entendimento do STJ (REsp 1.305.259-SC) e a lógica da omissão específica, na qual o Estado atua como garante da integridade física das pessoas sob sua custódia, respondendo de forma objetiva pelo suicídio de detento em estabelecimento prisional.",
+    "id": "928df132-9271-4af5-b85e-91b42f808539",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITO ADMINISTRATIVO",
+    "topico_edital": "DIREITO ADMINISTRATIVO - Controle e Responsabilidade civil do Estado",
+    "pergunta": "Segundo entendimento firmado pelo Supremo Tribunal Federal, o Estado responde objetivamente por todo e qualquer crime praticado por preso foragido do sistema prisional, ainda que o delito seja cometido após período considerável de tempo da fuga e mediante formação de quadrilha.",
+    "gabarito": "ERRADO",
+    "comentario": "Pelo RE 608.880/STF, não se caracteriza a responsabilidade civil objetiva do Estado por danos decorrentes de crime praticado por pessoa foragida quando não demonstrado o nexo causal direto entre o momento da fuga e a conduta praticada, afastando-se o dever de indenizar quando o crime ocorre após período considerável de tempo ou mediante formação de quadrilha.",
+    "id": "42d0ac08-b40c-4f38-85df-a071ee350a42",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITO ADMINISTRATIVO",
+    "topico_edital": "DIREITO ADMINISTRATIVO - Controle e Responsabilidade civil do Estado",
+    "pergunta": "Em se tratando de omissão genérica na prestação de serviços públicos — como a ausência de iluminação pública noturna em via movimentada que atinge indistintamente toda a coletividade —, a responsabilidade civil do Estado é subjetiva e exige a comprovação da falha ou omissão do serviço.",
+    "gabarito": "CERTO",
+    "comentario": "Na omissão genérica — que atinge toda a coletividade indistintamente, como a falta de iluminação pública noturna — aplica-se a Teoria da Culpa Administrativa (culpa anônima), de natureza subjetiva, cabendo ao particular comprovar a omissão ou falha na prestação do serviço.",
+    "id": "6762d0b6-a25f-4290-af57-c9aa08369a4f",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITO ADMINISTRATIVO",
+    "topico_edital": "DIREITO ADMINISTRATIVO - Controle e Responsabilidade civil do Estado",
+    "pergunta": "A ação judicial de indenização proposta pelo particular contra a Fazenda Pública em razão de danos causados por agente estatal prescreve no prazo de três anos, aplicando-se a regra geral do Código Civil para reparação civil.",
+    "gabarito": "ERRADO",
+    "comentario": "Conforme pacificado pelo STJ no REsp 1.251.993/PR (recurso repetitivo), o prazo prescricional para ações de indenização propostas contra a Fazenda Pública é de 5 anos, regido pelo art. 1º do Decreto nº 20.910/1932, e não o prazo de 3 anos do Código Civil.",
+    "id": "ab002699-fbdb-4ce2-abce-e57eef9e4b8c",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITO ADMINISTRATIVO",
+    "topico_edital": "DIREITO ADMINISTRATIVO - Controle e Responsabilidade civil do Estado",
+    "pergunta": "Após indenizar terceiro prejudicado por conduta de seu servidor, o Estado somente poderá exercer o direito de regresso contra o agente se comprovar que este atuou com dolo ou culpa, sendo a respectiva pretensão de ressarcimento imprescritível caso decorra de ato doloso de improbidade administrativa ou envolva matéria criminal.",
+    "gabarito": "CERTO",
+    "comentario": "A ação regressiva contra o agente tem natureza subjetiva, exigindo prova de dolo ou culpa (art. 37, § 6º, CF). Quanto à prescrição do ressarcimento ao erário, o STF decidiu que é imprescritível nos casos de ato doloso de improbidade administrativa (RE 852.475) e quando envolver matéria criminal, sendo prescritível nos demais ilícitos civis (RE 669.069/MG).",
+    "id": "8acb2224-c819-4b40-a6e0-e466e577bd29",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITO ADMINISTRATIVO",
+    "topico_edital": "DIREITO ADMINISTRATIVO - Organização administrativa",
+    "pergunta": "A relação jurídica estabelecida entre a Polícia Rodoviária Federal e os condutores fiscalizados nas rodovias federais é marcada pela verticalidade, decorrente do princípio implícito da supremacia do interesse público, o qual está presente em toda e qualquer atividade praticada pelo Estado, inclusive nos atos de gestão regidos pelo direito privado.",
+    "gabarito": "ERRADO",
+    "comentario": "De fato, a relação entre a Administração e os administrados é caracterizada pela verticalidade decorrente do princípio implícito da supremacia do interesse público. Contudo, esse princípio não está presente em toda a atividade administrativa: nos atos de gestão regidos pelo Direito Privado (como emitir um cheque), a Administração atua despida de suas prerrogativas.",
+    "id": "51dfd5bc-e23d-41e7-8bdf-9327bb21f1aa",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITO ADMINISTRATIVO",
+    "topico_edital": "DIREITO ADMINISTRATIVO - Organização administrativa",
+    "pergunta": "Em razão do princípio da indisponibilidade do interesse público, a Administração Pública atua como mera gestora dos interesses da coletividade, estando proibida, em regra, de renunciar aos poderes conferidos aos seus agentes para o exercício das funções públicas.",
+    "gabarito": "CERTO",
+    "comentario": "Pelo princípio da indisponibilidade do interesse público, o Poder Público não é proprietário, mas mero gestor dos interesses coletivos. Dessa condição decorrem sujeições, como a impossibilidade, em regra, de que os agentes renunciem aos poderes que lhes foram conferidos para exercer suas funções.",
+    "id": "0e6e26d8-9498-4758-b51f-0225113308a4",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITO ADMINISTRATIVO",
+    "topico_edital": "DIREITO ADMINISTRATIVO - Organização administrativa",
+    "pergunta": "De acordo com o princípio da legalidade aplicado à Administração Pública, a atuação dos agentes estatais restringe-se estritamente ao cumprimento literal das leis ordinárias e complementares aprovadas pelo Poder Legislativo, não alcançando o chamado bloco de legalidade.",
+    "gabarito": "ERRADO",
+    "comentario": "Pela concepção moderna de Juridicidade (ou bloco de legalidade), a atuação administrativa não se limita às leis formais aprovadas pelo Legislativo, devendo observar também a Constituição Federal, as Constituições Estaduais, medidas provisórias, princípios gerais do Direito, costumes e demais atos normativos.",
+    "id": "7c2b0fd9-bca3-4777-8816-8c5261c08a56",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITO ADMINISTRATIVO",
+    "topico_edital": "DIREITO ADMINISTRATIVO - Organização administrativa",
+    "pergunta": "Se um dirigente de órgão policial determinar a remoção de um subordinado para outra unidade da federação como forma de retaliação por divergência pessoal, haverá violação ao princípio da impessoalidade em sua acepção relacionada ao princípio da finalidade.",
+    "gabarito": "CERTO",
+    "comentario": "Em sua primeira acepção, a impessoalidade confunde-se com o princípio da finalidade (obrigando a prática do ato apenas para o fim legal). Utilizar o instituto da remoção por insatisfação pessoal configura desvio de finalidade e violação direta à impessoalidade.",
+    "id": "b1c7985e-e068-4f76-b3c4-1553d4d3221d",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITO ADMINISTRATIVO",
+    "topico_edital": "DIREITO ADMINISTRATIVO - Agentes públicos: Regras Gerais (Lei nº 8.112/1990)",
+    "pergunta": "Ao adotar a teoria da representação para explicar a atuação dos agentes públicos, o Direito Administrativo brasileiro imputa os danos causados por policial rodoviário federal em serviço diretamente ao órgão público ao qual está vinculado, assegurado o direito de regresso em caso de dolo ou culpa.",
+    "gabarito": "ERRADO",
+    "comentario": "O Direito Administrativo brasileiro adota a Teoria do Órgão, e não a teoria da representação, para fundamentar a imputação dos atos e danos praticados por agentes públicos em exercício ao ente/órgão estatal (cabendo ação regressiva em caso de dolo ou culpa).",
+    "id": "020ac8aa-321f-4b1b-a3e6-446e257a9700",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITO ADMINISTRATIVO",
+    "topico_edital": "DIREITO ADMINISTRATIVO - Ato administrativo",
+    "pergunta": "Embora um ato administrativo cumpra formalmente todos os requisitos previstos em lei, a sua prática em desacordo com padrões éticos de probidade, decoro e boa-fé configura ofensa objetiva ao princípio da moralidade, impondo a sua anulação.",
+    "gabarito": "CERTO",
+    "comentario": "A moralidade possui campo próprio ligado à probidade, ao decoro e à boa-fé (não juridicização), razão pela qual um ato pode ser formalmente legal e materialmente imoral. Por ser princípio de caráter objetivo, sua violação torna o ato nulo, exigindo anulação.",
+    "id": "ebb550e2-b020-414b-8b82-b3fff82cd266",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITO ADMINISTRATIVO",
+    "topico_edital": "DIREITO ADMINISTRATIVO - Organização administrativa",
+    "pergunta": "Para atender ao princípio da publicidade e conferir eficácia externa a portarias de nomeação de candidatos aprovados em concurso público policial, é suficiente a divulgação integral dos nomes e cargos em programa radiofônico oficial de alcance nacional, como a \"Voz do Brasil\".",
+    "gabarito": "ERRADO",
+    "comentario": "Conforme a doutrina e a jurisprudência do STF (RE 71.652), a publicação apta a conferir eficácia externa aos atos administrativos exige divulgação em jornal oficial / imprensa oficial (DOU, DOE, DOM), não bastando a veiculação por rádio ou televisão, ainda que na \"Voz do Brasil\".",
+    "id": "cd68643a-7491-469d-907d-6263e518a4d9",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITO ADMINISTRATIVO",
+    "topico_edital": "DIREITO ADMINISTRATIVO - Organização administrativa",
+    "pergunta": "Consoante jurisprudência do Supremo Tribunal Federal, a divulgação da remuneração bruta, do cargo e do órgão de lotação de servidores públicos em sítios oficiais concretiza o princípio da publicidade, devendo o ente público resguardar o sigilo de informações estritamente pessoais, tais como endereço residencial e número de CPF.",
+    "gabarito": "CERTO",
+    "comentario": "Reflete exatamente o julgamento do STF no Agravo de Suspensão 3902-SP: remuneração bruta, cargos, funções e lotação são informações de interesse coletivo sujeitas à divulgação oficial, restringindo-se o acesso apenas a dados pessoais como endereço residencial, CPF, CI e filiação.",
+    "id": "6242bbee-c95a-4fe8-b5a6-2f4ac396306a",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITO ADMINISTRATIVO",
+    "topico_edital": "DIREITO ADMINISTRATIVO - Organização administrativa",
+    "pergunta": "Como decorrência direta do princípio da continuidade dos serviços públicos, serviços essenciais à segurança da coletividade, a exemplo do policiamento e do corpo de bombeiros, sofrem impedimento quanto ao exercício do direito de greve.",
+    "gabarito": "CERTO",
+    "comentario": "O PDF aponta expressamente, como um dos principais reflexos do princípio da continuidade dos serviços públicos, o impedimento de que setores essenciais à coletividade — como o policiamento e o corpo de Bombeiros — exerçam o direito de greve.",
+    "id": "c7453f30-829b-49d9-9400-1e7b67145835",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "DIREITO ADMINISTRATIVO",
+    "topico_edital": "DIREITO ADMINISTRATIVO - Agentes públicos: Regras Gerais (Lei nº 8.112/1990)",
+    "pergunta": "Caso um servidor público receba de boa-fé vantagem pecuniária paga indevidamente pela Administração em decorrência de erro escusável de interpretação de lei pelo órgão pagador, o princípio da segurança jurídica impede que lhe seja exigida a reposição dessas importâncias ao erário.",
+    "gabarito": "CERTO",
+    "comentario": "Em consonância com o princípio da segurança jurídica, tanto a Súmula nº 249 do TCU quanto a jurisprudência do STJ (REsp 1.244.182) dispensam a devolução ao erário de valores recebidos de boa-fé pelo servidor público em decorrência de erro escusável ou interpretação equivocada de lei pela própria Administração.",
+    "id": "8b3d21c5-6ef1-4324-a037-6c36515aa1fc",
+    "prova": "inédita"
   }
 ]
