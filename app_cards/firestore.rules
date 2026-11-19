@@ -22,9 +22,9 @@ service cloud.firestore {
       }
 
       // 1. LEITURA (get e list)
-      // O usuário pode ler seus próprios documentos ou o admin (lucascappola@gmail.com) pode ler tudo
+      // O usuário pode ler seus próprios documentos ou o admin (lucascappola@hotmail.com) pode ler tudo
       allow read: if request.auth != null && (
-        request.auth.token.email == 'lucascappola@gmail.com' ||
+        request.auth.token.email == 'lucascappola@hotmail.com' ||
         resource.data.userId == request.auth.uid
       );
 
