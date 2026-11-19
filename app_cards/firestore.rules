@@ -10,20 +10,34 @@ service cloud.firestore {
     // Regras de Segurança Estritas para o Histórico de Estudos (user_progress)
     match /user_progress/{progressId} {
 
+      // Verifica com segurança se o usuário autenticado é o administrador (Cappola)
+      function isAdmin() {
+        return request.auth != null
+          && 'email' in request.auth.token
+          && request.auth.token.email.lower() in [
+            'lucascappola@hotmail.com',
+            'lucascappola@gmail.com'
+          ];
+      }
+
       // Validação de integridade e tipo dos dados
       function isValidProgress(data) {
         return data.userId is string && data.userId == request.auth.uid
           && data.questionId is string && data.questionId.size() <= 200
           && data.disciplina is string && data.disciplina.size() <= 100
-          && data.topico is string && data.topico.size() <= 150
+          && data.topico is string && data.topico.size() <= 200
           && data.resultado in ['acerto', 'erro']
           && (data.rating in ['Errei', 'Difícil', 'Ok', 'Fácil'] || data.rating == null)
           && (data.timestamp is string && data.timestamp.size() <= 50);
       }
 
       // 1. LEITURA (get e list)
-      // Qualquer usuário autenticado pode ler (necessário para rankings e painel admin)
-      allow read: if request.auth != null;
+      // O admin (Cappola) pode ler todos os registros para rankings e BI;
+      // demais usuários leem apenas os próprios documentos.
+      allow read: if request.auth != null && (
+        isAdmin() ||
+        resource.data.userId == request.auth.uid
+      );
 
       // 2. CRIAÇÃO (create)
       // O usuário só pode registrar questões para si mesmo (userId == auth.uid)
@@ -39,8 +53,11 @@ service cloud.firestore {
         && isValidProgress(request.resource.data);
 
       // 4. EXCLUSÃO (delete)
-      // Apenas o próprio usuário pode apagar seus registros
-      allow delete: if request.auth != null && resource.data.userId == request.auth.uid;
+      // O próprio usuário ou o admin pode apagar registros
+      allow delete: if request.auth != null && (
+        isAdmin() ||
+        resource.data.userId == request.auth.uid
+      );
     }
   }
 }

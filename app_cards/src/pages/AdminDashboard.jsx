@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useMemo } from 'react';
-import { Link, useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { 
   Shield, 
   ArrowLeft, 
@@ -11,23 +11,76 @@ import {
   XCircle, 
   RefreshCw,
   Lock,
-  BookOpen,
   Sparkles,
   TrendingDown,
-  UserCheck
+  Copy,
+  Check
 } from 'lucide-react';
 import { useAuth, isAdminUser } from '../contexts/AuthContext.jsx';
 import { fetchAllUsersProgress } from '../services/progressService.js';
 import questionsData from '../data/questoes_prf.json';
 import { formatTopicName } from '../components/Flashcard.jsx';
 
+const RECOMMENDED_FIRESTORE_RULES = `rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /{document=**} {
+      allow read, write: if false;
+    }
+
+    match /user_progress/{progressId} {
+      function isAdmin() {
+        return request.auth != null
+          && 'email' in request.auth.token
+          && request.auth.token.email.lower() in [
+            'lucascappola@hotmail.com',
+            'lucascappola@gmail.com'
+          ];
+      }
+
+      function isValidProgress(data) {
+        return data.userId is string && data.userId == request.auth.uid
+          && data.questionId is string && data.questionId.size() <= 200
+          && data.disciplina is string && data.disciplina.size() <= 100
+          && data.topico is string && data.topico.size() <= 200
+          && data.resultado in ['acerto', 'erro']
+          && (data.rating in ['Errei', 'Difícil', 'Ok', 'Fácil'] || data.rating == null)
+          && (data.timestamp is string && data.timestamp.size() <= 50);
+      }
+
+      allow read: if request.auth != null && (
+        isAdmin() ||
+        resource.data.userId == request.auth.uid
+      );
+
+      allow create: if request.auth != null
+        && request.resource.data.userId == request.auth.uid
+        && isValidProgress(request.resource.data);
+
+      allow update: if request.auth != null
+        && resource.data.userId == request.auth.uid
+        && request.resource.data.userId == request.auth.uid
+        && isValidProgress(request.resource.data);
+
+      allow delete: if request.auth != null && (
+        isAdmin() ||
+        resource.data.userId == request.auth.uid
+      );
+    }
+  }
+}`;
+
 export default function AdminDashboard() {
-  const navigate = useNavigate();
   const { user, loading: authLoading } = useAuth();
   
   const [globalProgress, setGlobalProgress] = useState([]);
+  const [firestoreError, setFirestoreError] = useState(null);
+  const [isPartialFallback, setIsPartialFallback] = useState(false);
+  const [copiedRules, setCopiedRules] = useState(false);
   const [loading, setLoading] = useState(true);
   const [refreshing, setRefreshing] = useState(false);
+
+  const isAuthorizedAdmin = Boolean(user && isAdminUser(user));
 
   // Mapeamento de questões do JSON para busca rápida
   const questionsMap = useMemo(() => {
@@ -46,10 +99,16 @@ export default function AdminDashboard() {
     else setLoading(true);
 
     try {
-      const data = await fetchAllUsersProgress();
-      setGlobalProgress(data);
+      const result = await fetchAllUsersProgress(user?.uid);
+      setGlobalProgress(result.items || []);
+      setFirestoreError(result.firestoreError || null);
+      setIsPartialFallback(Boolean(result.isPartialFallback));
     } catch (err) {
       console.error('Erro ao carregar dados administrativos:', err);
+      setFirestoreError({
+        code: err?.code || 'unknown',
+        message: err?.message || 'Falha ao carregar dados do Firestore.'
+      });
     } finally {
       setLoading(false);
       setRefreshing(false);
@@ -57,40 +116,12 @@ export default function AdminDashboard() {
   };
 
   useEffect(() => {
-    if (!authLoading && user && isAdminUser(user)) {
+    if (!authLoading && isAuthorizedAdmin) {
       loadAdminData();
     } else if (!authLoading) {
       setLoading(false);
     }
-  }, [user, authLoading]);
-
-  // Se não for admin ou não estiver logado
-  if (!authLoading && (!user || !isAdminUser(user))) {
-    return (
-      <div className="min-h-screen bg-gray-950 text-gray-100 flex items-center justify-center p-4">
-        <div className="max-w-md w-full bg-gray-900 border border-red-500/30 rounded-2xl p-8 text-center space-y-5 shadow-2xl">
-          <div className="w-16 h-16 rounded-2xl bg-red-500/10 text-red-400 flex items-center justify-center mx-auto border border-red-500/20">
-            <Lock className="w-8 h-8" />
-          </div>
-          <div className="space-y-2">
-            <h1 className="text-xl font-bold text-white">Acesso Restrito</h1>
-            <p className="text-xs text-gray-400">
-              Esta área é restrita e exclusiva para o administrador do sistema (Cappola).
-            </p>
-          </div>
-          <div className="pt-2">
-            <Link
-              to="/"
-              className="inline-flex items-center justify-center gap-2 w-full py-3 bg-yellow-500 hover:bg-yellow-400 text-gray-950 font-bold rounded-xl text-sm transition-all shadow-lg"
-            >
-              <ArrowLeft className="w-4 h-4" />
-              <span>Voltar para a Página Inicial</span>
-            </Link>
-          </div>
-        </div>
-      </div>
-    );
-  }
+  }, [user?.uid, authLoading, isAuthorizedAdmin]);
 
   // Cálculos de Usuários e Ranking
   const usersRanking = useMemo(() => {
@@ -98,10 +129,18 @@ export default function AdminDashboard() {
 
     globalProgress.forEach((item) => {
       const uid = item.userId || 'Anônimo';
+      const isCurrentUser = Boolean(user?.uid && uid === user.uid);
+      const resolvedName =
+        item.userName ||
+        item.userEmail ||
+        (isCurrentUser ? (user.displayName || user.email) : null) ||
+        (uid.startsWith('guest_') ? 'Visitante Local' : (uid.length > 20 ? `Usuário (${uid.substring(0, 6)}...)` : uid));
+
       if (!userMap.has(uid)) {
         userMap.set(uid, {
           userId: uid,
-          name: uid.startsWith('guest_') ? 'Visitante Local' : (uid.length > 20 ? `Usuário (${uid.substring(0, 6)}...)` : uid),
+          name: resolvedName,
+          email: item.userEmail || (isCurrentUser ? user.email : null),
           total: 0,
           acertos: 0,
           erros: 0,
@@ -110,6 +149,9 @@ export default function AdminDashboard() {
       }
 
       const u = userMap.get(uid);
+      if (item.userName && u.name.startsWith('Usuário (')) {
+        u.name = item.userName;
+      }
       u.total++;
       const isErro = item.resultado === 'erro' || item.rating === 'Errei';
       if (isErro) u.erros++;
@@ -127,7 +169,7 @@ export default function AdminDashboard() {
         percent: u.total > 0 ? Math.round((u.acertos / u.total) * 100) : 0
       }))
       .sort((a, b) => b.total - a.total);
-  }, [globalProgress]);
+  }, [globalProgress, user]);
 
   // Ranking de Questões Mais Erradas
   const questionsMistakesRanking = useMemo(() => {
@@ -153,7 +195,7 @@ export default function AdminDashboard() {
 
     return Array.from(mistakeMap.values())
       .sort((a, b) => b.errosCount - a.errosCount)
-      .slice(0, 10); // Top 10 mais erradas
+      .slice(0, 10);
   }, [globalProgress, questionsMap]);
 
   // Ranking de Tópicos Mais Errados
@@ -182,12 +224,13 @@ export default function AdminDashboard() {
     });
 
     return Array.from(topicMap.values())
+      .filter(t => t.erros > 0)
       .map(t => ({
         ...t,
         errorRate: t.total > 0 ? Math.round((t.erros / t.total) * 100) : 0
       }))
       .sort((a, b) => b.erros - a.erros)
-      .slice(0, 10); // Top 10 tópicos com mais erros
+      .slice(0, 10);
   }, [globalProgress]);
 
   // Métricas Globais Resumidas
@@ -212,6 +255,44 @@ export default function AdminDashboard() {
       activeUsers
     };
   }, [globalProgress, usersRanking]);
+
+  const handleCopyRules = async () => {
+    try {
+      await navigator.clipboard.writeText(RECOMMENDED_FIRESTORE_RULES);
+      setCopiedRules(true);
+      setTimeout(() => setCopiedRules(false), 2500);
+    } catch (e) {
+      console.warn('Falha ao copiar para área de transferência:', e);
+    }
+  };
+
+  // Se não for admin ou não estiver logado
+  if (!authLoading && !isAuthorizedAdmin) {
+    return (
+      <div className="min-h-screen bg-gray-950 text-gray-100 flex items-center justify-center p-4">
+        <div className="max-w-md w-full bg-gray-900 border border-red-500/30 rounded-2xl p-8 text-center space-y-5 shadow-2xl">
+          <div className="w-16 h-16 rounded-2xl bg-red-500/10 text-red-400 flex items-center justify-center mx-auto border border-red-500/20">
+            <Lock className="w-8 h-8" />
+          </div>
+          <div className="space-y-2">
+            <h1 className="text-xl font-bold text-white">Acesso Restrito</h1>
+            <p className="text-xs text-gray-400">
+              Esta área é restrita e exclusiva para o administrador do sistema (Cappola).
+            </p>
+          </div>
+          <div className="pt-2">
+            <Link
+              to="/"
+              className="inline-flex items-center justify-center gap-2 w-full py-3 bg-yellow-500 hover:bg-yellow-400 text-gray-950 font-bold rounded-xl text-sm transition-all shadow-lg"
+            >
+              <ArrowLeft className="w-4 h-4" />
+              <span>Voltar para a Página Inicial</span>
+            </Link>
+          </div>
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div className="min-h-screen bg-gray-950 text-gray-100 py-8 px-4 sm:px-6 lg:px-8">
@@ -257,6 +338,42 @@ export default function AdminDashboard() {
           </p>
         </div>
 
+        {/* Alerta de Diagnóstico caso as Regras do Firebase Console bloqueiem leitura global */}
+        {firestoreError && (
+          <div className="bg-amber-500/10 border border-amber-500/40 rounded-2xl p-5 sm:p-6 space-y-4 shadow-xl">
+            <div className="flex items-start gap-3">
+              <AlertTriangle className="w-5 h-5 text-amber-400 shrink-0 mt-0.5" />
+              <div className="space-y-1.5 flex-1">
+                <h2 className="text-sm sm:text-base font-bold text-amber-300">
+                  Permissão global bloqueada nas Regras do Firebase Console ({firestoreError.code})
+                </h2>
+                <p className="text-xs text-gray-300 leading-relaxed">
+                  {isPartialFallback
+                    ? 'Exibindo apenas os seus próprios registros no momento. Para visualizar todos os usuários da plataforma, publique as regras abaixo no seu Console do Firebase (Firestore Database → Regras), pois o Vercel não publica regras do Firebase automaticamente.'
+                    : 'O Firestore recusou a leitura da coleção global porque as Regras de Segurança no seu Console do Firebase ainda restringem a leitura apenas ao próprio usuário. Publique as regras abaixo no Console do Firebase (Firestore Database → Regras) para liberar o painel admin.'}
+                </p>
+              </div>
+            </div>
+
+            <div className="bg-gray-950/90 border border-gray-800 rounded-xl p-3 space-y-2">
+              <div className="flex items-center justify-between text-[11px] text-gray-400 px-1">
+                <span>Firebase Console → Firestore Database → Regras (firestore.rules)</span>
+                <button
+                  type="button"
+                  onClick={handleCopyRules}
+                  className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-amber-500/15 hover:bg-amber-500/25 text-amber-300 font-semibold transition-colors cursor-pointer"
+                >
+                  {copiedRules ? <Check className="w-3.5 h-3.5" /> : <Copy className="w-3.5 h-3.5" />}
+                  <span>{copiedRules ? 'Copiado!' : 'Copiar Regras'}</span>
+                </button>
+              </div>
+              <pre className="text-[11px] text-gray-300 overflow-x-auto max-h-48 p-2 rounded-lg bg-black/40 font-mono leading-relaxed">
+                {RECOMMENDED_FIRESTORE_RULES}
+              </pre>
+            </div>
+          </div>
+        )}
+
         {/* Estado de Carregamento */}
         {loading ? (
           <div className="py-24 text-center text-gray-400 space-y-3">
@@ -270,7 +387,7 @@ export default function AdminDashboard() {
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
               
               <div className="bg-gray-900/90 border border-gray-800 rounded-2xl p-6 space-y-2 shadow-lg">
-                <span className="text-xs font-semibold text-gray-400 uppercase tracking-wider block flex items-center gap-1.5">
+                <span className="text-xs font-semibold text-gray-400 uppercase tracking-wider flex items-center gap-1.5">
                   <Users className="w-4 h-4 text-yellow-400" />
                   <span>Usuários Ativos</span>
                 </span>
@@ -284,7 +401,7 @@ export default function AdminDashboard() {
               </div>
 
               <div className="bg-gray-900/90 border border-gray-800 rounded-2xl p-6 space-y-2 shadow-lg">
-                <span className="text-xs font-semibold text-gray-400 uppercase tracking-wider block flex items-center gap-1.5">
+                <span className="text-xs font-semibold text-gray-400 uppercase tracking-wider flex items-center gap-1.5">
                   <BarChart3 className="w-4 h-4 text-yellow-400" />
                   <span>Total de Questões Respondidas</span>
                 </span>
@@ -298,7 +415,7 @@ export default function AdminDashboard() {
               </div>
 
               <div className="bg-gray-900/90 border border-gray-800 rounded-2xl p-6 space-y-2 shadow-lg">
-                <span className="text-xs font-semibold text-gray-400 uppercase tracking-wider block flex items-center gap-1.5">
+                <span className="text-xs font-semibold text-gray-400 uppercase tracking-wider flex items-center gap-1.5">
                   <CheckCircle2 className="w-4 h-4 text-emerald-400" />
                   <span>Taxa de Acerto Média</span>
                 </span>
@@ -314,7 +431,7 @@ export default function AdminDashboard() {
               </div>
 
               <div className="bg-gray-900/90 border border-gray-800 rounded-2xl p-6 space-y-2 shadow-lg">
-                <span className="text-xs font-semibold text-gray-400 uppercase tracking-wider block flex items-center gap-1.5">
+                <span className="text-xs font-semibold text-gray-400 uppercase tracking-wider flex items-center gap-1.5">
                   <Sparkles className="w-4 h-4 text-yellow-400" />
                   <span>Banco de Questões</span>
                 </span>
@@ -362,7 +479,10 @@ export default function AdminDashboard() {
                             {index === 0 ? '🥇 1º' : index === 1 ? '🥈 2º' : index === 2 ? '🥉 3º' : `${index + 1}º`}
                           </td>
                           <td className="py-3.5 px-4 font-medium text-white">
-                            {u.name}
+                            <span>{u.name}</span>
+                            {u.email && u.name !== u.email && (
+                              <span className="ml-2 text-[11px] text-gray-400">({u.email})</span>
+                            )}
                             {u.userId === user?.uid && (
                               <span className="ml-2 px-2 py-0.5 bg-yellow-500/10 text-yellow-400 border border-yellow-500/20 rounded-md text-[10px]">
                                 Você (Admin)

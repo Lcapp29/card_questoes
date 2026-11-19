@@ -86,6 +86,8 @@ export default function StudySession() {
     if (user?.uid) {
       recordCardProgress({
         userId: user.uid,
+        userName: user.displayName || '',
+        userEmail: user.email || '',
         questionId: questionId || question?.id,
         disciplina: question?.disciplina || 'PRF',
         topico: cleanTopic,

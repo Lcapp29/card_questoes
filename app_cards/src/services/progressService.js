@@ -22,6 +22,8 @@ const COLLECTION_NAME = 'user_progress';
  */
 export async function recordCardProgress({
   userId,
+  userName,
+  userEmail,
   questionId,
   disciplina,
   topico,
@@ -35,6 +37,8 @@ export async function recordCardProgress({
 
   const docData = {
     userId,
+    ...(userName ? { userName } : {}),
+    ...(userEmail ? { userEmail } : {}),
     questionId: questionId || '',
     disciplina: disciplina || 'Geral',
     topico: topico || 'Geral',
@@ -148,30 +152,73 @@ export async function fetchUserProgress(userId) {
 }
 
 /**
- * Busca o progresso de TODOS os usuários (exclusivo para Admin) - Super robusto
+ * Busca o progresso de TODOS os usuários (exclusivo para Admin)
+ * Retorna { items, firestoreError, isPartialFallback } para expor falhas de regra no Firestore
  */
-export async function fetchAllUsersProgress() {
+export async function fetchAllUsersProgress(fallbackUserId = null) {
   const items = [];
-  console.log('[ProgressService] fetchAllUsersProgress iniciado...');
+  let firestoreError = null;
+  let isPartialFallback = false;
 
-  // 1. Varre todo o localStorage primeiro (garante dados locais imediatos)
+  // 1. Tenta buscar todos os documentos do Firestore
+  try {
+    const snapshot = await getDocs(collection(db, COLLECTION_NAME));
+    snapshot.forEach((doc) => {
+      const data = doc.data();
+      items.push({
+        id: doc.id,
+        ...data,
+        source: 'firestore',
+        date: data.createdAt?.toDate ? data.createdAt.toDate() : new Date(data.timestamp || Date.now())
+      });
+    });
+  } catch (error) {
+    console.error('[ProgressService] Erro ao buscar coleção global no Firestore:', error);
+    firestoreError = {
+      code: error?.code || 'unknown',
+      message: error?.message || 'Erro desconhecido ao acessar o Firestore'
+    };
+
+    // Se falhou por permissão (regras do Firestore ainda restringem ao próprio userId),
+    // busca ao menos os registros do próprio admin para não deixar a tela zerada
+    if (fallbackUserId) {
+      try {
+        const ownItems = await fetchUserProgress(fallbackUserId);
+        if (ownItems.length > 0) {
+          isPartialFallback = true;
+          ownItems.forEach((it) => items.push({ ...it, source: it.source || 'firestore-own' }));
+        }
+      } catch (fallbackErr) {
+        console.warn('[ProgressService] Falha também no fallback do próprio usuário:', fallbackErr);
+      }
+    }
+  }
+
+  // 2. Mescla eventuais registros salvos apenas localmente (offline/visitantes)
   try {
     for (let i = 0; i < localStorage.length; i++) {
       const key = localStorage.key(i);
-      if (key && (key.includes('progress') || key.includes('prf_'))) {
+      if (key && key.startsWith('prf_progress_')) {
         const raw = localStorage.getItem(key);
         if (raw) {
           try {
             const parsed = JSON.parse(raw);
             if (Array.isArray(parsed)) {
               parsed.forEach((it) => {
-                if (it) {
-                  items.push({
-                    ...it,
-                    userId: it.userId || key.replace('prf_progress_', '') || 'local_user',
-                    source: 'localstorage',
-                    date: new Date(it.timestamp || it.date || Date.now())
-                  });
+                if (it && (it.questionId || it.disciplina)) {
+                  const uid = it.userId || key.replace('prf_progress_', '') || 'local_user';
+                  const exists = items.some(existing =>
+                    (it.id && existing.id === it.id) ||
+                    (existing.questionId === it.questionId && existing.timestamp === it.timestamp && existing.userId === uid)
+                  );
+                  if (!exists) {
+                    items.push({
+                      ...it,
+                      userId: uid,
+                      source: 'localstorage',
+                      date: new Date(it.timestamp || it.date || Date.now())
+                    });
+                  }
                 }
               });
             }
@@ -185,26 +232,10 @@ export async function fetchAllUsersProgress() {
     console.warn('Erro ao ler localStorage:', e);
   }
 
-  // 2. Tenta buscar do Firestore
-  try {
-    const snapshot = await getDocs(collection(db, COLLECTION_NAME));
-    snapshot.forEach((doc) => {
-      const data = doc.data();
-      const uniqueKey = doc.id;
-      if (!items.some(existing => existing.id === uniqueKey || (existing.questionId === data.questionId && existing.timestamp === data.timestamp && existing.userId === data.userId))) {
-        items.push({
-          id: doc.id,
-          ...data,
-          source: 'firestore',
-          date: data.createdAt?.toDate ? data.createdAt.toDate() : new Date(data.timestamp || Date.now())
-        });
-      }
-    });
-  } catch (error) {
-    console.warn('[ProgressService] Firestore indisponível ao buscar progresso global:', error);
-  }
-
-  console.log('[ProgressService] Total de itens carregados para o admin:', items.length);
-  return items.sort((a, b) => b.date.getTime() - a.date.getTime());
+  return {
+    items: items.sort((a, b) => b.date.getTime() - a.date.getTime()),
+    firestoreError,
+    isPartialFallback
+  };
 }
 
