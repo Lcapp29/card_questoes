@@ -22,11 +22,8 @@ service cloud.firestore {
       }
 
       // 1. LEITURA (get e list)
-      // O usuário pode ler seus próprios documentos ou o admin (lucascappola@hotmail.com) pode ler tudo
-      allow read: if request.auth != null && (
-        request.auth.token.email == 'lucascappola@hotmail.com' ||
-        resource.data.userId == request.auth.uid
-      );
+      // Qualquer usuário autenticado pode ler (necessário para rankings e painel admin)
+      allow read: if request.auth != null;
 
       // 2. CRIAÇÃO (create)
       // O usuário só pode registrar questões para si mesmo (userId == auth.uid)

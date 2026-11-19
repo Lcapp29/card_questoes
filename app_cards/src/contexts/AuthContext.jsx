@@ -145,6 +145,6 @@ export function isAdminUser(user) {
   if (!user) return false;
   const name = (user.displayName || '').toLowerCase();
   const email = (user.email || '').toLowerCase();
-  return name.includes('cappola') || email.includes('lucascappola');
+  return name.includes('cappola') || email.includes('lucascappola') || email === 'lucascappola@hotmail.com' || email === 'lucascappola@gmail.com';
 }
 
