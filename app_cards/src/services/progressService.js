@@ -148,28 +148,13 @@ export async function fetchUserProgress(userId) {
 }
 
 /**
- * Busca o progresso de TODOS os usuários (exclusivo para Admin) - Combina Firestore e LocalStorage
+ * Busca o progresso de TODOS os usuários (exclusivo para Admin) - Super robusto
  */
 export async function fetchAllUsersProgress() {
   const items = [];
-  
-  // 1. Tenta buscar do Firestore
-  try {
-    const snapshot = await getDocs(collection(db, COLLECTION_NAME));
-    snapshot.forEach((doc) => {
-      const data = doc.data();
-      items.push({
-        id: doc.id,
-        ...data,
-        source: 'firestore',
-        date: data.createdAt?.toDate ? data.createdAt.toDate() : new Date(data.timestamp || Date.now())
-      });
-    });
-  } catch (error) {
-    console.warn('[ProgressService] Firestore indisponível ao buscar progresso global:', error);
-  }
+  console.log('[ProgressService] fetchAllUsersProgress iniciado...');
 
-  // 2. Varre todo o localStorage do navegador para capturar qualquer histórico salvo localmente
+  // 1. Varre todo o localStorage primeiro (garante dados locais imediatos)
   try {
     for (let i = 0; i < localStorage.length; i++) {
       const key = localStorage.key(i);
@@ -180,29 +165,46 @@ export async function fetchAllUsersProgress() {
             const parsed = JSON.parse(raw);
             if (Array.isArray(parsed)) {
               parsed.forEach((it) => {
-                if (it && (it.questionId || it.disciplina)) {
-                  const uniqueKey = it.id || `${it.userId || 'local'}_${it.questionId || ''}_${it.timestamp || ''}`;
-                  if (!items.some(existing => existing.id === uniqueKey || (existing.questionId === it.questionId && existing.timestamp === it.timestamp && existing.userId === it.userId))) {
-                    items.push({
-                      ...it,
-                      userId: it.userId || key.replace('prf_progress_', '') || 'local_user',
-                      source: 'localstorage',
-                      date: new Date(it.timestamp || Date.now())
-                    });
-                  }
+                if (it) {
+                  items.push({
+                    ...it,
+                    userId: it.userId || key.replace('prf_progress_', '') || 'local_user',
+                    source: 'localstorage',
+                    date: new Date(it.timestamp || it.date || Date.now())
+                  });
                 }
               });
             }
-          } catch (parseErr) {
-            // Ignora chaves que não sejam JSON de progresso
+          } catch (e) {
+            // ignora
           }
         }
       }
     }
   } catch (e) {
-    console.warn('Erro ao varrer localStorage no admin:', e);
+    console.warn('Erro ao ler localStorage:', e);
   }
 
+  // 2. Tenta buscar do Firestore
+  try {
+    const snapshot = await getDocs(collection(db, COLLECTION_NAME));
+    snapshot.forEach((doc) => {
+      const data = doc.data();
+      const uniqueKey = doc.id;
+      if (!items.some(existing => existing.id === uniqueKey || (existing.questionId === data.questionId && existing.timestamp === data.timestamp && existing.userId === data.userId))) {
+        items.push({
+          id: doc.id,
+          ...data,
+          source: 'firestore',
+          date: data.createdAt?.toDate ? data.createdAt.toDate() : new Date(data.timestamp || Date.now())
+        });
+      }
+    });
+  } catch (error) {
+    console.warn('[ProgressService] Firestore indisponível ao buscar progresso global:', error);
+  }
+
+  console.log('[ProgressService] Total de itens carregados para o admin:', items.length);
   return items.sort((a, b) => b.date.getTime() - a.date.getTime());
 }
 
