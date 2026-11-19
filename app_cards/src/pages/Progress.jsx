@@ -19,7 +19,7 @@ import {
   ChevronUp,
   Tag
 } from 'lucide-react';
-import { useAuth } from '../contexts/AuthContext.jsx';
+import { useAuth, isAdminUser } from '../contexts/AuthContext.jsx';
 import { fetchUserProgress } from '../services/progressService.js';
 import { formatTopicName } from '../components/Flashcard.jsx';
 
@@ -236,9 +236,20 @@ export default function Progress() {
             <span>Voltar para a Página Inicial</span>
           </Link>
 
-          <div className="flex items-center gap-2 text-xs text-gray-400">
-            <User className="w-4 h-4 text-yellow-400" />
-            <span>{user?.displayName || user?.email || (user?.isAnonymous ? 'Visitante' : 'Não autenticado')}</span>
+          <div className="flex items-center gap-3">
+            {isAdminUser(user) && (
+              <Link
+                to="/admin"
+                className="inline-flex items-center gap-2 px-3.5 py-1.5 bg-yellow-500 hover:bg-yellow-400 text-gray-950 font-bold rounded-xl text-xs transition-all shadow-md"
+              >
+                <Shield className="w-4 h-4" />
+                <span>Painel Admin</span>
+              </Link>
+            )}
+            <div className="flex items-center gap-2 text-xs text-gray-400">
+              <User className="w-4 h-4 text-yellow-400" />
+              <span>{user?.displayName || user?.email || (user?.isAnonymous ? 'Visitante' : 'Não autenticado')}</span>
+            </div>
           </div>
         </div>
 

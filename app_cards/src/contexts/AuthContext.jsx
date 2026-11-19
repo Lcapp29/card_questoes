@@ -140,3 +140,11 @@ export function AuthProvider({ children }) {
 export function useAuth() {
   return useContext(AuthContext);
 }
+
+export function isAdminUser(user) {
+  if (!user) return false;
+  const name = (user.displayName || '').toLowerCase();
+  const email = (user.email || '').toLowerCase();
+  return name.includes('cappola') || email.includes('lucascappola');
+}
+

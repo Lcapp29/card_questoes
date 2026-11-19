@@ -146,3 +146,47 @@ export async function fetchUserProgress(userId) {
 
   return items.sort((a, b) => b.date.getTime() - a.date.getTime());
 }
+
+/**
+ * Busca o progresso de TODOS os usuários (exclusivo para Admin)
+ */
+export async function fetchAllUsersProgress() {
+  const items = [];
+  try {
+    const snapshot = await getDocs(collection(db, COLLECTION_NAME));
+    snapshot.forEach((doc) => {
+      const data = doc.data();
+      items.push({
+        id: doc.id,
+        ...data,
+        date: data.createdAt?.toDate ? data.createdAt.toDate() : new Date(data.timestamp || Date.now())
+      });
+    });
+  } catch (error) {
+    console.warn('[ProgressService] Erro ao buscar progresso global:', error);
+  }
+
+  // Também varre o localStorage para capturar registros locais
+  try {
+    for (let i = 0; i < localStorage.length; i++) {
+      const key = localStorage.key(i);
+      if (key && key.startsWith('prf_progress_')) {
+        const localItems = JSON.parse(localStorage.getItem(key) || '[]');
+        localItems.forEach((it) => {
+          const uniqueKey = it.id || (it.questionId + it.timestamp);
+          if (!items.some(existing => existing.id === uniqueKey || (existing.questionId === it.questionId && existing.timestamp === it.timestamp && existing.userId === it.userId))) {
+            items.push({
+              ...it,
+              date: new Date(it.timestamp || Date.now())
+            });
+          }
+        });
+      }
+    }
+  } catch (e) {
+    console.warn('Erro ao carregar progresso local no admin:', e);
+  }
+
+  return items.sort((a, b) => b.date.getTime() - a.date.getTime());
+}
+

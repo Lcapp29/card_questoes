@@ -22,7 +22,7 @@ import {
 } from 'lucide-react';
 import questionsData from '../data/questoes_prf.json';
 import { formatTopicName } from '../components/Flashcard.jsx';
-import { useAuth } from '../contexts/AuthContext.jsx';
+import { useAuth, isAdminUser } from '../contexts/AuthContext.jsx';
 
 export default function Dashboard() {
   const navigate = useNavigate();
@@ -291,6 +291,16 @@ export default function Dashboard() {
           </div>
 
           <div className="flex items-center gap-3">
+            {isAdminUser(user) && (
+              <Link
+                to="/admin"
+                className="inline-flex items-center gap-2 px-3.5 py-2 bg-yellow-500 hover:bg-yellow-400 text-gray-950 font-bold rounded-xl text-xs transition-all shadow-md active:scale-98"
+              >
+                <Shield className="w-4 h-4" />
+                <span>Painel Admin</span>
+              </Link>
+            )}
+
             <Link
               to="/progresso"
               className="inline-flex items-center gap-2 px-3.5 py-2 bg-yellow-500/10 hover:bg-yellow-500/20 border border-yellow-500/30 text-yellow-400 hover:text-yellow-300 font-semibold rounded-xl text-xs transition-all shadow-sm active:scale-98"

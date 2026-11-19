@@ -5,6 +5,7 @@ import Dashboard from './pages/Dashboard.jsx';
 import StudySession from './pages/StudySession.jsx';
 import Progress from './pages/Progress.jsx';
 import Login from './pages/Login.jsx';
+import AdminDashboard from './pages/AdminDashboard.jsx';
 
 export default function App() {
   return (
@@ -15,6 +16,7 @@ export default function App() {
           <Route path="/estudo" element={<StudySession />} />
           <Route path="/study" element={<Navigate to="/estudo" replace />} />
           <Route path="/progresso" element={<Progress />} />
+          <Route path="/admin" element={<AdminDashboard />} />
           <Route path="/login" element={<Login />} />
           {/* Fallback */}
           <Route path="*" element={<Navigate to="/" replace />} />
