@@ -5119,5 +5119,59 @@
     "comentario": "A Comissão possui 7 membros (art. 34) e a Corte possui 7 juízes (art. 52); o art. 46.1 exige o esgotamento prévio dos recursos internos para admissibilidade na Comissão (princípio da subsidiariedade); e pelo art. 68.1 os Estados-Partes comprometem-se a cumprir a decisão da Corte em todo caso em que forem partes.",
     "id": "8611dce0-5c2f-4237-b133-7ae5d5fe3f7e",
     "prova": "inédita"
+  },
+  {
+    "disciplina": "GEOPOLÍTICA",
+    "topico_edital": "GEOPOLÍTICA - O Brasil político e Organização do Estado",
+    "pergunta": "A República Federativa do Brasil é formada pela união indissolúvel dos Estados, do Distrito Federal e dos Municípios, cabendo a soberania ao Estado nacional brasileiro e a autonomia política, administrativa e financeira aos entes federados.",
+    "gabarito": "CERTO",
+    "comentario": "O item está perfeito. A soberania é atributo da República Federativa do Brasil no plano internacional, enquanto os entes federativos (União, Estados, DF e Municípios) possuem apenas autonomia regida pela Constituição.",
+    "id": "c4522cce-772c-4070-824e-d4831eeddaed",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "GEOPOLÍTICA",
+    "topico_edital": "GEOPOLÍTICA - O Brasil político e Organização do Estado",
+    "pergunta": "Caso a União decida criar um novo Território Federal em área estratégica da Amazônia, esse Território passará a integrar a federação como ente federativo autônomo, dotado de governo eleito pelo voto direto da população local.",
+    "gabarito": "ERRADO",
+    "comentario": "Os Territórios Federais não são entes federativos e não possuem autonomia política. Integram a estrutura descentralizada da União (autarquias territoriais) e seus governadores são nomeados pelo Presidente da República, não eleitos pelo voto direto.",
+    "id": "ba27bfc7-8936-4757-ad45-4526996a4a96",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "GEOPOLÍTICA",
+    "topico_edital": "GEOPOLÍTICA - O Brasil político e Organização do Estado",
+    "pergunta": "O Distrito Federal, ente federativo de natureza jurídica híbrida, acumula as competências legislativas e tributárias reservadas aos Estados e aos Municípios, sendo-lhe expressamente vedada a divisão em Municípios.",
+    "gabarito": "CERTO",
+    "comentario": "Exata inteligência dos Arts. 18, § 1º, e 32, caput e § 1º, da CF/88. O DF é vedado de se dividir em Municípios e acumula competências estaduais e municipais.",
+    "id": "ae6446ba-7ba6-4803-9fb2-3748cb73858e",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "GEOPOLÍTICA",
+    "topico_edital": "GEOPOLÍTICA - O Brasil político e Organização do Estado",
+    "pergunta": "A criação, a incorporação, a fusão e o desmembramento de Municípios far-se-ão por lei federal, dependendo de prévia consulta por plebiscito e de apresentação do Estudo de Viabilidade Municipal.",
+    "gabarito": "ERRADO",
+    "comentario": "A alteração de Municípios faz-se por lei estadual (editada pelas Assembleias Legislativas), dentro do período determinado por Lei Complementar Federal, e não por lei federal específica (Art. 18, § 4º).",
+    "id": "6872343b-9687-4572-bf9f-194795009c10",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "GEOPOLÍTICA",
+    "topico_edital": "GEOPOLÍTICA - O Brasil político e Organização do Estado",
+    "pergunta": "A Faixa de Fronteira, compreendida como a faixa de até 150 quilômetros de largura ao longo das fronteiras terrestres, é considerada área fundamental para a defesa do território nacional, cabendo à lei regular sua ocupação e utilização.",
+    "gabarito": "CERTO",
+    "comentario": "Redação exata do Art. 20, § 2º, da CF/88. A Faixa de Fronteira possui a largura constitucional de 150 km ao longo da divisa terrestre.",
+    "id": "9770a087-c9d3-45ac-9a61-675401c32905",
+    "prova": "inédita"
+  },
+  {
+    "disciplina": "GEOPOLÍTICA",
+    "topico_edital": "GEOPOLÍTICA - O Brasil político e Organização do Estado",
+    "pergunta": "A Polícia Rodoviária Federal, por integrar a estrutura de segurança pública mantida pela União, tem como função constitucional precípua o exercício exclusivo das funções de polícia judiciária e de investigação nos crimes transnacionais ocorridos em rodovias federais.",
+    "gabarito": "ERRADO",
+    "comentario": "A PRF destina-se ao patrulhamento ostensivo das rodovias federais (Art. 144, § 2º). A função de polícia judiciária e investigação da União cabe, com exclusividade, à Polícia Federal (Art. 144, § 1º, IV).",
+    "id": "cfd96075-30de-4d94-a43e-f7ea2202bdfc",
+    "prova": "inédita"
   }
 ]
